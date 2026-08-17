@@ -20,8 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p tmp/2026-08-14-Q8-50
-          cat tmp/reconstruct-si-l5/chunk-* > /tmp/si-l5.b64
-          base64 -d /tmp/si-l5.b64 > tmp/2026-08-14-Q8-50/si-l5-anatomy-correct-312486f0.png
+          cat tmp/reconstruct-si-l5/chunk-* > tmp/2026-08-14-Q8-50/si-l5-anatomy-correct-312486f0.png
           test "$(sha256sum tmp/2026-08-14-Q8-50/si-l5-anatomy-correct-312486f0.png | awk '{print $1}')" = "312486f04aa66ae575b4d7a5398007c7d8ce23cc111712aa6f159733e806c639"
           rm -rf tmp/reconstruct-si-l5
           git config user.name github-actions[bot]
