@@ -4,7 +4,7 @@
   "encounter_date": "2026-08-23",
   "origin": "chatgpt-conversation:6a8b39de-830c-83ea-b355-7a6bc9ea62c4",
   "sid": null,
-  "queue_state": "READY",
+  "queue_state": "PARTIAL",
   "expected_count": 2,
   "items": [
     {
@@ -28,14 +28,15 @@
       "content_type": "image/png",
       "byte_count": 2411906,
       "sha256": "32a3fd15197a39fa6b4278b890abe09b7c00886ba1079dee44bedcb3467ba448",
-      "github_blob_sha": "170055aaec5c1c16c9bd26953fad2152b1b14de8",
-      "conduit_path": "queues/2026-08-23-chatgpt-6a8b39de-quadriga/assets/quadriga-clinical-effect.png",
+      "github_blob_sha": null,
+      "conduit_path": null,
       "topic": "Quadriga effect / FDP mechanics",
       "destination_intent": "2026 OITE teaching page canonical quadriga/FDP mechanics section",
       "teaching_point_placement": "Clinical consequence: adjacent-finger flexion lag after FDP over-advancement",
       "caption_intent": "Quadriga effect: FDP over-advancement limits flexion of adjacent digits.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "BYTES VERIFIED",
+      "failure": "GitHub binary transport truncated the 2,411,906-byte input; staged output was 786,444 bytes with SHA-256 97f726db8cdc3f4037ce2eeca7380936d0fbc4224f5c126a2387b66ac0af8b5d."
     }
   ]
 }
