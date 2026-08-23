@@ -1,0 +1,30 @@
+{
+  "schema": "oite-figure-queue-v1",
+  "queue_id": "2026-08-23-chatgpt-01a030da-peroneal-nerves",
+  "encounter_date": "2026-08-23",
+  "origin": "chatgpt-task-01a030da-5c91-7551-908d-f4d231ee423a",
+  "sid": null,
+  "queue_state": "OPEN",
+  "expected_count": null,
+  "created_at": "2026-08-23T19:49:25-04:00",
+  "updated_at": "2026-08-23T19:49:25-04:00",
+  "items": [
+    {
+      "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
+      "original_filename": "codex-clipboard-3b17a695-153c-4d99-b5f0-fb346f00d767.png",
+      "media_type": "image/png",
+      "byte_count": 3993892,
+      "sha256": "7c8c63025d971950a3bc5e1b7c12e0745e2fdc84895250cf3ee3e23a619b847a",
+      "github_blob_sha": "4c9582d439cf42ec563073f088377d7ff4226ea7",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/superficial-deep-fibular-nerves-7c8c6302.png",
+      "topic": "Superficial versus deep fibular (peroneal) nerve anatomy",
+      "destination_intent": "OITE teaching note canonical section for fibular/peroneal nerve anatomy and anterior ankle arthroscopy risk",
+      "teaching_point_placement": "Beside the comparison of nerve course, leg compartment, motor function, dorsal-foot sensory territory, and anterolateral portal risk",
+      "caption_intent": "Superficial versus deep fibular nerve: lateral versus anterior compartments, eversion versus dorsiflexion/toe extension, dorsal-foot sensory territories, and ankle arthroscopy portal risk.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    }
+  ]
+}
