@@ -1,0 +1,41 @@
+{
+  "schema": "oite-figure-queue-v1",
+  "queue_id": "2026-08-23-chatgpt-6a8b39de-quadriga",
+  "encounter_date": "2026-08-23",
+  "origin": "chatgpt-conversation:6a8b39de-830c-83ea-b355-7a6bc9ea62c4",
+  "sid": null,
+  "queue_state": "READY",
+  "expected_count": 2,
+  "items": [
+    {
+      "asset_id": "quadriga-fdp-anatomy-0b9f610c",
+      "original_filename": "codex-clipboard-1811c524-d226-44f1-8e4b-f652ffde926a.png",
+      "content_type": "image/png",
+      "byte_count": 585160,
+      "sha256": "0b9f610cdd024eaa3bb9e175b4ab4022a9a109d1e0999153eec8b193ff9966c7",
+      "github_blob_sha": "2abad5f4c9964fdb3153ca6e2b003bfd71d5c963",
+      "conduit_path": "queues/2026-08-23-chatgpt-6a8b39de-quadriga/assets/quadriga-fdp-anatomy.png",
+      "topic": "Quadriga effect / FDP mechanics",
+      "destination_intent": "2026 OITE teaching page canonical quadriga/FDP mechanics section",
+      "teaching_point_placement": "Anatomic substrate: common/coupled FDP muscle-tendon architecture",
+      "caption_intent": "FDP anatomy: shared proximal muscle architecture and distal tendon slips.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED"
+    },
+    {
+      "asset_id": "quadriga-clinical-effect-32a3fd15",
+      "original_filename": "codex-clipboard-737c3265-c8f7-47fe-9edc-3222b36b5fd2.png",
+      "content_type": "image/png",
+      "byte_count": 2411906,
+      "sha256": "32a3fd15197a39fa6b4278b890abe09b7c00886ba1079dee44bedcb3467ba448",
+      "github_blob_sha": "170055aaec5c1c16c9bd26953fad2152b1b14de8",
+      "conduit_path": "queues/2026-08-23-chatgpt-6a8b39de-quadriga/assets/quadriga-clinical-effect.png",
+      "topic": "Quadriga effect / FDP mechanics",
+      "destination_intent": "2026 OITE teaching page canonical quadriga/FDP mechanics section",
+      "teaching_point_placement": "Clinical consequence: adjacent-finger flexion lag after FDP over-advancement",
+      "caption_intent": "Quadriga effect: FDP over-advancement limits flexion of adjacent digits.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED"
+    }
+  ]
+}
