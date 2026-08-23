@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-23T19:49:25-04:00",
+  "updated_at": "2026-08-23T19:51:54-04:00",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -21,6 +21,23 @@
       "destination_intent": "OITE teaching note canonical section for fibular/peroneal nerve anatomy and anterior ankle arthroscopy risk",
       "teaching_point_placement": "Beside the comparison of nerve course, leg compartment, motor function, dorsal-foot sensory territory, and anterolateral portal risk",
       "caption_intent": "Superficial versus deep fibular nerve: lateral versus anterior compartments, eversion versus dorsiflexion/toe extension, dorsal-foot sensory territories, and ankle arthroscopy portal risk.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "mcp-amputation-vs-ray-resection-0e42077f",
+      "original_filename": "codex-clipboard-c5d455a8-b5ff-4722-8444-7a4ade985cd0.png",
+      "media_type": "image/png",
+      "byte_count": 91575,
+      "sha256": "0e42077faccc18102e3076bfbafce24dce86bb5cd02d77d93717b7f075bdffc7",
+      "github_blob_sha": "b1a5bad3109d09596888da115ea59986750a5e38",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/mcp-amputation-vs-ray-resection-0e42077f.png",
+      "topic": "MCP-level digit amputation versus ray resection",
+      "destination_intent": "OITE hand teaching note canonical section for digit amputation and ray resection",
+      "teaching_point_placement": "Beside the comparison of preserved palmar width/grip mechanics versus improved cosmesis, first webspace, and reduced residual-digit interference",
+      "caption_intent": "MCP-level index-finger amputation preserves palmar width, whereas ray resection narrows the palm but may improve cosmesis, first-webspace function, and avoidance of a prominent metacarpal head.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
