@@ -20,7 +20,11 @@
       "teaching_point_placement": "Anatomic substrate: common/coupled FDP muscle-tendon architecture",
       "caption_intent": "FDP anatomy: shared proximal muscle architecture and distal tendon slips.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581f88afde8d1d94d7229",
+      "notion_filename": "quadriga-fdp-anatomy.png",
+      "verified_at": "2026-08-23T18:57:36-04:00"
     },
     {
       "asset_id": "quadriga-clinical-effect-32a3fd15",
