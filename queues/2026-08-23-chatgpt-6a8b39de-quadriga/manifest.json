@@ -4,7 +4,7 @@
   "encounter_date": "2026-08-23",
   "origin": "chatgpt-conversation:6a8b39de-830c-83ea-b355-7a6bc9ea62c4",
   "sid": "2026-08-23|chatgpt-6a8b39de|full-session",
-  "queue_state": "READY",
+  "queue_state": "COMPLETE",
   "expected_count": 2,
   "items": [
     {
@@ -39,7 +39,11 @@
       "teaching_point_placement": "Clinical consequence: adjacent-finger flexion lag after FDP over-advancement",
       "caption_intent": "Quadriga effect: FDP over-advancement limits flexion of adjacent digits.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581f88afde8d1d94d7229",
+      "notion_filename": "quadriga-clinical-effect.png",
+      "verified_at": "2026-08-23T19:06:44-04:00"
     }
   ]
 }
