@@ -3,7 +3,7 @@
   "queue_id": "2026-08-23-chatgpt-6a8b39de-quadriga",
   "encounter_date": "2026-08-23",
   "origin": "chatgpt-conversation:6a8b39de-830c-83ea-b355-7a6bc9ea62c4",
-  "sid": null,
+  "sid": "2026-08-23|chatgpt-6a8b39de|full-session",
   "queue_state": "PARTIAL",
   "expected_count": 2,
   "items": [
@@ -40,7 +40,7 @@
       "caption_intent": "Quadriga effect: FDP over-advancement limits flexion of adjacent digits.",
       "clearance": "USER-CLEARED",
       "state": "BYTES VERIFIED",
-      "failure": "GitHub binary transport truncated the 2,411,906-byte input; staged output was 786,444 bytes with SHA-256 97f726db8cdc3f4037ce2eeca7380936d0fbc4224f5c126a2387b66ac0af8b5d."
+      "failure": "GitHub binary transport truncated the 2,411,906-byte input; staged output was 786,444 bytes with SHA-256 97f726db8cdc3f4037ce2eeca7380936d0fbc4224f5c126a2387b66ac0af8b5d. Exact original bytes are not mounted in the reconciliation task; retry requires only this exact image to be reattached."
     }
   ]
 }
