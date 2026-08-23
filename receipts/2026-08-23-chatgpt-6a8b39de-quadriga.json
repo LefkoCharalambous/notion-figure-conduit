@@ -1,0 +1,28 @@
+{
+  "schema": "oite-figure-receipt-v1",
+  "queue_id": "2026-08-23-chatgpt-6a8b39de-quadriga",
+  "encounter_date": "2026-08-23",
+  "origin": "chatgpt-conversation:6a8b39de-830c-83ea-b355-7a6bc9ea62c4",
+  "sid": "2026-08-23|chatgpt-6a8b39de|full-session",
+  "final_state": "COMPLETE",
+  "destination_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+  "destination_page_url": "https://app.notion.com/p/3b4097df811581f88afde8d1d94d7229",
+  "verified_at": "2026-08-23T19:06:44-04:00",
+  "cleanup_commit": null,
+  "assets": [
+    {
+      "asset_id": "quadriga-fdp-anatomy-0b9f610c",
+      "byte_count": 585160,
+      "sha256": "0b9f610cdd024eaa3bb9e175b4ab4022a9a109d1e0999153eec8b193ff9966c7",
+      "notion_filename": "quadriga-fdp-anatomy.png",
+      "state": "CLEANED"
+    },
+    {
+      "asset_id": "quadriga-clinical-effect-e3641742",
+      "byte_count": 2415166,
+      "sha256": "e36417427fda677b4425697d6d426ecf38553694940e99f98d083970ced10da4",
+      "notion_filename": "quadriga-clinical-effect.png",
+      "state": "CLEANED"
+    }
+  ]
+}
