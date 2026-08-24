@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-24T14:46:35-04:00",
+  "updated_at": "2026-08-24T15:00:00-04:00",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -192,6 +192,30 @@
         "Surface origin distinguishes these lesions from the intramedullary enchondromas of Ollier disease"
       ],
       "caption_intent": "Hereditary multiple exostoses: multiple sessile/pedunculated metaphyseal osteochondromas project from the bone surface away from nearby joints and maintain cortical and medullary continuity with the parent bone.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "ucl-reconstruction-ulnar-neuropraxia-d1324fa7",
+      "original_filename": "codex-clipboard-8e1864e1-ace9-4787-980a-459798a691c8.png",
+      "media_type": "image/png",
+      "byte_count": 344939,
+      "sha256": "d1324fa71d5398fbb061540707eda000c4066a42865a9d8e0782dcca9a3b92d4",
+      "github_blob_sha": "8fee44095e1c76dd525546774a036bce3938aded",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/ucl-reconstruction-ulnar-neuropraxia-d1324fa7.png",
+      "topic": "Ulnar collateral ligament reconstruction complications",
+      "diagnosis": "Chronic throwing-related elbow UCL/MCL tear treated with reconstruction",
+      "destination_intent": "OITE shoulder and elbow teaching note canonical section for throwing elbow UCL injury and reconstruction",
+      "teaching_point_placement": "Beside the complication comparison for medial elbow UCL reconstruction",
+      "diagnostic_features": [
+        "High-level overhead athlete with progressive medial elbow pain during pitching",
+        "Failed nonoperative treatment leading to UCL reconstruction",
+        "Transient ulnar nerve neuropraxia is the most common postoperative complication because the nerve lies directly behind the medial epicondyle and is manipulated during exposure",
+        "Modern muscle-splitting approaches avoid routine flexor-pronator detachment and routine ulnar nerve transposition"
+      ],
+      "caption_intent": "Throwing-related UCL injury treated with reconstruction: transient ulnar nerve neuropraxia is the most common complication; modern muscle-splitting techniques minimize flexor-pronator injury and avoid routine ulnar nerve transposition.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
