@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-24T15:30:00-04:00",
+  "updated_at": "2026-08-24T16:00:00-04:00",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -240,6 +240,30 @@
         "Early Appropriate Care uses lactate, pH, and base-excess/base-deficit thresholds rather than requiring complete normalization"
       ],
       "caption_intent": "Early Appropriate Care: a stable polytrauma patient with lactate 1.9 mmol/L is adequately resuscitated for early definitive femoral and acetabular fixation; do not delay solely to normalize lactate below 1.0.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "proximal-phalanx-apex-volar-extensor-lag-34f3cf0a",
+      "original_filename": "codex-clipboard-63b13a92-a1ce-42f3-b2f5-900e7a6575b5.png",
+      "media_type": "image/png",
+      "byte_count": 277047,
+      "sha256": "34f3cf0a2f5d0bd29d64935991aa6b469e06c6ba20412946677bbc642970c2c3",
+      "github_blob_sha": "e29efb17de180d0d1a21be10b7cf374d415ae7ee",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/proximal-phalanx-apex-volar-extensor-lag-34f3cf0a.png",
+      "topic": "Proximal phalanx fracture malunion and PIP extensor lag",
+      "diagnosis": "Transverse proximal phalanx fracture with apex-volar sagittal angulation",
+      "destination_intent": "OITE hand teaching note canonical section for proximal phalanx fracture deforming forces and malunion consequences",
+      "teaching_point_placement": "Beside the mechanism linking apex-volar malunion to loss of active PIP extension",
+      "diagnostic_features": [
+        "AP alignment can appear acceptable while the lateral radiograph reveals sagittal-plane apex-volar angulation",
+        "Interossei flex the proximal fragment",
+        "The central slip/extensor mechanism pulls the distal fragment into extension",
+        "Persistent apex-volar malunion creates extensor-mechanism inefficiency and active PIP extension lag"
+      ],
+      "caption_intent": "Transverse proximal phalanx fracture: interossei flex the proximal fragment while the central slip extends the distal fragment, producing apex-volar angulation; healing in this position causes a predictable active PIP extensor lag.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
