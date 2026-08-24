@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-24T15:00:00-04:00",
+  "updated_at": "2026-08-24T15:30:00-04:00",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -216,6 +216,30 @@
         "Modern muscle-splitting approaches avoid routine flexor-pronator detachment and routine ulnar nerve transposition"
       ],
       "caption_intent": "Throwing-related UCL injury treated with reconstruction: transient ulnar nerve neuropraxia is the most common complication; modern muscle-splitting techniques minimize flexor-pronator injury and avoid routine ulnar nerve transposition.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "early-appropriate-care-resuscitation-4db78234",
+      "original_filename": "codex-clipboard-cb2ad16e-fdda-4037-a40d-404b1cffe07a.png",
+      "media_type": "image/png",
+      "byte_count": 274923,
+      "sha256": "4db782341162a6b4bbaa35087a1d09af0a76442f410d69e884ee4737433acd4c",
+      "github_blob_sha": "ac46107cfe7ec9ccf7dd63400d83f1f4c3dc3a15",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/early-appropriate-care-resuscitation-4db78234.png",
+      "topic": "Early Appropriate Care resuscitation thresholds before definitive fracture fixation",
+      "diagnosis": "Adequately resuscitated polytrauma patient suitable for early definitive femoral and acetabular fixation",
+      "destination_intent": "OITE trauma teaching note canonical section for damage-control orthopaedics versus Early Appropriate Care",
+      "teaching_point_placement": "Beside the physiologic resuscitation criteria for proceeding with definitive fixation",
+      "diagnostic_features": [
+        "Hemodynamically stable patient who is awake and conversant",
+        "Serum lactate 1.9 mmol/L indicates adequate resuscitation",
+        "Definitive fixation of the femoral shaft and acetabular fractures is favored over damage-control temporization",
+        "Early Appropriate Care uses lactate, pH, and base-excess/base-deficit thresholds rather than requiring complete normalization"
+      ],
+      "caption_intent": "Early Appropriate Care: a stable polytrauma patient with lactate 1.9 mmol/L is adequately resuscitated for early definitive femoral and acetabular fixation; do not delay solely to normalize lactate below 1.0.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
