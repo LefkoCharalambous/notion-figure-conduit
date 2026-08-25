@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-25T03:03:28.548Z",
+  "updated_at": "2026-08-25T03:09:56.652Z",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -289,6 +289,31 @@
         "Modified Oxford score 18 indicates substantial skeletal immaturity and approximately 85% contralateral-slip risk"
       ],
       "caption_intent": "SCFE contralateral-risk prediction: on the frog lateral, increasing posterior epiphyseal tilt reflects a more posteriorly oriented physis and independently raises the risk of a future contralateral slip; skeletal immaturity on the modified Oxford score further increases that risk.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "ofd-like-adamantinoma-tibia-56c89ca4",
+      "original_filename": "codex-clipboard-1a36afd0-dd79-44e4-82f2-09c531207c6f.png",
+      "media_type": "image/png",
+      "byte_count": 289737,
+      "sha256": "56c89ca4e08b1a3befe439fb7ff7c28238ac005a40b4102aef24f8f7ebb5607e",
+      "github_blob_sha": "ffc4e21e42e756d4dd37c9f3764b2ef79652babd",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/ofd-like-adamantinoma-tibia-56c89ca4.png",
+      "topic": "Adamantinoma spectrum: OFD-like (differentiated) adamantinoma of the tibia",
+      "diagnosis": "Osteofibrous dysplasia-like adamantinoma / differentiated adamantinoma",
+      "destination_intent": "OITE orthopaedic oncology teaching note canonical section for adamantinoma and osteofibrous dysplasia",
+      "teaching_point_placement": "Beside the location-imaging-histology-treatment comparison of OFD, OFD-like adamantinoma, and classic adamantinoma",
+      "diagnostic_features": [
+        "Adolescent with a slowly enlarging anterior tibial mass and mild discomfort",
+        "Predilection for the anterior cortex of the tibial diaphysis with an intracortical lytic lesion, surrounding sclerosis, and cortical expansion/bowing",
+        "Biopsy demonstrates woven bone/osteofibrous tissue plus epithelial cell nests, placing the lesion on the adamantinoma spectrum rather than pure osteofibrous dysplasia",
+        "OFD-like adamantinoma occurs in younger patients and generally lacks the metastatic behavior of classic adamantinoma",
+        "Local progression warrants wide resection and structural reconstruction; routine chemotherapy and radiation are not effective primary therapies"
+      ],
+      "caption_intent": "OFD-like (differentiated) adamantinoma: a slowly enlarging anterior tibial cortical lesion in an adolescent with osteofibrous tissue and epithelial nests; progression is treated with wide resection and structural reconstruction rather than routine chemotherapy or radiation.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
