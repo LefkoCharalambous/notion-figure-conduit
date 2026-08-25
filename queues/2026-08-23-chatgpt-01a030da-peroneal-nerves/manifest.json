@@ -7,7 +7,7 @@
   "queue_state": "OPEN",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-24T16:00:00-04:00",
+  "updated_at": "2026-08-25T03:03:28.548Z",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -264,6 +264,31 @@
         "Persistent apex-volar malunion creates extensor-mechanism inefficiency and active PIP extension lag"
       ],
       "caption_intent": "Transverse proximal phalanx fracture: interossei flex the proximal fragment while the central slip extends the distal fragment, producing apex-volar angulation; healing in this position causes a predictable active PIP extensor lag.",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED",
+      "notion_page_id": null,
+      "notion_file_id": null
+    },
+    {
+      "asset_id": "scfe-posterior-epiphyseal-tilt-angle-a9a68bb3",
+      "original_filename": "codex-clipboard-2285e331-fc7f-4d67-b7bf-ccc296d5eb63.png",
+      "media_type": "image/png",
+      "byte_count": 349507,
+      "sha256": "a9a68bb3a3660ecd10526452224cbad42e14147d633c8144f7fbe76f64cde53c",
+      "github_blob_sha": "0f7ab17dda6001778624a2854f97840e8018b04f",
+      "conduit_path": "queues/2026-08-23-chatgpt-01a030da-peroneal-nerves/assets/scfe-posterior-epiphyseal-tilt-angle-a9a68bb3.png",
+      "topic": "SCFE contralateral-slip risk: posterior epiphyseal tilt angle",
+      "diagnosis": "Stable slipped capital femoral epiphysis with contralateral-slip risk stratification",
+      "destination_intent": "OITE pediatrics teaching note canonical section for SCFE and prophylactic fixation of the contralateral hip",
+      "teaching_point_placement": "Beside the comparison of posterior epiphyseal tilt angle and modified Oxford skeletal-maturity score as predictors of contralateral SCFE",
+      "diagnostic_features": [
+        "Frog-leg lateral image demonstrates the posterior epiphyseal tilt angle between the epiphyseal plane and a line perpendicular to the femoral-neck axis",
+        "Greater posterior tilt independently predicts a future contralateral slip",
+        "Each additional degree of posterior tilt raises contralateral-slip odds by approximately 8%",
+        "A threshold near 10 degrees corresponds to roughly 54% predicted contralateral-slip probability and supports considering prophylactic fixation",
+        "Modified Oxford score 18 indicates substantial skeletal immaturity and approximately 85% contralateral-slip risk"
+      ],
+      "caption_intent": "SCFE contralateral-risk prediction: on the frog lateral, increasing posterior epiphyseal tilt reflects a more posteriorly oriented physis and independently raises the risk of a future contralateral slip; skeletal immaturity on the modified Oxford score further increases that risk.",
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
