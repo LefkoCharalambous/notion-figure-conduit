@@ -3,11 +3,11 @@
   "queue_id": "2026-08-23-chatgpt-01a030da-peroneal-nerves",
   "encounter_date": "2026-08-23",
   "origin": "chatgpt-task-01a030da-5c91-7551-908d-f4d231ee423a",
-  "sid": null,
-  "queue_state": "OPEN",
+  "sid": "2026-08-26|chatgpt-01a030da|full-session-reconciliation",
+  "queue_state": "RECONCILING",
   "expected_count": null,
   "created_at": "2026-08-23T19:49:25-04:00",
-  "updated_at": "2026-08-25T03:09:56.652Z",
+  "updated_at": "2026-08-26T12:03:00-04:00",
   "items": [
     {
       "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
@@ -22,9 +22,10 @@
       "teaching_point_placement": "Beside the comparison of nerve course, leg compartment, motor function, dorsal-foot sensory territory, and anterolateral portal risk",
       "caption_intent": "Superficial versus deep fibular nerve: lateral versus anterior compartments, eversion versus dorsiflexion/toe extension, dorsal-foot sensory territories, and ankle arthroscopy portal risk.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "notion_file_id": "3c8097df-8115-8192-bee8-00b2cdd432f5",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "mcp-amputation-vs-ray-resection-0e42077f",
@@ -41,7 +42,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "polyostotic-fibrous-dysplasia-question-df0c9487",
@@ -58,7 +61,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "polyostotic-fibrous-dysplasia-explanation-911781a9",
@@ -75,7 +80,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "polyostotic-fibrous-dysplasia-fb9228f9",
@@ -97,9 +104,10 @@
       ],
       "caption_intent": "Polyostotic fibrous dysplasia: multifocal intramedullary ground-glass/mixed lesions produce smooth osseous expansion, bowing, and cortical thinning while preserving a relatively intact cortex; these features distinguish it from enchondromas, Paget disease, myeloma, and exostoses.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-81eb-84d7-00b25ad6315f",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "ollier-multiple-enchondromatosis-8a6a7729",
@@ -121,9 +129,10 @@
       ],
       "caption_intent": "Ollier disease (multiple enchondromatosis): numerous asymmetric, lobulated intramedullary enchondromas expand and scallop the phalanges/metacarpals, contain chondroid stippled or ring-and-arc mineralization, and cause severe digital deformity.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-81ba-9989-00b22d9421d0",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "paget-disease-multimodality-5131376e",
@@ -145,9 +154,10 @@
       ],
       "caption_intent": "Paget disease: skull radiograph/CT demonstrate calvarial expansion, thickened cortices and diploic space, and patchy cotton-wool sclerosis; pelvic and humeral films show mixed lytic-sclerotic remodeling, coarse trabeculae, and bone enlargement.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-812b-984b-00b2c4465a01",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "multiple-myeloma-glenoid-multimodality-1fa01f73",
@@ -169,9 +179,10 @@
       ],
       "caption_intent": "Multiple myeloma: the glenoid lesion is a discrete punched-out lucency on radiograph; PET/CT shows metabolic activity, while MRI demonstrates T1-low, STIR-high marrow replacement with diffusion restriction (high DWI/low ADC).",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-8199-9949-00b295fd41bf",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "hereditary-multiple-exostoses-aa75386d",
@@ -193,9 +204,10 @@
       ],
       "caption_intent": "Hereditary multiple exostoses: multiple sessile/pedunculated metaphyseal osteochondromas project from the bone surface away from nearby joints and maintain cortical and medullary continuity with the parent bone.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-8166-848e-00b2254f4df1",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "ucl-reconstruction-ulnar-neuropraxia-d1324fa7",
@@ -219,7 +231,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "early-appropriate-care-resuscitation-4db78234",
@@ -243,7 +257,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "proximal-phalanx-apex-volar-extensor-lag-34f3cf0a",
@@ -267,7 +283,9 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
     },
     {
       "asset_id": "scfe-posterior-epiphyseal-tilt-angle-a9a68bb3",
@@ -290,9 +308,10 @@
       ],
       "caption_intent": "SCFE contralateral-risk prediction: on the frog lateral, increasing posterior epiphyseal tilt reflects a more posteriorly oriented physis and independently raises the risk of a future contralateral slip; skeletal immaturity on the modified Oxford score further increases that risk.",
       "clearance": "USER-CLEARED",
-      "state": "STAGED",
-      "notion_page_id": null,
-      "notion_file_id": null
+      "state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "notion_file_id": "3c8097df-8115-8139-bd10-00b27e63d2ba",
+      "verified_at": "2026-08-26T12:03:00-04:00"
     },
     {
       "asset_id": "ofd-like-adamantinoma-tibia-56c89ca4",
@@ -317,7 +336,22 @@
       "clearance": "USER-CLEARED",
       "state": "STAGED",
       "notion_page_id": null,
-      "notion_file_id": null
+      "notion_file_id": null,
+      "retention_eligibility": "EXCLUDED_NONESSENTIAL_QUESTION_SCREENSHOT",
+      "exclusion_reason": "User explicitly objected that this question screenshot had no useful retained visual content."
     }
-  ]
+  ],
+  "reconciliation_selection": {
+    "selected_count": 7,
+    "excluded_count": 7,
+    "excluded_asset_ids": [
+      "mcp-amputation-vs-ray-resection-0e42077f",
+      "polyostotic-fibrous-dysplasia-question-df0c9487",
+      "polyostotic-fibrous-dysplasia-explanation-911781a9",
+      "ucl-reconstruction-ulnar-neuropraxia-d1324fa7",
+      "early-appropriate-care-resuscitation-4db78234",
+      "proximal-phalanx-apex-volar-extensor-lag-34f3cf0a",
+      "ofd-like-adamantinoma-tibia-56c89ca4"
+    ]
+  }
 }
