@@ -1,0 +1,150 @@
+{
+  "schema": "oite-figure-terminal-receipt-v1",
+  "queue_id": "2026-08-23-chatgpt-01a030da-peroneal-nerves",
+  "sid": "2026-08-26|chatgpt-01a030da|full-session-reconciliation",
+  "encounter_date": "2026-08-23",
+  "origin": "chatgpt-task-01a030da-5c91-7551-908d-f4d231ee423a",
+  "terminal_state": "CLEANUP_PENDING",
+  "verified_at": "2026-08-26T12:03:00-04:00",
+  "selected_count": 7,
+  "selected": [
+    {
+      "asset_id": "superficial-deep-fibular-nerves-7c8c6302",
+      "original_filename": "codex-clipboard-3b17a695-153c-4d99-b5f0-fb346f00d767.png",
+      "byte_count": 3993892,
+      "sha256": "7c8c63025d971950a3bc5e1b7c12e0745e2fdc84895250cf3ee3e23a619b847a",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "notion_page_url": "https://app.notion.com/p/3b4097df8115810686a1d36c25aba788",
+      "notion_file_id": "3c8097df-8115-8192-bee8-00b2cdd432f5",
+      "caption": "Superficial versus deep fibular nerve: lateral versus anterior compartments, eversion versus dorsiflexion/toe extension, dorsal-foot sensory territories, and ankle arthroscopy portal risk."
+    },
+    {
+      "asset_id": "polyostotic-fibrous-dysplasia-fb9228f9",
+      "original_filename": "codex-clipboard-805f9029-e3b7-4e5f-9c85-c2de14ee4e9e.png",
+      "byte_count": 1140309,
+      "sha256": "fb9228f90162618f7b71ac73ef1d1c2f810661329f2a84e4e6a112c3f87be493",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-81eb-84d7-00b25ad6315f",
+      "caption": "Polyostotic fibrous dysplasia: multifocal intramedullary ground-glass/mixed lesions produce smooth osseous expansion, bowing, and cortical thinning while preserving a relatively intact cortex; these features distinguish it from enchondromas, Paget disease, myeloma, and exostoses."
+    },
+    {
+      "asset_id": "ollier-multiple-enchondromatosis-8a6a7729",
+      "original_filename": "codex-clipboard-5f03b790-6c09-4a96-a9d3-3f5c05b5981a.png",
+      "byte_count": 610113,
+      "sha256": "8a6a7729857287377d0b10ab819afb4e3268c7235f7b258b3d1737cbcd9fd7d3",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-81ba-9989-00b22d9421d0",
+      "caption": "Ollier disease (multiple enchondromatosis): numerous asymmetric, lobulated intramedullary enchondromas expand and scallop the phalanges/metacarpals, contain chondroid stippled or ring-and-arc mineralization, and cause severe digital deformity."
+    },
+    {
+      "asset_id": "paget-disease-multimodality-5131376e",
+      "original_filename": "codex-clipboard-fbc75f8d-4da6-422a-8de6-c855fdc07b9b.png",
+      "byte_count": 614221,
+      "sha256": "5131376e75bfd2b6772a1fa8092a3d12fabf0dc715f07b454b1007f55194ec0a",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-812b-984b-00b2c4465a01",
+      "caption": "Paget disease: skull radiograph/CT demonstrate calvarial expansion, thickened cortices and diploic space, and patchy cotton-wool sclerosis; pelvic and humeral films show mixed lytic-sclerotic remodeling, coarse trabeculae, and bone enlargement."
+    },
+    {
+      "asset_id": "multiple-myeloma-glenoid-multimodality-1fa01f73",
+      "original_filename": "codex-clipboard-d7a10236-65bd-4aab-b040-8444a71cbf15.png",
+      "byte_count": 789628,
+      "sha256": "1fa01f73273e5cdf3fdc0485b3fc0eb2bad8a81dc99628ba7feeb82d360fb6ea",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-8199-9949-00b295fd41bf",
+      "caption": "Multiple myeloma: the glenoid lesion is a discrete punched-out lucency on radiograph; PET/CT shows metabolic activity, while MRI demonstrates T1-low, STIR-high marrow replacement with diffusion restriction (high DWI/low ADC)."
+    },
+    {
+      "asset_id": "hereditary-multiple-exostoses-aa75386d",
+      "original_filename": "codex-clipboard-aa78dafb-f29e-4a20-9d35-adaa4458e769.png",
+      "byte_count": 1162521,
+      "sha256": "aa75386dbcf172c9d0619e70a86f503cf20a8e973390a24ad95c006b82057d4b",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "notion_file_id": "3c8097df-8115-8166-848e-00b2254f4df1",
+      "caption": "Hereditary multiple exostoses: multiple sessile/pedunculated metaphyseal osteochondromas project from the bone surface away from nearby joints and maintain cortical and medullary continuity with the parent bone."
+    },
+    {
+      "asset_id": "scfe-posterior-epiphyseal-tilt-angle-a9a68bb3",
+      "original_filename": "codex-clipboard-2285e331-fc7f-4d67-b7bf-ccc296d5eb63.png",
+      "byte_count": 349507,
+      "sha256": "a9a68bb3a3660ecd10526452224cbad42e14147d633c8144f7fbe76f64cde53c",
+      "final_state": "VERIFIED",
+      "notion_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "notion_page_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "notion_file_id": "3c8097df-8115-8139-bd10-00b27e63d2ba",
+      "caption": "SCFE contralateral-risk prediction: on the frog lateral, increasing posterior epiphyseal tilt reflects a more posteriorly oriented physis and independently raises the risk of a future contralateral slip; skeletal immaturity on the modified Oxford score further increases that risk."
+    }
+  ],
+  "excluded_count": 7,
+  "intentionally_not_retained": [
+    {
+      "asset_id": "mcp-amputation-vs-ray-resection-0e42077f",
+      "original_filename": "codex-clipboard-c5d455a8-b5ff-4722-8444-7a4ade985cd0.png",
+      "byte_count": 91575,
+      "sha256": "0e42077faccc18102e3076bfbafce24dce86bb5cd02d77d93717b7f075bdffc7",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "polyostotic-fibrous-dysplasia-question-df0c9487",
+      "original_filename": "codex-clipboard-b4ef60c6-4170-47cc-8cf3-6a12e06df70e.png",
+      "byte_count": 54303,
+      "sha256": "df0c94870881fa8ff6fa97df2c423c9719163573e3623a5793f8e173b9cd7730",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "polyostotic-fibrous-dysplasia-explanation-911781a9",
+      "original_filename": "codex-clipboard-2f60bef6-f048-4ce7-847d-05d3f28ee614.png",
+      "byte_count": 37574,
+      "sha256": "911781a9b32baa51fd1baceca9eb5739ff2bfb19080194de093d796115ea8658",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "ucl-reconstruction-ulnar-neuropraxia-d1324fa7",
+      "original_filename": "codex-clipboard-8e1864e1-ace9-4787-980a-459798a691c8.png",
+      "byte_count": 344939,
+      "sha256": "d1324fa71d5398fbb061540707eda000c4066a42865a9d8e0782dcca9a3b92d4",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "early-appropriate-care-resuscitation-4db78234",
+      "original_filename": "codex-clipboard-cb2ad16e-fdda-4037-a40d-404b1cffe07a.png",
+      "byte_count": 274923,
+      "sha256": "4db782341162a6b4bbaa35087a1d09af0a76442f410d69e884ee4737433acd4c",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "proximal-phalanx-apex-volar-extensor-lag-34f3cf0a",
+      "original_filename": "codex-clipboard-63b13a92-a1ce-42f3-b2f5-900e7a6575b5.png",
+      "byte_count": 277047,
+      "sha256": "34f3cf0a2f5d0bd29d64935991aa6b469e06c6ba20412946677bbc642970c2c3",
+      "final_state": "NOT_RETAINED",
+      "reason": "Routine question-interface screenshot; teaching content retained as text under the user's selective screenshot policy."
+    },
+    {
+      "asset_id": "ofd-like-adamantinoma-tibia-56c89ca4",
+      "original_filename": "codex-clipboard-1a36afd0-dd79-44e4-82f2-09c531207c6f.png",
+      "byte_count": 289737,
+      "sha256": "56c89ca4e08b1a3befe439fb7ff7c28238ac005a40b4102aef24f8f7ebb5607e",
+      "final_state": "NOT_RETAINED",
+      "reason": "User explicitly objected that this question screenshot had no useful retained visual content."
+    }
+  ],
+  "cleanup_commit": null,
+  "cleanup_verified": false
+}
