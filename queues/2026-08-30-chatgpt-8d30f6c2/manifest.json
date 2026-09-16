@@ -4,7 +4,7 @@
   "encounter_date": "2026-08-30",
   "origin": "chatgpt-8d30f6c2",
   "sid": "2026-08-30|chatgpt-8d30f6c2|full-session",
-  "state": "READY",
+  "state": "RECONCILING",
   "expected_count": 12,
   "items": [
     {
@@ -200,7 +200,8 @@
       "teaching_point_placement": "beside arcuate artery versus humeral circumflex artery anatomy",
       "caption_intent": "Cadaveric axillary and brachial neurovascular anatomy showing anterior and posterior circumflex humeral arteries",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "ATTACHED",
+      "notion_file_upload_id": "3dd097df-8115-81cb-b780-00b2c4133edb"
     },
     {
       "asset_id": "fig-12-proximal-humerus-arterial-anatomy",
@@ -215,11 +216,12 @@
       "teaching_point_placement": "beside arcuate artery versus humeral circumflex artery anatomy",
       "caption_intent": "Proximal humeral arterial supply and anastomoses including the arcuate artery of Laing",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "ATTACHED",
+      "notion_file_upload_id": "3dd097df-8115-81f6-a9ce-00b27c540285"
     }
   ],
   "holds": [],
-  "updated_at": "2026-09-15T22:35:00-04:00",
+  "updated_at": "2026-09-16T00:00:00-04:00",
   "verified_count": 10,
   "cleaned_count": 10
 }
