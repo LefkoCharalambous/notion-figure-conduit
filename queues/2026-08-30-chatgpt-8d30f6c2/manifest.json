@@ -20,7 +20,10 @@
       "teaching_point_placement": "beside arcuate artery versus humeral circumflex artery anatomy",
       "caption_intent": "Arcuate artery arising from the anterior humeral circumflex system and proximal humeral vascular anatomy",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-812e-8cab-00b24d392e56",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-02-scapular-clinical-comparison",
@@ -35,7 +38,10 @@
       "teaching_point_placement": "clinical comparison under scapular winging discriminator",
       "caption_intent": "Clinical comparison of scapular winging patterns",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-811d-add9-00b2b77cf3a7",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-03-scapular-abduction",
@@ -50,7 +56,10 @@
       "teaching_point_placement": "clinical trapezius/winging example",
       "caption_intent": "Clinical scapular winging during arm elevation",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-815e-9318-00b266bc254b",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-04-scapular-lateral-v-medial",
@@ -65,7 +74,10 @@
       "teaching_point_placement": "side-by-side discriminator table",
       "caption_intent": "Lateral trapezius/spinal accessory winging versus medial serratus/long thoracic winging",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-81e8-a9b3-00b29a2f997b",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-05-trapezius-winging-anatomy",
@@ -80,7 +92,10 @@
       "teaching_point_placement": "mechanism of lateral winging",
       "caption_intent": "Trapezius palsy causing lateral scapular displacement",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-8117-bbc4-00b254c72cbc",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-06-osteoid-histology-a",
@@ -95,7 +110,10 @@
       "teaching_point_placement": "osteosarcoma histology under malignant osteoid",
       "caption_intent": "Malignant osteoid as eosinophilic pink matrix produced directly by malignant cells",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-811f-8881-00b209928b98",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-07-osteoid-histology-b",
@@ -110,7 +128,10 @@
       "teaching_point_placement": "osteosarcoma histology comparison",
       "caption_intent": "Lace-like eosinophilic osteoid with malignant osteoblastic cells",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-8158-8a9a-00b2ecb40065",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-08-chondroid-histology-a",
@@ -125,7 +146,10 @@
       "teaching_point_placement": "chondrosarcoma histology comparison",
       "caption_intent": "Basophilic chondroid matrix with tumor cells in lacunae",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-8193-aa82-00b2cb9ee32c",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-09-chondroid-histology-b",
@@ -140,7 +164,10 @@
       "teaching_point_placement": "chondroid matrix histology comparison",
       "caption_intent": "Glassy basophilic cartilage matrix and lacunar cells",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-8130-b313-00b2b6781514",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     },
     {
       "asset_id": "fig-10-glenohumeral-ligaments",
@@ -155,7 +182,10 @@
       "teaching_point_placement": "beside SGHL-MGHL-IGHL restraint table",
       "caption_intent": "SGHL, MGHL, and IGHL anatomy with corresponding MR appearance",
       "clearance": "USER-CLEARED",
-      "state": "STAGED"
+      "state": "CLEANED",
+      "notion_file_upload_id": "3dd097df-8115-8151-8f4c-00b21f1757d6",
+      "notion_verified": true,
+      "cleaned_from_conduit": true
     }
   ],
   "holds": [
@@ -170,5 +200,7 @@
       "reason": "source conversation attachment was not exposed by the attachment mount; no substitution permitted"
     }
   ],
-  "updated_at": "2026-09-15T00:00:00-04:00"
+  "updated_at": "2026-09-15T22:20:00-04:00",
+  "verified_count": 10,
+  "cleaned_count": 10
 }
