@@ -1,0 +1,131 @@
+{
+  "schema": "oite-figure-receipt-v1",
+  "queue_id": "2026-08-30-chatgpt-8d30f6c2",
+  "sid": "2026-08-30|chatgpt-8d30f6c2|full-session",
+  "state": "COMPLETE",
+  "expected_count": 12,
+  "verified_count": 12,
+  "cleaned_count": 12,
+  "destination_pages": [
+    {
+      "page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "url": "https://app.notion.com/3b4097df811581dd81b9d62beefdd1f7"
+    },
+    {
+      "page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "url": "https://app.notion.com/3b4097df811581aa9357d1e517c3108a"
+    }
+  ],
+  "items": [
+    {
+      "asset_id": "fig-01-arcuate-artery",
+      "sha256": "910c9231c0c9e592abbcec3b616751c195fd12f02423fe79a7ac66a6d70ef43d",
+      "byte_count": 1104303,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-812e-8cab-00b24d392e56",
+      "caption": "Arcuate artery arising from the anterior humeral circumflex system and proximal humeral vascular anatomy"
+    },
+    {
+      "asset_id": "fig-02-scapular-clinical-comparison",
+      "sha256": "ee66ecbd0d0de6309e0ec57c7ae8e218a99914683f3bebd6783ca7bfc6d0ce70",
+      "byte_count": 417707,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-811d-add9-00b2b77cf3a7",
+      "caption": "Clinical comparison of scapular winging patterns"
+    },
+    {
+      "asset_id": "fig-03-scapular-abduction",
+      "sha256": "51fd3ab2facc83db84638f1e447085ab83055264819caec9b98e135b355f67e1",
+      "byte_count": 749903,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-815e-9318-00b266bc254b",
+      "caption": "Clinical scapular winging during arm elevation"
+    },
+    {
+      "asset_id": "fig-04-scapular-lateral-v-medial",
+      "sha256": "059381f8e3662a70c601d77c12dd12e4b89bceeb63ed192d371cd6f90e09ec8b",
+      "byte_count": 1238306,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-81e8-a9b3-00b29a2f997b",
+      "caption": "Lateral trapezius/spinal accessory winging versus medial serratus/long thoracic winging"
+    },
+    {
+      "asset_id": "fig-05-trapezius-winging-anatomy",
+      "sha256": "9bc7b8e79ae8c135e2f7931d7e53a43e610edd115e583d61ff88cfa17bf86278",
+      "byte_count": 3350615,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-8117-bbc4-00b254c72cbc",
+      "caption": "Trapezius palsy causing lateral scapular displacement"
+    },
+    {
+      "asset_id": "fig-06-osteoid-histology-a",
+      "sha256": "55bc6407ce1fb3c2980f61ce6dd84682b60106c50af29e40f61a00c5e52f3aef",
+      "byte_count": 5474632,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_upload_id": "3dd097df-8115-811f-8881-00b209928b98",
+      "caption": "Malignant osteoid as eosinophilic pink matrix produced directly by malignant cells"
+    },
+    {
+      "asset_id": "fig-07-osteoid-histology-b",
+      "sha256": "d93225d4ff7a49e9e8e2666bd30fc746fed0cb39b59edc9a9d44ecdf37e57c21",
+      "byte_count": 8401430,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_upload_id": "3dd097df-8115-8158-8a9a-00b2ecb40065",
+      "caption": "Lace-like eosinophilic osteoid with malignant osteoblastic cells"
+    },
+    {
+      "asset_id": "fig-08-chondroid-histology-a",
+      "sha256": "be25cc2f262baf39979eb839efdb144be65deed7d3b297e0842fd431885cf497",
+      "byte_count": 4885991,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_upload_id": "3dd097df-8115-8193-aa82-00b2cb9ee32c",
+      "caption": "Basophilic chondroid matrix with tumor cells in lacunae"
+    },
+    {
+      "asset_id": "fig-09-chondroid-histology-b",
+      "sha256": "080c915e9dfe08c0965bb5013213d544e3295bea9e4149b1ab7e28234782efc4",
+      "byte_count": 2268997,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "notion_file_upload_id": "3dd097df-8115-8130-b313-00b2b6781514",
+      "caption": "Glassy basophilic cartilage matrix and lacunar cells"
+    },
+    {
+      "asset_id": "fig-10-glenohumeral-ligaments",
+      "sha256": "16a090c577604b57fc06aa70ab6dd9a6500797fbf28a9535caba03cdcf0d0552",
+      "byte_count": 202320,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-8151-8f4c-00b21f1757d6",
+      "caption": "SGHL, MGHL, and IGHL anatomy with corresponding MR appearance"
+    },
+    {
+      "asset_id": "fig-11-brachial-neurovascular-cadaver",
+      "sha256": "83807d24fee078cd0ca8ce68d3091a38428aae9fe4ec595f5d3f67c9b347f62c",
+      "byte_count": 3098840,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-81a3-a006-00b2493aec76",
+      "caption": "Cadaveric axillary and brachial neurovascular anatomy showing anterior and posterior circumflex humeral arteries"
+    },
+    {
+      "asset_id": "fig-12-proximal-humerus-arterial-anatomy",
+      "sha256": "ec7bb7a476ba03510c9e79b0f372dc306a100fab1c6bb2e14766b0e78916420f",
+      "byte_count": 1192071,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "notion_file_upload_id": "3dd097df-8115-8114-9251-00b29d6f6258",
+      "caption": "Proximal humeral arterial supply and anastomoses including the arcuate artery of Laing"
+    }
+  ],
+  "verified_at": "2026-09-16T00:05:00-04:00",
+  "cleanup_parent_commit": "5cae087be8a3d297c17efaf66ca8e82f096c7e96"
+}
