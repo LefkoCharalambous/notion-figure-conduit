@@ -4,7 +4,7 @@
   "encounter_date": "2026-08-30",
   "origin": "chatgpt-8d30f6c2",
   "sid": "2026-08-30|chatgpt-8d30f6c2|full-session",
-  "state": "PARTIAL",
+  "state": "READY",
   "expected_count": 12,
   "items": [
     {
@@ -186,21 +186,40 @@
       "notion_file_upload_id": "3dd097df-8115-8151-8f4c-00b21f1757d6",
       "notion_verified": true,
       "cleaned_from_conduit": true
-    }
-  ],
-  "holds": [
-    {
-      "attachment_number": 11,
-      "state": "BYTES_UNAVAILABLE",
-      "reason": "source conversation attachment was not exposed by the attachment mount; no substitution permitted"
     },
     {
-      "attachment_number": 12,
-      "state": "BYTES_UNAVAILABLE",
-      "reason": "source conversation attachment was not exposed by the attachment mount; no substitution permitted"
+      "asset_id": "fig-11-brachial-neurovascular-cadaver",
+      "original_filename": "codex-clipboard-dc3e3c46-54c8-43af-a773-6bc7d0d6afcf.png",
+      "mime_type": "image/png",
+      "byte_count": 3098840,
+      "sha256": "83807d24fee078cd0ca8ce68d3091a38428aae9fe4ec595f5d3f67c9b347f62c",
+      "github_blob_sha": "68358c3443a38f763896edecd5391daff088c785",
+      "conduit_path": "queues/2026-08-30-chatgpt-8d30f6c2/assets/brachial-neurovascular-cadaver.png",
+      "topic": "Arcuate artery and proximal humeral blood supply",
+      "destination_intent": "Shoulder & Elbow 2026",
+      "teaching_point_placement": "beside arcuate artery versus humeral circumflex artery anatomy",
+      "caption_intent": "Cadaveric axillary and brachial neurovascular anatomy showing anterior and posterior circumflex humeral arteries",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED"
+    },
+    {
+      "asset_id": "fig-12-proximal-humerus-arterial-anatomy",
+      "original_filename": "codex-clipboard-cc44015e-b706-44a4-9ea6-cc2791101949.png",
+      "mime_type": "image/png",
+      "byte_count": 1192071,
+      "sha256": "ec7bb7a476ba03510c9e79b0f372dc306a100fab1c6bb2e14766b0e78916420f",
+      "github_blob_sha": "225ea893075a944d683824abfebacbd77ff2baca",
+      "conduit_path": "queues/2026-08-30-chatgpt-8d30f6c2/assets/proximal-humerus-arterial-anatomy.png",
+      "topic": "Arcuate artery and proximal humeral blood supply",
+      "destination_intent": "Shoulder & Elbow 2026",
+      "teaching_point_placement": "beside arcuate artery versus humeral circumflex artery anatomy",
+      "caption_intent": "Proximal humeral arterial supply and anastomoses including the arcuate artery of Laing",
+      "clearance": "USER-CLEARED",
+      "state": "STAGED"
     }
   ],
-  "updated_at": "2026-09-15T22:20:00-04:00",
+  "holds": [],
+  "updated_at": "2026-09-15T22:35:00-04:00",
   "verified_count": 10,
   "cleaned_count": 10
 }
