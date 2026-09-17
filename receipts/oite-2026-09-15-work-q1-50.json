@@ -1,0 +1,108 @@
+{
+  "schema": "oite-figure-receipt-v1",
+  "queue_id": "oite-2026-09-15-work-q1-50",
+  "sid": "2026-09-15|work|Q1-50",
+  "state": "COMPLETE",
+  "expected_count": 9,
+  "verified_count": 9,
+  "cleaned_count": 9,
+  "destination_pages": [
+    {
+      "page_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "url": "https://app.notion.com/3b4097df8115810686a1d36c25aba788"
+    },
+    {
+      "page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "url": "https://app.notion.com/3b4097df811581f88afde8d1d94d7229"
+    },
+    {
+      "page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "url": "https://app.notion.com/3b4097df81158193b5e5f12fb4d5222a"
+    }
+  ],
+  "items": [
+    {
+      "asset_id": "fig-01-leg-compartments",
+      "sha256": "7f7bd8e58fc39af321aeec8a7169a8ccee6a3fa3d4869337e8aac1abc4dce3b8",
+      "byte_count": 175226,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "notion_file_upload_id": "3de097df-8115-81fa-b86c-00b25e00cf1a",
+      "caption": "Posterior leg superficial and deep compartments showing gastrocnemius, soleus, and deep flexor origins."
+    },
+    {
+      "asset_id": "fig-02-gastroc-soleus-origins",
+      "sha256": "6a91ddf930c47225cf92049229a37dfb30c83b942fb25c40603691d958fccf21",
+      "byte_count": 129497,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "notion_file_upload_id": "3de097df-8115-813a-a81d-00b2a6d4e93f",
+      "caption": "Gastrocnemius reflected to expose soleus, emphasizing femoral versus tibial/fibular origins."
+    },
+    {
+      "asset_id": "fig-03-slil-components",
+      "sha256": "8740d95780e70dd9d4c00f20d4ecb86e38a1b912e17a5090c133ecd921b62636",
+      "byte_count": 60195,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_file_upload_id": "3de097df-8115-8181-a5d9-00b205df110c",
+      "caption": "Three components of the scapholunate interosseous ligament: dorsal, volar, and proximal membranous."
+    },
+    {
+      "asset_id": "fig-04-proximal-slil-mri",
+      "sha256": "62fb11533579ae2d944977f18757bbefe4ce873312aa86d0607596184de03eec",
+      "byte_count": 43985,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_file_upload_id": "3de097df-8115-81af-92c0-00b26c5171c3",
+      "caption": "Normal proximal membranous scapholunate ligament morphology on coronal MRI."
+    },
+    {
+      "asset_id": "fig-05-dorsal-slil-mri",
+      "sha256": "8fea46369537a0d1c0f2b8a4961b1a5a3dc1ee3a60520844c86fb3225664bb1d",
+      "byte_count": 57221,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_file_upload_id": "3de097df-8115-81db-819f-00b28855affb",
+      "caption": "Normal thick dorsal scapholunate ligament on MR arthrography."
+    },
+    {
+      "asset_id": "fig-06-dorsal-extrinsic",
+      "sha256": "20ef7a9bac97c0dc3f5aac99ac0911f010514b3349a9cfb0d25aa442073a4a52",
+      "byte_count": 90740,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "notion_file_upload_id": "3de097df-8115-815e-a602-00b2ab596755",
+      "caption": "Dorsal radiocarpal and dorsal intercarpal ligaments as secondary stabilizers of the scapholunate complex."
+    },
+    {
+      "asset_id": "fig-07-proximal-tibia-cross-section",
+      "sha256": "1b55189e1e4a70a70432f26910632d56e8d3347d830552d142849ea89f8a7898",
+      "byte_count": 358196,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "notion_file_upload_id": "3de097df-8115-8128-b3f6-00b2d688bf88",
+      "caption": "Proximal tibial cross-section showing the anterior tibial recurrent artery adjacent to tibialis anterior."
+    },
+    {
+      "asset_id": "fig-08-patellar-network",
+      "sha256": "f1f2aa9f29450c5ad5f7236859606b8049d229890a929448ccf374fb0fb18b72",
+      "byte_count": 41447,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "notion_file_upload_id": "3de097df-8115-81b1-aa63-00b278fd18cd",
+      "caption": "Anterior view of the genicular network showing the anterior tibial recurrent artery ascending beside the tibial tubercle."
+    },
+    {
+      "asset_id": "fig-09-anterior-tibial-artery",
+      "sha256": "2461189ca9242c9756bc462dad0a7fbaa1ae79a275801671fd01d1b062569cce",
+      "byte_count": 28708,
+      "state": "CLEANED",
+      "notion_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "notion_file_upload_id": "3de097df-8115-8105-8019-00b2ca852475",
+      "caption": "Course of the anterior tibial artery and proximal recurrent branch in the anterior compartment."
+    }
+  ],
+  "verified_at": "2026-09-16T23:16:00-04:00",
+  "cleanup_parent_commit": "27bbd93a09f236386258f2d1207bfbb0a44eae25"
+}
