@@ -1,0 +1,80 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "oite-20260917-6aabc973",
+  "sid": "2026-09-17|chatgpt-6aabc973|practice-test",
+  "state": "COMPLETE",
+  "expected_count": 5,
+  "verified_count": 5,
+  "verified_at": "2026-09-23T12:47:58.785Z",
+  "items": [
+    {
+      "asset_id": "fig-01-leukocytes-in-peripheral-blood",
+      "original_filename": "Leukocytes in peripheral blood.png",
+      "byte_count": 561446,
+      "sha256": "d36875187dab76f3205e186c55d6499521926fe77dfe666281f9ee9ff23d1cd7",
+      "destination_id": "3b4097df811581cc831cd696fb249ce0",
+      "destination_url": "https://www.notion.so/3b4097df811581cc831cd696fb249ce0",
+      "placement": "Beside nuclear-shape and plasma-cell discriminator teaching",
+      "caption": "Leukocytes in peripheral blood.png \u2014 Leukocyte morphology: segmented neutrophil versus kidney-shaped monocyte and bilobed eosinophil.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/744561b2-bbed-47e5-8f79-75454bf19604/Leukocytes_in_peripheral_blood.png",
+      "verified": true
+    },
+    {
+      "asset_id": "fig-02-chromatin-with",
+      "original_filename": "Chromatin with.png",
+      "byte_count": 2464219,
+      "sha256": "80bb6df54acf9d546e75c2f83b73938a7ce5ab06701b908464ec4b863a2de77a",
+      "destination_id": "3b4097df811581cc831cd696fb249ce0",
+      "destination_url": "https://www.notion.so/3b4097df811581cc831cd696fb249ce0",
+      "placement": "Beside nuclear-shape and plasma-cell discriminator teaching",
+      "caption": "Chromatin with.png \u2014 Plasma cell: eccentric clock-face nucleus, basophilic cytoplasm, and pale perinuclear hof.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/514ea402-c437-40d6-954f-7c01ba415375/Chromatin_with.png",
+      "verified": true
+    },
+    {
+      "asset_id": "fig-03-erythrocyte",
+      "original_filename": "Erythrocyte.png",
+      "byte_count": 2898471,
+      "sha256": "823ba259c75fd6bf8d16897bd2144e5e69ffa78913894623b3b561f74f6daef0",
+      "destination_id": "3b4097df811581cc831cd696fb249ce0",
+      "destination_url": "https://www.notion.so/3b4097df811581cc831cd696fb249ce0",
+      "placement": "Beside nuclear-shape and plasma-cell discriminator teaching",
+      "caption": "Erythrocyte.png \u2014 Labeled inflammatory cells: identify nuclear shape and granules using erythrocytes as a size reference.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/6e6f42bc-4e67-4237-84da-bb5785c88c4f/Erythrocyte.png",
+      "verified": true
+    },
+    {
+      "asset_id": "fig-04-pasted-graphic-14",
+      "original_filename": "Pasted Graphic 14.png",
+      "byte_count": 2098611,
+      "sha256": "aae244a14e664de1d0d7f91c373b3a98a764f8d2639093617a48ce0048a16dc3",
+      "destination_id": "3b4097df8115810686a1d36c25aba788",
+      "destination_url": "https://www.notion.so/3b4097df8115810686a1d36c25aba788",
+      "placement": "Beside peroneus longus versus posterior tibialis insertion and deforming-force comparison",
+      "caption": "Pasted Graphic 14.png \u2014 Posterior tibialis: navicular-centered insertion with midfoot expansions; inversion and arch support.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/40858241-3018-4d34-aae3-a595ca0bb1cf/Pasted_Graphic_14.png",
+      "verified": true
+    },
+    {
+      "asset_id": "fig-05-pasted-graphic-13",
+      "original_filename": "Pasted Graphic 13.png",
+      "byte_count": 942498,
+      "sha256": "ab3b8815a576ce43c3c10c27b57ab5428903804a7f18e886a2e4073d13ac334e",
+      "destination_id": "3b4097df8115810686a1d36c25aba788",
+      "destination_url": "https://www.notion.so/3b4097df8115810686a1d36c25aba788",
+      "placement": "Beside peroneus longus versus posterior tibialis insertion and deforming-force comparison",
+      "caption": "Pasted Graphic 13.png \u2014 Peroneus longus: plantar first-metatarsal base and medial cuneiform insertion; first-ray plantarflexion.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/fd1bddd0-4abb-47a6-9140-fb6be7f21008/Pasted_Graphic_13.png",
+      "verified": true
+    }
+  ],
+  "cleanup_commit": "SELF: the Git commit that creates this terminal receipt and removes this queue; resolve using this receipt path's creation history.",
+  "cleanup_paths": [
+    "queues/oite-20260917-6aabc973/assets/Leukocytes in peripheral blood.png",
+    "queues/oite-20260917-6aabc973/assets/Chromatin with.png",
+    "queues/oite-20260917-6aabc973/assets/Erythrocyte.png",
+    "queues/oite-20260917-6aabc973/assets/Pasted Graphic 14.png",
+    "queues/oite-20260917-6aabc973/assets/Pasted Graphic 13.png",
+    "queues/oite-20260917-6aabc973/manifest.json"
+  ]
+}
