@@ -5,7 +5,7 @@
   "origin": "codex-oite-prep",
   "sid": null,
   "state": "READY",
-  "expected_count": 2,
+  "expected_count": 3,
   "items": [
     {
       "original_filename": "codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc.png",
@@ -36,6 +36,21 @@
       "caption_intent": "Leg cross-section: superficial posterior compartment reaches the outer posterolateral surface; deep posterior lies centrally.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "44668e73323b94758956c675ef5fc5a0d7eb7e62"
+    },
+    {
+      "original_filename": "codex-clipboard-a275db5b-921c-44ca-8cba-a3e3006e0f26.png",
+      "mime_type": "image/png",
+      "byte_count": 103626,
+      "sha256": "ece89225d228128acf11c42ad0d9e991dd8198f4e39ab10552098e393cb6eaa2",
+      "asset_id": "fig-01-codex-clipboard-a275db5b-921c-44ca-8cba-a3e3006e0f26",
+      "conduit_path": "queues/2026-09-26-oite-prep/assets/codex-clipboard-a275db5b-921c-44ca-8cba-a3e3006e0f26.png",
+      "state": "STAGED",
+      "topic": "Funnel plots and publication bias",
+      "destination_intent": "Canonical 2026 OITE evidence-based medicine section",
+      "teaching_point_placement": "Alongside funnel geometry and asymmetry explanation",
+      "caption_intent": "Original screenshot with funnel plot: precise studies cluster at the top; less precise studies scatter more broadly below. Asymmetry raises concern for publication bias but is not diagnostic.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "ff0084ecb98eb69546adda501f9166522af77982"
     }
   ]
 }
