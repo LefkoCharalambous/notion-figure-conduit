@@ -1,0 +1,41 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-09-26-oite-prep",
+  "encounter_date": "2026-09-26",
+  "origin": "codex-oite-prep",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 2,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc.png",
+      "mime_type": "image/png",
+      "byte_count": 86078,
+      "sha256": "ac6eeaca7852a9f8281714ae30507e0f7b07a1da69cec902e028e3a63a387b73",
+      "asset_id": "fig-01-codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc",
+      "conduit_path": "queues/2026-09-26-oite-prep/assets/codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc.png",
+      "state": "STAGED",
+      "topic": "Elbow posterolateral rotatory instability (PLRI)",
+      "destination_intent": "Canonical 2026 OITE teaching section for Elbow posterolateral rotatory instability (PLRI)",
+      "teaching_point_placement": "Alongside lateral pivot-shift examination mechanism",
+      "caption_intent": "PLRI pivot-shift setup showing valgus, supination, and axial compression.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "7ce75c8754193d558e121786415bf70c1a9cd853"
+    },
+    {
+      "original_filename": "codex-clipboard-1c9a3ae7-46be-4460-853d-4f8c8dc9215a.png",
+      "mime_type": "image/png",
+      "byte_count": 226094,
+      "sha256": "431831f54005a6d39f0b7c70775cdfdb9bfa3f366ebeb318c3d635c5ab489531",
+      "asset_id": "fig-02-codex-clipboard-1c9a3ae7-46be-4460-853d-4f8c8dc9215a",
+      "conduit_path": "queues/2026-09-26-oite-prep/assets/codex-clipboard-1c9a3ae7-46be-4460-853d-4f8c8dc9215a.png",
+      "state": "STAGED",
+      "topic": "Single-incision leg fasciotomy: compartment anatomy",
+      "destination_intent": "Canonical 2026 OITE teaching section for Single-incision leg fasciotomy: compartment anatomy",
+      "teaching_point_placement": "Alongside superficial versus deep posterior exposure explanation",
+      "caption_intent": "Leg cross-section: superficial posterior compartment reaches the outer posterolateral surface; deep posterior lies centrally.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "44668e73323b94758956c675ef5fc5a0d7eb7e62"
+    }
+  ]
+}
