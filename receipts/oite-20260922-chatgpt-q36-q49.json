@@ -1,0 +1,106 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "oite-20260922-chatgpt-q36-q49",
+  "sid": "2026-09-22|chatgpt|Q36-Q49",
+  "state": "COMPLETE",
+  "expected_count": 7,
+  "verified_count": 7,
+  "verified_at": "2026-09-26T22:24:00Z",
+  "items": [
+    {
+      "asset_id": "cmf-xray-annotated",
+      "original_filename": "cmf-xray-annotated.png",
+      "byte_count": 1016293,
+      "sha256": "5b5fd7f7a4cf2874bfd665c9c68b88f8ce5c8f41028fab9890a49aa7825c5a5c",
+      "destination_id": "3b4097df811581aa9357d1e517c3108a",
+      "destination_url": "https://app.notion.com/3b4097df811581aa9357d1e517c3108a",
+      "placement": "After the CMF radiographic discriminator",
+      "caption": "Annotated CMF radiograph: eccentric metaphyseal lobulated lucency, narrow transition zone, sclerotic rim, and cortical expansion.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/575a2f9d-9400-4643-b7aa-ba82091050c9/cmf-xray-annotated.png",
+      "verified": true
+    },
+    {
+      "asset_id": "cmf-histology-annotated",
+      "original_filename": "cmf-histology-annotated.png",
+      "byte_count": 1660657,
+      "sha256": "4d3c841b7549c39c12eb72be7fcb429e48c167632d8675ff9c52b116cb6a887a",
+      "destination_id": "3b4097df811581aa9357d1e517c3108a",
+      "destination_url": "https://app.notion.com/3b4097df811581aa9357d1e517c3108a",
+      "placement": "After the CMF name-to-pathology map",
+      "caption": "Annotated CMF H&E: pale hypocellular myxoid/chondroid center with a more cellular fibrous rim.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/96bbd892-b2a9-4268-a33e-7821356e8a80/cmf-histology-annotated.png",
+      "verified": true
+    },
+    {
+      "asset_id": "growth-plate-histology",
+      "original_filename": "growth-plate-histology-source.jpg",
+      "byte_count": 90066,
+      "sha256": "df5e9dc9e5bf3eea479509eb469c0bcb9ad3fb9c554794138472e09ac140f71f",
+      "destination_id": "3b4097df81158193b5e5f12fb4d5222a",
+      "destination_url": "https://app.notion.com/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "After the physeal-zone table",
+      "caption": "Growth-plate histology: resting, proliferative, hypertrophic, and calcification/ossification zones from epiphysis toward metaphysis.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/07a98044-27d8-4235-b59b-1bdef38d30fa/growth-plate-histology-source.jpg",
+      "verified": true
+    },
+    {
+      "asset_id": "vpmri-qbank-imaging",
+      "original_filename": "codex-clipboard-0652d5e1-0711-4e02-a496-d3a92952baca.png",
+      "byte_count": 104901,
+      "sha256": "df94bee1b95efd0c5c89adf5a15749a67b5c5c0048a2aad6c9f5624aae9d7645",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://app.notion.com/3b4097df811581dd81b9d62beefdd1f7",
+      "placement": "After the VPMRI mechanism",
+      "caption": "Postreduction radiographs and CT demonstrating the anteromedial coronoid fracture pattern of varus posteromedial rotatory instability.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/3443ef95-310f-49b0-a2b5-c72cc99c5333/codex-clipboard-0652d5e1-0711-4e02-a496-d3a92952baca.png",
+      "verified": true
+    },
+    {
+      "asset_id": "lateral-elbow-ligaments-labeled",
+      "original_filename": "codex-clipboard-adbf629b-460c-4642-9580-750e4954866c.png",
+      "byte_count": 482019,
+      "sha256": "055fb0015cd2c445a64034b96bef6a769562cba62a6a5ddcf371b91c92ffbf68",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://app.notion.com/3b4097df811581dd81b9d62beefdd1f7",
+      "placement": "After the elbow collateral-anatomy table",
+      "caption": "Lateral cadaveric elbow: RCL blends with the annular ligament; LUCL continues posteriorly to the ulna.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/1e610f05-32cc-4af4-b9d6-e15f461d863e/codex-clipboard-adbf629b-460c-4642-9580-750e4954866c.png",
+      "verified": true
+    },
+    {
+      "asset_id": "lateral-elbow-complex-sequential",
+      "original_filename": "codex-clipboard-0be7d5ce-59fd-4890-a486-fb358dd81b56.png",
+      "byte_count": 139390,
+      "sha256": "33dd8d75742578e1c34a0af901477af044822dc28719df8ffc26afd897a73cd2",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://app.notion.com/3b4097df811581dd81b9d62beefdd1f7",
+      "placement": "After the elbow collateral-anatomy table",
+      "caption": "Sequential cadaveric views of the lateral collateral ligament complex.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/614f1d57-5609-4f12-8ffa-4d4d6de1988f/codex-clipboard-0be7d5ce-59fd-4890-a486-fb358dd81b56.png",
+      "verified": true
+    },
+    {
+      "asset_id": "lateral-elbow-muscular-relationships",
+      "original_filename": "codex-clipboard-54bbd0cd-9925-4d22-80d0-64ae1df9b5aa.png",
+      "byte_count": 597746,
+      "sha256": "ee74ba12a55f6b6d0d3c2686766ff073afc28eade338b6a68afeddfc1c07a3bd",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://app.notion.com/3b4097df811581dd81b9d62beefdd1f7",
+      "placement": "After the elbow collateral-anatomy table",
+      "caption": "Lateral elbow dissection showing the ligament complex beneath ECRB/EDC/ECU and its relationship to supinator and anconeus.",
+      "notion_hosted_file": "https://prod-files-secure.s3.us-west-2.amazonaws.com/ded212ba-0297-4030-bedf-84d7a003ca5f/4a5c9e9b-096c-4468-9014-bccb509b3ef1/codex-clipboard-54bbd0cd-9925-4d22-80d0-64ae1df9b5aa.png",
+      "verified": true
+    }
+  ],
+  "cleanup_commit": "SELF: the Git commit that creates this terminal receipt and removes this queue; resolve using this receipt path's creation history.",
+  "cleanup_paths": [
+    "queues/oite-20260922-chatgpt-q36-q49/assets/cmf-xray-annotated.png",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/cmf-histology-annotated.png",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/growth-plate-histology-source.jpg",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/codex-clipboard-0652d5e1-0711-4e02-a496-d3a92952baca.png",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/codex-clipboard-adbf629b-460c-4642-9580-750e4954866c.png",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/codex-clipboard-0be7d5ce-59fd-4890-a486-fb358dd81b56.png",
+    "queues/oite-20260922-chatgpt-q36-q49/assets/codex-clipboard-54bbd0cd-9925-4d22-80d0-64ae1df9b5aa.png",
+    "queues/oite-20260922-chatgpt-q36-q49/manifest.json"
+  ]
+}
