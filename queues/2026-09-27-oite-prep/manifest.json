@@ -5,7 +5,7 @@
   "origin": "codex-oite-prep",
   "sid": "2026-09-27|chatgpt-01a0df14|OITE-session",
   "state": "READY",
-  "expected_count": 1,
+  "expected_count": 2,
   "items": [
     {
       "original_filename": "codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77.png",
@@ -21,6 +21,21 @@
       "caption_intent": "MABC branches cross the ulnar-nerve operative field; the distal branch crosses approximately 3.1 cm distal to the medial epicondyle (B in the illustrated figure), and the proximal branch approximately 1.8 cm proximal (A).",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "c39e0f1855aaff826248cef14f2800e7c6fe267b"
+    },
+    {
+      "original_filename": "ao-direct-anterior-hip-interval.png",
+      "mime_type": "image/png",
+      "byte_count": 165001,
+      "sha256": "fdf54aea1fc93dc27fef49728a82c8bafc2d9fa8aeb6959e4be43f3258db2705",
+      "asset_id": "fig-01-ao-direct-anterior-hip-interval",
+      "conduit_path": "queues/2026-09-27-oite-prep/assets/ao-direct-anterior-hip-interval.png",
+      "state": "STAGED",
+      "topic": "Anterior hip approach muscle innervation",
+      "destination_intent": "Joints OITE 2026 teaching section for anterior hip approach innervation",
+      "teaching_point_placement": "Beside the superficial sartorius\u2013TFL and deep rectus\u2013gluteus medius intervals",
+      "caption_intent": "AO Surgery Reference figure of the direct anterior hip approach intervals. Sartorius and rectus femoris are femoral-nerve supplied; TFL and gluteus medius are superior-gluteal-nerve supplied.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "5e61b5fcf174b7cce8e583cc39487ff2b0ec5788"
     }
   ]
 }
