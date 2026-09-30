@@ -1,0 +1,36 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "2026-09-27-oite-prep",
+  "sid": "2026-09-27|chatgpt-01a0df14|OITE-session",
+  "state": "COMPLETE",
+  "expected_count": 2,
+  "verified_count": 2,
+  "verified_at": "2026-09-30T19:07:52.039082+00:00",
+  "cleanup_commit": "this receipt commit",
+  "items": [
+    {
+      "asset_id": "fig-01-codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77",
+      "original_filename": "codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77.png",
+      "byte_count": 249839,
+      "sha256": "a9fd43b0467856e739d1210e58ddaf1d6691218abbece60468051564acab84b0",
+      "destination_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "destination_url": "https://app.notion.com/p/3b4097df811581f88afde8d1d94d7229",
+      "placement": "MABC at cubital tunnel",
+      "caption": "MABC branches crossing the medial elbow field: A is the proximal branch about 1.8 cm above the medial epicondyle; B is the distal branch about 3.1 cm below it.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    },
+    {
+      "asset_id": "fig-01-ao-direct-anterior-hip-interval",
+      "original_filename": "ao-direct-anterior-hip-interval.png",
+      "byte_count": 165001,
+      "sha256": "fdf54aea1fc93dc27fef49728a82c8bafc2d9fa8aeb6959e4be43f3258db2705",
+      "destination_id": "3b4097df-8115-81bd-aaf0-d400f5af6dcb",
+      "destination_url": "https://app.notion.com/p/3b4097df811581bdaaf0d400f5af6dcb",
+      "placement": "Direct anterior hip approach",
+      "caption": "AO Surgery Reference: direct anterior hip intervals. Femoral nerve supplies sartorius and rectus femoris; superior gluteal nerve supplies TFL and gluteus medius.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    }
+  ]
+}

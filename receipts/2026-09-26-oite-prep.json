@@ -1,0 +1,48 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "2026-09-26-oite-prep",
+  "sid": "2026-09-26|chatgpt-01a0df14|OITE-session",
+  "state": "COMPLETE",
+  "expected_count": 3,
+  "verified_count": 3,
+  "verified_at": "2026-09-30T19:07:52.037643+00:00",
+  "cleanup_commit": "this receipt commit",
+  "items": [
+    {
+      "asset_id": "fig-01-codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc",
+      "original_filename": "codex-clipboard-008a8f34-855a-4623-be69-1aabe8d8defc.png",
+      "byte_count": 86078,
+      "sha256": "ac6eeaca7852a9f8281714ae30507e0f7b07a1da69cec902e028e3a63a387b73",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "placement": "PLRI examination",
+      "caption": "PLRI pivot-shift setup: valgus, forearm supination, and axial compression provoke posterolateral subluxation.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    },
+    {
+      "asset_id": "fig-02-codex-clipboard-1c9a3ae7-46be-4460-853d-4f8c8dc9215a",
+      "original_filename": "codex-clipboard-1c9a3ae7-46be-4460-853d-4f8c8dc9215a.png",
+      "byte_count": 226094,
+      "sha256": "431831f54005a6d39f0b7c70775cdfdb9bfa3f366ebeb318c3d635c5ab489531",
+      "destination_id": "3b4097df-8115-81ef-8a26-fdf90e3769eb",
+      "destination_url": "https://app.notion.com/p/3b4097df811581ef8a26fdf90e3769eb",
+      "placement": "Fasciotomy compartment anatomy",
+      "caption": "Leg cross-section: superficial posterior reaches the posterolateral surface; deep posterior lies centrally beneath a separate fascia.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    },
+    {
+      "asset_id": "fig-01-codex-clipboard-a275db5b-921c-44ca-8cba-a3e3006e0f26",
+      "original_filename": "codex-clipboard-a275db5b-921c-44ca-8cba-a3e3006e0f26.png",
+      "byte_count": 103626,
+      "sha256": "ece89225d228128acf11c42ad0d9e991dd8198f4e39ab10552098e393cb6eaa2",
+      "destination_id": "3b4097df-8115-81cc-831c-d696fb249ce0",
+      "destination_url": "https://app.notion.com/p/3b4097df811581cc831cd696fb249ce0",
+      "placement": "Funnel plot mechanism",
+      "caption": "Funnel plot: precise studies cluster above; small studies spread below. Asymmetry suggests, but does not prove, publication bias.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    }
+  ]
+}
