@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-09-27-oite-prep",
+  "encounter_date": "2026-09-27",
+  "origin": "codex-oite-prep",
+  "sid": "2026-09-27|chatgpt-01a0df14|OITE-session",
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77.png",
+      "mime_type": "image/png",
+      "byte_count": 249839,
+      "sha256": "a9fd43b0467856e739d1210e58ddaf1d6691218abbece60468051564acab84b0",
+      "asset_id": "fig-01-codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77",
+      "conduit_path": "queues/2026-09-27-oite-prep/assets/codex-clipboard-72e7cb29-267c-41d5-9667-a36f95336d77.png",
+      "state": "STAGED",
+      "topic": "Medial antebrachial cutaneous nerve at cubital tunnel",
+      "destination_intent": "Hand OITE 2026 teaching section for medial antebrachial cutaneous nerve",
+      "teaching_point_placement": "Alongside medial elbow incision crossing-branch anatomy",
+      "caption_intent": "MABC branches cross the ulnar-nerve operative field; the distal branch crosses approximately 3.1 cm distal to the medial epicondyle (B in the illustrated figure), and the proximal branch approximately 1.8 cm proximal (A).",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "c39e0f1855aaff826248cef14f2800e7c6fe267b"
+    }
+  ]
+}
