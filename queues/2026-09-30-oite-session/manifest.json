@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-09-30-oite-session",
+  "encounter_date": "2026-09-30",
+  "origin": "Codex OITE Prep",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692.png",
+      "mime_type": "image/png",
+      "byte_count": 141963,
+      "sha256": "60aa6b1950a7f0b9c96782b65548174dce52dba0b73189d6df40cfda271bc7b3",
+      "asset_id": "fig-01-codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692",
+      "conduit_path": "queues/2026-09-30-oite-session/assets/codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692.png",
+      "state": "STAGED",
+      "topic": "PIN protection: forearm rotation in Henry, Thompson, and lateral radial-head approaches",
+      "destination_intent": "2026 OITE trauma teaching page; canonical radial surgical approaches/PIN section, resolve at logging",
+      "teaching_point_placement": "Adjacent to supination versus pronation mechanism and approach comparison",
+      "caption_intent": "Exact user-approved Diliberti figure: supination (top) brings PIN crossing proximally; pronation (bottom) moves it distally. The 2.2 and 3.8 cm values are study minima from the radiocapitellar joint, not universal safe zones.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "1cacffe4646deaf2994b634811efc970b1a964bd"
+    }
+  ]
+}
