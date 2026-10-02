@@ -5,7 +5,7 @@
   "origin": "Codex OITE Prep",
   "sid": null,
   "state": "READY",
-  "expected_count": 1,
+  "expected_count": 2,
   "items": [
     {
       "original_filename": "codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692.png",
@@ -21,6 +21,21 @@
       "caption_intent": "Exact user-approved Diliberti figure: supination (top) brings PIN crossing proximally; pronation (bottom) moves it distally. The 2.2 and 3.8 cm values are study minima from the radiocapitellar joint, not universal safe zones.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "1cacffe4646deaf2994b634811efc970b1a964bd"
+    },
+    {
+      "original_filename": "codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b.png",
+      "mime_type": "image/png",
+      "byte_count": 3254670,
+      "sha256": "bd52123bf9d81256b6590914ef9ff3327f7007f09f66df6b4515248d2da9629e",
+      "asset_id": "fig-01-codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b",
+      "conduit_path": "queues/2026-09-30-oite-session/assets/codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b.png",
+      "state": "STAGED",
+      "topic": "Pediatric supracondylar humerus fractures: displacement and nerve injury",
+      "destination_intent": "2026 pediatric orthopaedics teaching page, supracondylar humerus section",
+      "teaching_point_placement": "Beside distal-fragment displacement versus proximal spike anatomy explanation",
+      "caption_intent": "User-uploaded exact anatomy overlay: flexion-type fractures left pair and extension-type right pair, showing ulnar nerve versus anterior median/AIN and brachial artery relationships. JPOSNA Figure 2, The Open Approach to a Supracondylar Humerus Fracture.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "57798ff5f8ad41d1a9f76e56121f96db58075ea9"
     }
   ]
 }
