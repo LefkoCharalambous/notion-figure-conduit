@@ -1,11 +1,12 @@
 {
-  "schema": "durable-figure-queue-v2",
+  "schema": "durable-figure-terminal-v1",
   "queue_id": "2026-09-30-oite-session",
-  "encounter_date": "2026-09-30",
-  "origin": "Codex OITE Prep",
-  "sid": null,
-  "state": "READY",
-  "expected_count": 2,
+  "sid": "2026-09-30|chatgpt-01a0f3ae|Q1-49-discussed",
+  "state": "COMPLETE",
+  "count": 2,
+  "verified_at": "2026-10-06T02:05:47.419652+00:00",
+  "cleanup_commit": "The Git commit containing this terminal receipt; resolve with git log -1 -- receipts/2026-09-30-oite-session.json",
+  "cleanup_parent": "617f57570962a9b508a90f618266a20a7ef1d828",
   "items": [
     {
       "original_filename": "codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692.png",
@@ -14,13 +15,17 @@
       "sha256": "60aa6b1950a7f0b9c96782b65548174dce52dba0b73189d6df40cfda271bc7b3",
       "asset_id": "fig-01-codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692",
       "conduit_path": "queues/2026-09-30-oite-session/assets/codex-clipboard-21b4861c-b51a-4606-bacb-873f87afa692.png",
-      "state": "STAGED",
+      "state": "COMPLETE",
       "topic": "PIN protection: forearm rotation in Henry, Thompson, and lateral radial-head approaches",
       "destination_intent": "2026 OITE trauma teaching page; canonical radial surgical approaches/PIN section, resolve at logging",
       "teaching_point_placement": "Adjacent to supination versus pronation mechanism and approach comparison",
       "caption_intent": "Exact user-approved Diliberti figure: supination (top) brings PIN crossing proximally; pronation (bottom) moves it distally. The 2.2 and 3.8 cm values are study minima from the radiocapitellar joint, not universal safe zones.",
       "clearance": "USER-CLEARED",
-      "github_blob_sha": "1cacffe4646deaf2994b634811efc970b1a964bd"
+      "github_blob_sha": "1cacffe4646deaf2994b634811efc970b1a964bd",
+      "destination_page_id": "3b4097df811581f88afde8d1d94d7229",
+      "destination_url": "https://www.notion.so/3b4097df811581f88afde8d1d94d7229",
+      "caption": "Exact user-approved Diliberti figure: supination (top) brings the PIN crossing proximally; pronation (bottom) moves it distally. The 2.2 and 3.8 cm values are study minima from the radiocapitellar joint, not universal safe zones.",
+      "notion_hosted_verified": true
     },
     {
       "original_filename": "codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b.png",
@@ -29,13 +34,17 @@
       "sha256": "bd52123bf9d81256b6590914ef9ff3327f7007f09f66df6b4515248d2da9629e",
       "asset_id": "fig-01-codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b",
       "conduit_path": "queues/2026-09-30-oite-session/assets/codex-clipboard-3a03e9e9-a758-478b-96ce-330fd632d11b.png",
-      "state": "STAGED",
+      "state": "COMPLETE",
       "topic": "Pediatric supracondylar humerus fractures: displacement and nerve injury",
       "destination_intent": "2026 pediatric orthopaedics teaching page, supracondylar humerus section",
       "teaching_point_placement": "Beside distal-fragment displacement versus proximal spike anatomy explanation",
       "caption_intent": "User-uploaded exact anatomy overlay: flexion-type fractures left pair and extension-type right pair, showing ulnar nerve versus anterior median/AIN and brachial artery relationships. JPOSNA Figure 2, The Open Approach to a Supracondylar Humerus Fracture.",
       "clearance": "USER-CLEARED",
-      "github_blob_sha": "57798ff5f8ad41d1a9f76e56121f96db58075ea9"
+      "github_blob_sha": "57798ff5f8ad41d1a9f76e56121f96db58075ea9",
+      "destination_page_id": "3b4097df81158193b5e5f12fb4d5222a",
+      "destination_url": "https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a",
+      "caption": "Exact user-uploaded anatomy overlay: flexion-type fractures (left pair) and extension-type fractures (right pair), showing ulnar nerve versus anterior median/AIN and brachial artery relationships. JPOSNA Figure 2, The Open Approach to a Supracondylar Humerus Fracture.",
+      "notion_hosted_verified": true
     }
   ]
 }
