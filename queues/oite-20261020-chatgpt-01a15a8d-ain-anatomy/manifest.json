@@ -5,7 +5,7 @@
   "origin": "chatgpt-01a15a8d",
   "sid": null,
   "state": "READY",
-  "expected_count": 3,
+  "expected_count": 6,
   "items": [
     {
       "original_filename": "codex-clipboard-bef4d77c-f791-4b12-ba64-a5febdf623de.png",
@@ -51,6 +51,51 @@
       "caption_intent": "AIN origin beneath pronator teres and course between its humeral and ulnar heads.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "b75c5dc778346c6c72577806880e4750b122cd84"
+    },
+    {
+      "original_filename": "codex-clipboard-3f27db49-9d76-4002-9577-dac560e8bd3b.png",
+      "mime_type": "image/png",
+      "byte_count": 2091754,
+      "sha256": "5902d9ab12aa798b0c103f730b8121b9773ccb5c32af564bff66777475c8630d",
+      "asset_id": "ain-anatomy-04",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-3f27db49-9d76-4002-9577-dac560e8bd3b.png",
+      "state": "STAGED",
+      "topic": "AIN motor branching, anatomical variations, and nerve-transfer anatomy",
+      "destination_intent": "Hand OITE \u2014 2026; AIN anatomy canonical section",
+      "teaching_point_placement": "Following AIN origin and pronator-teres relations; motor targets and branching variants",
+      "caption_intent": "Figure 5: AIN duplication and motor branches to FPL, FDP, and pronator quadratus.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "9ec3867f6e5e4f08dc36dd8e32fcb90ecd7f3e25"
+    },
+    {
+      "original_filename": "codex-clipboard-ba556c4e-be6a-4734-a4b6-e5f708ba95b0.png",
+      "mime_type": "image/png",
+      "byte_count": 1800998,
+      "sha256": "1faebebce9e3adf7057ff9842792fb315855928599a84a3224cf96e85581cade",
+      "asset_id": "ain-anatomy-05",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-ba556c4e-be6a-4734-a4b6-e5f708ba95b0.png",
+      "state": "STAGED",
+      "topic": "AIN motor branching, anatomical variations, and nerve-transfer anatomy",
+      "destination_intent": "Hand OITE \u2014 2026; AIN anatomy canonical section",
+      "teaching_point_placement": "Following AIN origin and pronator-teres relations; motor targets and branching variants",
+      "caption_intent": "Figure 6: Median motor branches and AIN anatomy; potential donor branches for nerve transfer.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "cc8bdad9842a0bfc87f08cda5e0eca72b13bd2e8"
+    },
+    {
+      "original_filename": "codex-clipboard-5ac75273-e5f5-48ec-be3b-1fd9217c8b36.png",
+      "mime_type": "image/png",
+      "byte_count": 1948588,
+      "sha256": "164b4e947e8b8f263eb4e69e94210f8c1a18b898d8f04e181ae20181b05e61aa",
+      "asset_id": "ain-anatomy-06",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-5ac75273-e5f5-48ec-be3b-1fd9217c8b36.png",
+      "state": "STAGED",
+      "topic": "AIN motor branching, anatomical variations, and nerve-transfer anatomy",
+      "destination_intent": "Hand OITE \u2014 2026; AIN anatomy canonical section",
+      "teaching_point_placement": "Following AIN origin and pronator-teres relations; motor targets and branching variants",
+      "caption_intent": "Figure 8: AIN origin relative to FDS branch and variant additional FDS innervation from AIN.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "e8d5e7ce00647be76e8e76c89c59e50c48c42a14"
     }
   ]
 }
