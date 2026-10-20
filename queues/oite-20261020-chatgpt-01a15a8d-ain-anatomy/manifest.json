@@ -1,0 +1,56 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "oite-20261020-chatgpt-01a15a8d-ain-anatomy",
+  "encounter_date": "2026-10-20",
+  "origin": "chatgpt-01a15a8d",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 3,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-bef4d77c-f791-4b12-ba64-a5febdf623de.png",
+      "mime_type": "image/png",
+      "byte_count": 2179649,
+      "sha256": "551bf894159078d071d53dc98795d6246605dda3cdda5ea5624f05adaf501819",
+      "asset_id": "ain-anatomy-01",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-bef4d77c-f791-4b12-ba64-a5febdf623de.png",
+      "state": "STAGED",
+      "topic": "AIN versus PIN anatomy and elbow arthroscopy portal risk",
+      "destination_intent": "Hand OITE \u2014 2026; cross-reference Shoulder & Elbow OITE \u2014 2026",
+      "teaching_point_placement": "AIN course and pronator-teres relations, alongside PIN versus AIN anterolateral portal discriminator",
+      "caption_intent": "AIN origin from posterior or posteromedial median nerve fascicles; pronator teres and FDS arch relations.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "29ea57ba88106ad4b5c310186b17cca966554fdd"
+    },
+    {
+      "original_filename": "codex-clipboard-872aa58a-490d-413d-a719-17f10a4cbdc7.png",
+      "mime_type": "image/png",
+      "byte_count": 2233537,
+      "sha256": "3fcd23bae57caf614a971e54ba4d87344d813109704832e39b4022a3ac104357",
+      "asset_id": "ain-anatomy-02",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-872aa58a-490d-413d-a719-17f10a4cbdc7.png",
+      "state": "STAGED",
+      "topic": "AIN versus PIN anatomy and elbow arthroscopy portal risk",
+      "destination_intent": "Hand OITE \u2014 2026; cross-reference Shoulder & Elbow OITE \u2014 2026",
+      "teaching_point_placement": "AIN course and pronator-teres relations, alongside PIN versus AIN anterolateral portal discriminator",
+      "caption_intent": "AIN branching proximal or distal to pronator teres: anatomic variation.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "ab4d1315f1c6458beab4a806c49b9a50bd4f8ab0"
+    },
+    {
+      "original_filename": "codex-clipboard-a6f18bd6-fcf0-47c6-af12-20f0c482d60b.png",
+      "mime_type": "image/png",
+      "byte_count": 2115575,
+      "sha256": "6f3b4d1d03756d6ca1c44ef6044e0e25c837144e8cec8d7b9207471d37ee00ec",
+      "asset_id": "ain-anatomy-03",
+      "conduit_path": "queues/oite-20261020-chatgpt-01a15a8d-ain-anatomy/assets/codex-clipboard-a6f18bd6-fcf0-47c6-af12-20f0c482d60b.png",
+      "state": "STAGED",
+      "topic": "AIN versus PIN anatomy and elbow arthroscopy portal risk",
+      "destination_intent": "Hand OITE \u2014 2026; cross-reference Shoulder & Elbow OITE \u2014 2026",
+      "teaching_point_placement": "AIN course and pronator-teres relations, alongside PIN versus AIN anterolateral portal discriminator",
+      "caption_intent": "AIN origin beneath pronator teres and course between its humeral and ulnar heads.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "b75c5dc778346c6c72577806880e4750b122cd84"
+    }
+  ]
+}
