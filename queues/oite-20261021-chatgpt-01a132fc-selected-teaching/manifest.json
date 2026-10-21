@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "oite-20261021-chatgpt-01a132fc-selected-teaching",
+  "encounter_date": "2026-10-18",
+  "origin": "chatgpt-01a132fc",
+  "sid": "2026-10-18|chatgpt-01a132fc|Oct12-18-mixed",
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-bae6ea43-3e5f-4a45-8524-22f2ac631e95.png",
+      "mime_type": "image/png",
+      "byte_count": 765906,
+      "sha256": "43b696ce1d91f2eef010efa7b3202762e89f151cb9dfa509f1a9491cd5ddb063",
+      "asset_id": "fig-04-adjacent-morton-neuromas-toe-perfusion",
+      "conduit_path": "queues/oite-20261021-chatgpt-01a132fc-selected-teaching/assets/codex-clipboard-bae6ea43-3e5f-4a45-8524-22f2ac631e95.png",
+      "state": "STAGED",
+      "topic": "Adjacent Morton neuromas \u2014 protect shared toe perfusion",
+      "destination_intent": "Foot & Ankle OITE \u2014 2026 (3b4097df-8115-8106-86a1-d36c25aba788)",
+      "teaching_point_placement": "after Adjacent Morton neuromas section",
+      "caption_intent": "User-selected teaching diagram \u2014 second- and third-web digital neurovascular bundles; excise enlarged second-web neuroma and decompress third web to preserve toe 3 perfusion.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "d5d84a62ec473fec0b1c60fb34783bd6bf4ba8b4"
+    }
+  ]
+}
