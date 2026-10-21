@@ -1,0 +1,25 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "oite-20261021-chatgpt-01a132fc-selected-teaching",
+  "sid": "2026-10-18|chatgpt-01a132fc|Oct12-18-mixed",
+  "state": "COMPLETE",
+  "expected_count": 1,
+  "verified_count": 1,
+  "verified_at": "2026-10-21T15:37:57.276567+00:00",
+  "cleanup_commit": "this receipt commit",
+  "staging_commit": "2e68fa8301b3b5f926498e5fa0f9016951b61168",
+  "items": [
+    {
+      "asset_id": "fig-04-adjacent-morton-neuromas-toe-perfusion",
+      "original_filename": "codex-clipboard-bae6ea43-3e5f-4a45-8524-22f2ac631e95.png",
+      "byte_count": 765906,
+      "sha256": "43b696ce1d91f2eef010efa7b3202762e89f151cb9dfa509f1a9491cd5ddb063",
+      "destination_id": "3b4097df-8115-8106-86a1-d36c25aba788",
+      "destination_url": "https://app.notion.com/p/3b4097df8115810686a1d36c25aba788",
+      "placement": "Adjacent Morton neuromas — protect shared toe perfusion",
+      "caption": "User-selected teaching diagram: second- and third-web nerves and arteries supplying toe 3; preserve the third-web neurovascular bundle during decompression.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    }
+  ]
+}
