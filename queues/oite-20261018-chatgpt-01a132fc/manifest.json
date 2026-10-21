@@ -1,0 +1,56 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "oite-20261018-chatgpt-01a132fc",
+  "encounter_date": "2026-10-18",
+  "origin": "chatgpt-01a132fc",
+  "sid": "2026-10-18|chatgpt-01a132fc|Oct12-18-mixed",
+  "state": "READY",
+  "expected_count": 3,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-a7a2e178-55b8-4303-9d09-be116f89d8de.png",
+      "mime_type": "image/png",
+      "byte_count": 431221,
+      "sha256": "a09a3eaa45f1f47dce502de4930972b73c66f43ad8fbf78cba02870631fa41cb",
+      "asset_id": "fig-01-ups-thigh",
+      "conduit_path": "queues/oite-20261018-chatgpt-01a132fc/assets/codex-clipboard-a7a2e178-55b8-4303-9d09-be116f89d8de.png",
+      "state": "STAGED",
+      "topic": "Localized high-grade UPS \u2014 RT and limb-sparing wide excision",
+      "destination_intent": "Tumor OITE \u2014 2026 (3b4097df-8115-81aa-9357-d1e517c3108a)",
+      "teaching_point_placement": "after Localized high-grade UPS section",
+      "caption_intent": "Original question screenshot \u2014 thigh radiograph, axial and coronal MRI, and histology of a large localized UPS; limb-sparing wide excision plus radiation is preferred over hip disarticulation.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "9bb2847a3e63782827150b863f23f212cf14d8cd"
+    },
+    {
+      "original_filename": "codex-clipboard-ab8319aa-2d07-43db-87e1-c5480669dbc1.png",
+      "mime_type": "image/png",
+      "byte_count": 720678,
+      "sha256": "96c136761e56199f0bbdc31b97f6259476a5c72c64c8ddb77738c2a7f1fef0b9",
+      "asset_id": "fig-02-spinal-osteoid-osteoma",
+      "conduit_path": "queues/oite-20261018-chatgpt-01a132fc/assets/codex-clipboard-ab8319aa-2d07-43db-87e1-c5480669dbc1.png",
+      "state": "STAGED",
+      "topic": "Spinal osteoid osteoma \u2014 excision near neural structures or skin",
+      "destination_intent": "Spine OITE \u2014 2026 (3b4097df-8115-8108-8fcb-cd7c7e15b379)",
+      "teaching_point_placement": "after Spinal osteoid osteoma section",
+      "caption_intent": "Original question screenshot \u2014 lumbar radiographs, SPECT-CT, and axial CT identifying a superficial posterior-element osteoid osteoma; proximity to skin favors limited complete excision.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "2d614c67203f497333a7fd44b16b88d445795d91"
+    },
+    {
+      "original_filename": "codex-clipboard-f0dcd381-3c41-4d3c-b6a8-7c05bec56aac.png",
+      "mime_type": "image/png",
+      "byte_count": 442394,
+      "sha256": "7d16debaad80ed2129109e0582093269aec2bfe7450d31982d46afda9169d013",
+      "asset_id": "fig-03-unplanned-sarcoma-excision",
+      "conduit_path": "queues/oite-20261018-chatgpt-01a132fc/assets/codex-clipboard-f0dcd381-3c41-4d3c-b6a8-7c05bec56aac.png",
+      "state": "STAGED",
+      "topic": "Unplanned sarcoma excision \u2014 salvage morbidity",
+      "destination_intent": "Tumor OITE \u2014 2026 (3b4097df-8115-81aa-9357-d1e517c3108a)",
+      "teaching_point_placement": "after Unplanned sarcoma excision section",
+      "caption_intent": "Original question screenshot \u2014 shoulder UPS after unplanned excision, re-excision specimen, and MRI; salvage requires wider tissue removal and may require flap coverage.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "be58d7361ae618199ba75a8bc04deb5f7f9eef11"
+    }
+  ]
+}
