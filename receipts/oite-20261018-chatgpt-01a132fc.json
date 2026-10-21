@@ -1,0 +1,49 @@
+{
+  "schema": "durable-figure-terminal-receipt-v1",
+  "queue_id": "oite-20261018-chatgpt-01a132fc",
+  "sid": "2026-10-18|chatgpt-01a132fc|Oct12-18-mixed",
+  "state": "COMPLETE",
+  "expected_count": 3,
+  "verified_count": 3,
+  "verified_at": "2026-10-21T15:15:01.517528+00:00",
+  "cleanup_commit": "this receipt commit",
+  "staging_commit": "72449b585afadf2b326fec96c4d9362ca8e6ef1b",
+  "items": [
+    {
+      "asset_id": "fig-01-ups-thigh",
+      "original_filename": "codex-clipboard-a7a2e178-55b8-4303-9d09-be116f89d8de.png",
+      "byte_count": 431221,
+      "sha256": "a09a3eaa45f1f47dce502de4930972b73c66f43ad8fbf78cba02870631fa41cb",
+      "destination_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "destination_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "placement": "Localized high-grade UPS — RT and limb-sparing wide excision",
+      "caption": "Original OITE screenshot: thigh radiograph, axial and coronal MRI, and histology of localized high-grade UPS.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    },
+    {
+      "asset_id": "fig-02-spinal-osteoid-osteoma",
+      "original_filename": "codex-clipboard-ab8319aa-2d07-43db-87e1-c5480669dbc1.png",
+      "byte_count": 720678,
+      "sha256": "96c136761e56199f0bbdc31b97f6259476a5c72c64c8ddb77738c2a7f1fef0b9",
+      "destination_id": "3b4097df-8115-8108-8fcb-cd7c7e15b379",
+      "destination_url": "https://app.notion.com/p/3b4097df811581088fcbcd7c7e15b379",
+      "placement": "Spinal osteoid osteoma — excision near neural structures or skin",
+      "caption": "Original OITE screenshot: lumbar radiographs, SPECT-CT localization, and axial CT of posterior-element osteoid osteoma.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    },
+    {
+      "asset_id": "fig-03-unplanned-sarcoma-excision",
+      "original_filename": "codex-clipboard-f0dcd381-3c41-4d3c-b6a8-7c05bec56aac.png",
+      "byte_count": 442394,
+      "sha256": "7d16debaad80ed2129109e0582093269aec2bfe7450d31982d46afda9169d013",
+      "destination_id": "3b4097df-8115-81aa-9357-d1e517c3108a",
+      "destination_url": "https://app.notion.com/p/3b4097df811581aa9357d1e517c3108a",
+      "placement": "Unplanned sarcoma excision — salvage morbidity",
+      "caption": "Original OITE screenshot: shoulder sarcoma after unplanned excision, planned re-excision, specimen, and staging MRI.",
+      "notion_hosted_file_confirmed": true,
+      "verified": true
+    }
+  ]
+}
