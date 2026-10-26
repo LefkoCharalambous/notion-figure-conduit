@@ -1,0 +1,151 @@
+{
+  "schema": "durable-figure-terminal-receipt-v2",
+  "queue_id": "2026-10-22-oite-prep-01a161b9",
+  "sid": "2026-10-22|chatgpt-01a161b9|Q1-50",
+  "encounter_date": "2026-10-22",
+  "state": "PARTIAL",
+  "expected_count": 17,
+  "complete_count": 3,
+  "secured_items_state": "COMPLETE",
+  "unavailable_count": 14,
+  "items": [
+    {
+      "asset_id": "veo-01",
+      "filename": "codex-clipboard-5b105a3d-206d-431a-8d65-cbd1c3e2c38d.png",
+      "verified": true,
+      "caption": "Figure veo-01 — Exact uploaded VEO force schematic: medial tension, lateral compression and posterior shear with olecranon osteophyte formation, including the original caption.",
+      "sha256": "b3eef31c723e37e78274d4f5a2279fd71057ba842353fdf8b64114bc915ff4f7",
+      "byte_count": 347730,
+      "file_upload_id": "405097df-8115-813c-ace2-00b23190e42c",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://www.notion.so/3b4097df811581dd81b9d62beefdd1f7",
+      "section": "Elbow Instability Patterns — VEO vs PMRI vs PLRI"
+    },
+    {
+      "asset_id": "veo-02",
+      "filename": "codex-clipboard-8a8f62fd-a189-4d4f-9ed8-e30248a40a8f.png",
+      "verified": true,
+      "caption": "Figure veo-02 — Exact uploaded posterior-view CT reconstruction of the left elbow: arrows show olecranon osteophytes; medial is image right, lateral image left.",
+      "sha256": "978e6d1771e2d998522ace89b30da02a8623cc125fef5ddffed9413f3878eda3",
+      "byte_count": 1380065,
+      "file_upload_id": "405097df-8115-815b-8f32-00b2c821bb13",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://www.notion.so/3b4097df811581dd81b9d62beefdd1f7",
+      "section": "Elbow Instability Patterns — VEO vs PMRI vs PLRI"
+    },
+    {
+      "asset_id": "veo-03",
+      "filename": "codex-clipboard-02ce60dd-e940-44eb-baf9-c598e19d9528.png",
+      "verified": true,
+      "caption": "Figure veo-03 — Exact uploaded original source caption for the posterior elbow CT, paired with the preceding reconstruction.",
+      "sha256": "0c4a259cb7bf5df0d3f7b03f1116cfcbbac11caf8911e0628d27425792ddb19d",
+      "byte_count": 64666,
+      "file_upload_id": "405097df-8115-8150-8ac9-00b24ce93ad1",
+      "destination_id": "3b4097df811581dd81b9d62beefdd1f7",
+      "destination_url": "https://www.notion.so/3b4097df811581dd81b9d62beefdd1f7",
+      "section": "Elbow Instability Patterns — VEO vs PMRI vs PLRI"
+    }
+  ],
+  "unavailable": [
+    {
+      "filename": "codex-clipboard-c685d1e9-4a59-467f-81c2-b71588eb7ad6.png",
+      "q": 3,
+      "topic": "Postage-stamp glenoid fracture after anchor repair",
+      "destination_intent": "https://www.notion.so/3b4097df81158143b306c78f7ae052d8 :: Glenoid track and anterior instability procedures",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-e017459d-0648-49f7-8ee6-cc24b7cc4e4a.png",
+      "q": 6,
+      "topic": "Musculoskeletal tumor biopsy — method and planned tract",
+      "destination_intent": "https://www.notion.so/3b4097df811581aa9357d1e517c3108a :: Proximal Humerus Tumor — Biopsy Tract Planning",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-2160eefc-8513-4d06-8ca4-75e8cb184553.png",
+      "q": 7,
+      "topic": "Undifferentiated pleomorphic sarcoma — diagnosis",
+      "destination_intent": "https://www.notion.so/3b4097df811581aa9357d1e517c3108a :: Localized high-grade UPS — RT and limb-sparing wide excision",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-56ad0df0-091d-489d-a0fa-2a7f848e237d.png",
+      "q": 8,
+      "topic": "Crouch gait after Achilles overlengthening in cerebral palsy",
+      "destination_intent": "https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a :: Crouch gait after Achilles overlengthening in cerebral palsy",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-85f77bf0-8a7d-431d-91a6-4114773ff837.png",
+      "q": 9,
+      "topic": "Posterior malleolus fixation and syndesmotic reduction",
+      "destination_intent": "https://www.notion.so/3b4097df8115810686a1d36c25aba788 :: Posterior malleolus fixation and syndesmotic reduction",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-d41d4898-fa20-442f-8898-9e67345908ac.png",
+      "q": 12,
+      "topic": "Iliac teardrop view — S2AI corridor and greater sciatic notch",
+      "destination_intent": "https://www.notion.so/3b4097df811581088fcbcd7c7e15b379 :: Iliac teardrop view — S2AI corridor and greater sciatic notch",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-24f884f7-ba8b-467f-a3d5-3acf46ddb54d.png",
+      "q": 17,
+      "topic": "Posterior shoulder instability — Jerk and Kim tests",
+      "destination_intent": "https://www.notion.so/3b4097df811581dd81b9d62beefdd1f7 :: Posterior shoulder instability — Jerk and Kim tests",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-473a08b8-eaae-4251-8596-f49997f85e2c.png",
+      "q": 31,
+      "topic": "NF1 dystrophic scoliosis — rib-head migration and dural ectasia",
+      "destination_intent": "https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a :: NF1 Dystrophic Scoliosis",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-12090a1d-d5b7-42f9-85f3-b257584ff334.png",
+      "q": 38,
+      "topic": "Peroneal tendon tears — repair, tenodesis, graft or transfer",
+      "destination_intent": "https://www.notion.so/3b4097df8115810686a1d36c25aba788 :: Peroneal tendon tears — repair, tenodesis, graft or transfer",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-fcddc26e-5ded-49ee-ae2d-420582b825c7.png",
+      "q": 39,
+      "topic": "Radial longitudinal deficiency — sporadic cases and syndromic screen",
+      "destination_intent": "https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a :: Radial Longitudinal Deficiency & Thumb Hypoplasia",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-34dd7308-b9ad-4fbc-8c84-5c2703cea5ff.png",
+      "q": 41,
+      "topic": "Milroy disease — congenital primary lymphedema",
+      "destination_intent": "https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a :: Milroy disease — congenital primary lymphedema",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-636a6d4f-cb1c-4506-9829-df54a6ec8b24.png",
+      "q": 43,
+      "topic": "Proximal row carpectomy — RSC ligament and ulnar translation",
+      "destination_intent": "https://www.notion.so/3b4097df811581f88afde8d1d94d7229 :: PRC versus four-corner fusion",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-2b51ce83-a323-4ba5-a61e-ded08e95df92.png",
+      "q": 44,
+      "topic": "Giant cell tumor — epiphyseal recognition and cryotherapy fracture",
+      "destination_intent": "https://www.notion.so/3b4097df811581aa9357d1e517c3108a :: Epiphyseal Lesions by Age — Chondroblastoma vs GCT vs Clear Cell Chondrosarcoma",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    },
+    {
+      "filename": "codex-clipboard-52b4b112-2855-4efd-9e5e-aa86fd68607a.png",
+      "q": 47,
+      "topic": "Ehlers–Danlos syndrome and collagen type associations",
+      "destination_intent": "https://www.notion.so/3b4097df811581cc831cd696fb249ce0 :: Ehlers–Danlos syndrome and collagen type associations",
+      "state": "DURABLE RETENTION NOT SECURED — EXACT BYTES UNAVAILABLE"
+    }
+  ],
+  "cleanup_commit": "SELF — the Git commit containing this receipt and removal of the queue assets/manifest; resolved hash also recorded in the Notion SID receipt",
+  "verified_at": "2026-10-26T03:52:06.640097+00:00"
+}
