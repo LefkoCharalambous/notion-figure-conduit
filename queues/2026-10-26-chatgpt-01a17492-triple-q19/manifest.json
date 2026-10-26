@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-10-26-chatgpt-01a17492-triple-q19",
+  "encounter_date": "2026-10-26",
+  "origin": "chatgpt-01a17492",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-4ce24c69-9dec-4484-9283-be47b951c4e2.png",
+      "mime_type": "image/png",
+      "byte_count": 276456,
+      "sha256": "46b8e6298e9e178f1d8b6cb4a7c40f9f634315d20e1be4ca9492c640d4e82147",
+      "asset_id": "fig-01-codex-clipboard-4ce24c69-9dec-4484-9283-be47b951c4e2",
+      "conduit_path": "queues/2026-10-26-chatgpt-01a17492-triple-q19/assets/codex-clipboard-4ce24c69-9dec-4484-9283-be47b951c4e2.png",
+      "state": "STAGED",
+      "topic": "Rigid adult acquired flatfoot and triple arthrodesis",
+      "destination_intent": "2026 Foot and Ankle OITE teaching page, canonical progressive collapsing foot deformity section upon explicit logging",
+      "teaching_point_placement": "After flexible versus rigid deformity treatment discriminator",
+      "caption_intent": "Exact uploaded Q19: limited subtalar motion with preserved ankle motion supports a hindfoot fusion; supplied radiographs and discussion document severe peritalar subluxation and subfibular impingement. Triple includes subtalar, talonavicular, and calcaneocuboid joints.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "5cfe384b3aacd572b70d9b672c9f8fe9698ab780"
+    }
+  ]
+}
