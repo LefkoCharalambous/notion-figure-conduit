@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-10-26-chatgpt-01a17492-disi-visi-q14",
+  "encounter_date": "2026-10-26",
+  "origin": "chatgpt-01a17492",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-027eb558-d1ee-4805-aa4c-8cbea402e3dd.png",
+      "mime_type": "image/png",
+      "byte_count": 315380,
+      "sha256": "edbc88e55373ce8ee4f0213f3b70addb609990920df609cefc7a20778fd049e2",
+      "asset_id": "fig-01-codex-clipboard-027eb558-d1ee-4805-aa4c-8cbea402e3dd",
+      "conduit_path": "queues/2026-10-26-chatgpt-01a17492-disi-visi-q14/assets/codex-clipboard-027eb558-d1ee-4805-aa4c-8cbea402e3dd.png",
+      "state": "STAGED",
+      "topic": "DISI and VISI carpal instability",
+      "destination_intent": "2026 Hand and Wrist OITE teaching page, canonical carpal instability section at future explicit logging",
+      "teaching_point_placement": "Immediately after the mechanism comparing scapholunate and lunotriquetral disruption",
+      "caption_intent": "Exact uploaded Q14 comparison: upper diagram shows lunate extension in DISI; lower diagram shows lunate flexion in VISI. The instability name describes the lunate, not the scaphoid.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "41e634a41d66069114f92a39673835d517ecbef8"
+    }
+  ]
+}
