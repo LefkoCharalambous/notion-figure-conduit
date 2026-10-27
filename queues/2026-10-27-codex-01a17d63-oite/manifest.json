@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 5,
+  "expected_count": 6,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -81,6 +81,21 @@
       "caption_intent": "Exact supplied clinical question screenshot: high-energy open tibial fracture identified as Gustilo type III by the question; keyed ceftriaxone monotherapy versus cefazolin alone. Teach gram-positive coverage for I-II and added gram-negative coverage for III in this exam framework; actual regimens follow institutional protocols and contemporary guidance differs.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "d70c6e0b06cb7b6e7c9ef5da5c472f4a91facd5c"
+    },
+    {
+      "original_filename": "codex-clipboard-06985dc7-9b8a-40b3-b0b2-df121692a935.png",
+      "mime_type": "image/png",
+      "byte_count": 267745,
+      "sha256": "46729c6c8a5eea43d140cb053811c081d33446b65f4496812b15322a438db4ce",
+      "asset_id": "fig-01-codex-clipboard-06985dc7-9b8a-40b3-b0b2-df121692a935",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-06985dc7-9b8a-40b3-b0b2-df121692a935.png",
+      "state": "STAGED",
+      "topic": "Congenital radial head dislocation: painless stiffness versus painful symptoms",
+      "destination_intent": "2026 Pediatrics OITE canonical congenital radial head dislocation section; resolve by Topic Index at logging",
+      "teaching_point_placement": "Beside radiographic congenital deformity recognition and observation versus radial head excision discriminator",
+      "caption_intent": "Exact supplied question screenshot with elbow radiographs: 15-year-old with painless forearm rotation stiffness; explanation identifies congenital radial head dislocation. Observation is keyed; excision mainly relieves persistent pain and offers modest or unreliable rotation improvement, with potential wrist sequelae. Functional limitation severity is not specified in the stem.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "b7f6b92f64e77718058756ae1062ed6a716ee7a3"
     }
   ]
 }
