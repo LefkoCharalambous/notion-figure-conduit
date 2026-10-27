@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 4,
+  "expected_count": 5,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -66,6 +66,21 @@
       "caption_intent": "Exact question screenshot with olecranon radiograph: low-energy olecranon avulsion suggests OI; classic COL1A1/COL1A2 collagen quantity or quality defect. Do not preserve the screenshot explanation as authority for proven viral causation of Paget disease.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "228845d97766a3c1c6e10e8339b12b4d78d8860a"
+    },
+    {
+      "original_filename": "codex-clipboard-719b12a7-16eb-4639-b4d1-cbaf2f5e1f12.png",
+      "mime_type": "image/png",
+      "byte_count": 289242,
+      "sha256": "8bc65e5cfe7bbb9f3590cfa9cfc73034637243cac2a97a4559fe1aa6fc1071d3",
+      "asset_id": "fig-01-codex-clipboard-719b12a7-16eb-4639-b4d1-cbaf2f5e1f12",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-719b12a7-16eb-4639-b4d1-cbaf2f5e1f12.png",
+      "state": "STAGED",
+      "topic": "Gustilo type III open fracture antibiotic prophylaxis",
+      "destination_intent": "2026 Trauma OITE canonical open-fracture antibiotic section; resolve by Topic Index at logging",
+      "teaching_point_placement": "Beside clinical photo identifying severe soft-tissue injury and type I-II versus III antibiotic discriminator",
+      "caption_intent": "Exact supplied clinical question screenshot: high-energy open tibial fracture identified as Gustilo type III by the question; keyed ceftriaxone monotherapy versus cefazolin alone. Teach gram-positive coverage for I-II and added gram-negative coverage for III in this exam framework; actual regimens follow institutional protocols and contemporary guidance differs.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "d70c6e0b06cb7b6e7c9ef5da5c472f4a91facd5c"
     }
   ]
 }
