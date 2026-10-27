@@ -1,0 +1,71 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-10-27-codex-01a17d63-oite",
+  "encounter_date": "2026-10-27",
+  "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 4,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
+      "mime_type": "image/png",
+      "byte_count": 364804,
+      "sha256": "61013952660de785550df98fc1be577e1ccb56cbd23a4ad3c143d66a53dad5b4",
+      "asset_id": "fig-01-codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
+      "state": "STAGED",
+      "topic": "Physeal-sparing pediatric ACL reconstruction with iliotibial band",
+      "destination_intent": "2026 Sports OITE canonical pediatric ACL section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside graft-route description and anterior intermeniscal ligament discriminator",
+      "caption_intent": "Exact user-supplied technique diagram: distally attached ITB at Gerdy tubercle, over-the-top passage around lateral femoral condyle, intra-articular course beneath anterior intermeniscal ligament, and periosteal fixation.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6cfdfba25141307b619c1f91860de02231cf9161"
+    },
+    {
+      "original_filename": "codex-clipboard-80900c29-1de1-4750-8e6f-b4be493819a5.png",
+      "mime_type": "image/png",
+      "byte_count": 249470,
+      "sha256": "43f28a279c534ae582fcd7bfab3fb2a65d25499fdbc81ff36a6772997b42ddca",
+      "asset_id": "fig-02-codex-clipboard-80900c29-1de1-4750-8e6f-b4be493819a5",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-80900c29-1de1-4750-8e6f-b4be493819a5.png",
+      "state": "STAGED",
+      "topic": "Low-risk fourth metatarsal shaft stress reaction",
+      "destination_intent": "2026 Foot and Ankle OITE canonical stress injury section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside low-risk shaft versus high-risk stress injury weight-bearing distinction",
+      "caption_intent": "Exact question screenshot with supplied MRI: fourth metatarsal shaft stress reaction; boot and pain-guided protected weight bearing; do not infer fine MRI findings from the small inset.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "dd1d432a76b58e29694c1e86f2ee6f937a871751"
+    },
+    {
+      "original_filename": "codex-clipboard-e286fedd-7f2d-43ba-a40d-48382cf7b13d.png",
+      "mime_type": "image/png",
+      "byte_count": 277538,
+      "sha256": "8c7ffa3790d0f0837668e2fac746e0a89741fd49fd4b767231aec38a041c85c0",
+      "asset_id": "fig-03-codex-clipboard-e286fedd-7f2d-43ba-a40d-48382cf7b13d",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-e286fedd-7f2d-43ba-a40d-48382cf7b13d.png",
+      "state": "STAGED",
+      "topic": "Advanced Freiberg disease and second MTP interposition arthroplasty",
+      "destination_intent": "2026 Foot and Ankle OITE canonical Freiberg section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside preserved plantar cartilage osteotomy versus diffuse end-stage arthritis interposition discriminator",
+      "caption_intent": "Exact question screenshot with supplied second MTP radiograph: explanation identifies advanced Freiberg disease with diffuse cartilage loss; interposition arthroplasty versus dorsal closing-wedge osteotomy.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "c51e62d8b01d3c7f4ae51933ce0f4e828720f1b6"
+    },
+    {
+      "original_filename": "codex-clipboard-ef4f9271-761a-4132-9354-6c52886e464c.png",
+      "mime_type": "image/png",
+      "byte_count": 273807,
+      "sha256": "fce3bbb1adeacff8bb769c8b7f8a989b9a13ccbfddc0de3fecfffb2c7511c1da",
+      "asset_id": "fig-04-codex-clipboard-ef4f9271-761a-4132-9354-6c52886e464c",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-ef4f9271-761a-4132-9354-6c52886e464c.png",
+      "state": "STAGED",
+      "topic": "Osteogenesis imperfecta and low-energy olecranon avulsion",
+      "destination_intent": "2026 canonical OI teaching section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside low-energy olecranon avulsion association and type I collagen mechanism correction",
+      "caption_intent": "Exact question screenshot with olecranon radiograph: low-energy olecranon avulsion suggests OI; classic COL1A1/COL1A2 collagen quantity or quality defect. Do not preserve the screenshot explanation as authority for proven viral causation of Paget disease.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "228845d97766a3c1c6e10e8339b12b4d78d8860a"
+    }
+  ]
+}
