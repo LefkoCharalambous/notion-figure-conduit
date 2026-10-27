@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 6,
+  "expected_count": 7,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -96,6 +96,21 @@
       "caption_intent": "Exact supplied question screenshot with elbow radiographs: 15-year-old with painless forearm rotation stiffness; explanation identifies congenital radial head dislocation. Observation is keyed; excision mainly relieves persistent pain and offers modest or unreliable rotation improvement, with potential wrist sequelae. Functional limitation severity is not specified in the stem.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "b7f6b92f64e77718058756ae1062ed6a716ee7a3"
+    },
+    {
+      "original_filename": "codex-clipboard-ef2154bd-91ee-42fd-a625-5958f1030167.png",
+      "mime_type": "image/png",
+      "byte_count": 320243,
+      "sha256": "c214091f1ce1527d65a280738c576c674f6111b10e96ad0977cdb37e152d42c7",
+      "asset_id": "fig-01-codex-clipboard-ef2154bd-91ee-42fd-a625-5958f1030167",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-ef2154bd-91ee-42fd-a625-5958f1030167.png",
+      "state": "STAGED",
+      "topic": "Proximal fifth metatarsal stress fracture and refracture risk",
+      "destination_intent": "2026 Foot and Ankle OITE canonical proximal fifth metatarsal fracture section; resolve by Topic Index at logging",
+      "teaching_point_placement": "Beside initial and postoperative imaging and the hindfoot-varus lateral-column overload discriminator",
+      "caption_intent": "Exact supplied question screenshot with initial and postoperative foot radiographs: hindfoot varus is the classic keyed risk association for fifth-metatarsal refracture. Avoid treating this as a universally established greatest independent predictor. Consider screw adequacy, recovery/loading and bone health. Young male athletes can have vitamin D deficiency; radiographic union does not guarantee zero refracture risk.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "bd21cea52427784ada14b989b61c28998109deeb"
     }
   ]
 }
