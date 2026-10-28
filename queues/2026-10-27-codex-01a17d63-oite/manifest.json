@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 11,
+  "expected_count": 12,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -171,6 +171,21 @@
       "caption_intent": "Exact supplied question screenshot with AP and lateral TKA radiographs. The bank describes displaced patellar fracture fragments four months after injury, with 4/5 active extension and only a five-degree extensor lag in a low-demand patient. Observation is the keyed answer. Minimal functional deficit does not justify mesh reconstruction solely for displacement. Confirm patellar component fixation and extensor mechanism competence clinically; acute fractures may require extension immobilization. Fine component fixation details cannot be established from these small panels.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "d6c68ece3d78345e71a5af3a9c408a5115c5e929"
+    },
+    {
+      "original_filename": "codex-clipboard-f1969363-fb6f-439b-9755-aef8f54e735d.png",
+      "mime_type": "image/png",
+      "byte_count": 554414,
+      "sha256": "bc634c8d795cad01fa6c8aa60d16c612789ab4f42dac33229df991b928e06c43",
+      "asset_id": "fig-01-codex-clipboard-f1969363-fb6f-439b-9755-aef8f54e735d",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-f1969363-fb6f-439b-9755-aef8f54e735d.png",
+      "state": "STAGED",
+      "topic": "Lumbar plexus identification and lateral femoral cutaneous neuropathy after anterior THA",
+      "destination_intent": "2026 Joints OITE canonical anterior THA nerve injury section, with lumbar plexus anatomy cross-reference as appropriate; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside the A-E nerve identification table and the LFCN L2-L3 posterior-division, ASIS course and purely sensory deficit mechanism",
+      "caption_intent": "Exact supplied enlarged lumbar plexus diagram. A is ilioinguinal (L1); B genitofemoral (L1-L2); C lateral femoral cutaneous (L2-L3 posterior divisions); D femoral (L2-L4 posterior divisions); E obturator (L2-L4 anterior divisions). Green depicts posterior divisions of ventral rami, not dorsal primary rami. Anterior THA with isolated anterolateral thigh sensory loss implicates C; femoral neuropathy adds quadriceps weakness and may reduce the patellar reflex. The upper unlettered branch is iliohypogastric. Preserve the enlarged exact image rather than duplicate the same diagram in the question screenshot.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "f3084369a742fde31666d63db4443ea57f0c3de1"
     }
   ]
 }
