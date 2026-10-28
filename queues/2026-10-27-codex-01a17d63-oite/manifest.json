@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 9,
+  "expected_count": 10,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -141,6 +141,21 @@
       "caption_intent": "Exact supplied question screenshot with weight-bearing foot radiographs: chronic rocker-bottom deformity symptomatic despite bracing, normal hindfoot alignment and mild forefoot abduction. The intended correction is a plantar-based, often plantar-medial biplanar closing wedge at the midfoot deformity apex, usually combined with corrective arthrodesis. Question attributes neuropathy to prior chemotherapy; this is presumed rather than proven by the stated exam. Differentiate isolated prominence removal from correction of substantial nonplantigrade collapse.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "c6e36590092903610b02e44877ba39c5da061005"
+    },
+    {
+      "original_filename": "codex-clipboard-14be62af-08d7-496f-8d1e-c051a9d54c8b.png",
+      "mime_type": "image/png",
+      "byte_count": 280136,
+      "sha256": "a9b18e9048aff6143b02511b8b59ca455442a35332317866c9aae3bd7947647c",
+      "asset_id": "fig-01-codex-clipboard-14be62af-08d7-496f-8d1e-c051a9d54c8b",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-14be62af-08d7-496f-8d1e-c051a9d54c8b.png",
+      "state": "STAGED",
+      "topic": "Valgus knee TKA: posterior lateral femoral condylar hypoplasia and rotational referencing",
+      "destination_intent": "2026 Joints OITE canonical TKA femoral rotational alignment section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside intraoperative condylar hypoplasia recognition and posterior referencing/internal rotation/patellar maltracking mechanism",
+      "caption_intent": "Exact supplied question screenshot with intraoperative photo: valgus arthritic knee with posterior lateral femoral condylar hypoplasia. Posterior condylar referencing can underestimate needed external rotation and leave the femoral component internally rotated, predisposing to lateral patellar maltracking or instability. Cross-check transepicondylar axis, Whiteside AP line and gap balance; do not claim fine photo details independently visible.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6574ec8eed47e08c108b10d5b082d7393b46e9ff"
     }
   ]
 }
