@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 8,
+  "expected_count": 9,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -126,6 +126,21 @@
       "caption_intent": "Exact supplied question screenshot with femoral shaft fracture radiographs: single-leg spica follow-up adjustment keyed as cast wedging rather than cast replacement. Explain proximal abductor pull, level-dependent distal adductor pull, varus relative alignment and medial opening wedge. Preserve the caveat that comparative evidence does not uniformly establish more wedging with single-leg casts.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "c44eaa8ac2b4c256f737523ed7fd2ccaba54fa9a"
+    },
+    {
+      "original_filename": "codex-clipboard-a6c5b08b-13f2-419b-9a14-8bf105a4a576.png",
+      "mime_type": "image/png",
+      "byte_count": 299890,
+      "sha256": "1288835ca8ed5cd5390b9344b057be3860d766e12d751ba6cc896890a86d8840",
+      "asset_id": "fig-01-codex-clipboard-a6c5b08b-13f2-419b-9a14-8bf105a4a576",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-a6c5b08b-13f2-419b-9a14-8bf105a4a576.png",
+      "state": "STAGED",
+      "topic": "Chronic rocker-bottom Charcot midfoot: plantarflexion closing-wedge reconstruction",
+      "destination_intent": "2026 Foot and Ankle OITE canonical Charcot midfoot section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside weight-bearing radiographs and exostectomy versus corrective midfoot osteotomy discriminator",
+      "caption_intent": "Exact supplied question screenshot with weight-bearing foot radiographs: chronic rocker-bottom deformity symptomatic despite bracing, normal hindfoot alignment and mild forefoot abduction. The intended correction is a plantar-based, often plantar-medial biplanar closing wedge at the midfoot deformity apex, usually combined with corrective arthrodesis. Question attributes neuropathy to prior chemotherapy; this is presumed rather than proven by the stated exam. Differentiate isolated prominence removal from correction of substantial nonplantigrade collapse.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "c6e36590092903610b02e44877ba39c5da061005"
     }
   ]
 }
