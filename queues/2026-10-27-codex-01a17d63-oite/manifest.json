@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 14,
+  "expected_count": 16,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -216,6 +216,36 @@
       "caption_intent": "Exact supplied Fig. 2 screenshot with original caption. Anterolateral thigh dissection: TFL M is tensor fasciae latae, RF M rectus femoris, IP M iliopsoas. The white arrow marks the TFL musculocutaneous perforator at the lateral TFL border, arising from the ascending lateral circumflex femoral artery; it does not mark the LFCN. The labeled femoral neurovascular structures and reflected muscles orient the deeper exposure; the femoral nerve and branches are retracted medially. Rudert et al., BMC Musculoskeletal Disorders 17:57 (2016), https://doi.org/10.1186/s12891-016-0908-z; CC BY 4.0; supplied image unchanged.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "0a869d56e293c83349512447494907e7d17e3267"
+    },
+    {
+      "original_filename": "codex-clipboard-68421ff1-a8a7-4eec-94d1-9c63137fd9d8.png",
+      "mime_type": "image/png",
+      "byte_count": 381612,
+      "sha256": "261a43958ef3e27621ac5d807a3066d4c2e5121a9cf8e3e7862f59e51630aa16",
+      "asset_id": "fig-01-codex-clipboard-68421ff1-a8a7-4eec-94d1-9c63137fd9d8",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-68421ff1-a8a7-4eec-94d1-9c63137fd9d8.png",
+      "state": "STAGED",
+      "topic": "Proximal tibiofibular joint ganglion cyst: MRI distinction from synovial sarcoma",
+      "destination_intent": "2026 Tumor or Fundamentals OITE canonical cystic soft tissue mass imaging section; resolve by Topic Index during logging and cross-reference proximal tibiofibular joint/peroneal compression anatomy",
+      "teaching_point_placement": "Beside MRI fluid signal, absent internal solid enhancement, and proximal tibiofibular joint communication as discriminators from synovial sarcoma",
+      "caption_intent": "Exact supplied Q49 screenshot, identifier 22Fund-064, with four axial and sagittal MRI panels. Selected synovial sarcoma; keyed proximal tibiofibular ganglion cyst. The bank describes a lobulated fluid-bright lesion near the proximal tibiofibular joint in the anterior compartment, without internal enhancement. Thin wall or septal enhancement can occur in a ganglion; solid or nodular internal enhancement prompts concern for a neoplasm. Do not claim a fine stalk is independently visible in the small supplied panels. No trauma is only a contextual clue, not an exclusion of hematoma.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "186e4735909c60fd9cadd39dfd4e3e373c59fa07"
+    },
+    {
+      "original_filename": "codex-clipboard-2c8a38bc-67cd-44d3-b467-8b6270f990a9.png",
+      "mime_type": "image/png",
+      "byte_count": 1283797,
+      "sha256": "3f0a5fc32c3863b5920977afb0d91761a2115793247878f8ac9431fc30d398de",
+      "asset_id": "fig-02-codex-clipboard-2c8a38bc-67cd-44d3-b467-8b6270f990a9",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-2c8a38bc-67cd-44d3-b467-8b6270f990a9.png",
+      "state": "STAGED",
+      "topic": "Ankle arthroscopy portal and nerve anatomy overlay",
+      "destination_intent": "2026 Foot and Ankle OITE canonical ankle arthroscopy portals and neurovascular injury section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside Q48 portal-to-nerve-to-sensory-territory comparison, especially anterolateral portal and superficial peroneal nerve branches",
+      "caption_intent": "Exact supplied Figure 12 screenshot, explicitly identified by Lefko as a good figure for the preceding ankle arthroscopy question. Panel A overlays anterior portals, superficial peroneal nerve branches, anterior tibial neurovascular bundle, tendons, and great saphenous vein; panel B shows posterior portals, sural nerve, posterior tibial neurovascular bundle, and Achilles tendon. Main pearl: anterolateral portal risks superficial peroneal dorsal cutaneous branches and dorsal-foot sensation. Anterocentral portal places the deep peroneal nerve and anterior tibial/dorsalis pedis vessels at risk. The trans-Achilles portal is historical and should not be inferred to be routinely recommended. Figure presented in Jami Ilyas, Ankle Arthroscopy, IntechOpen (2013), https://www.intechopen.com/chapters/43187; supplied image unchanged.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "90e53707c3ed6f46d512cccaabaab3c6a79910c6"
     }
   ]
 }
