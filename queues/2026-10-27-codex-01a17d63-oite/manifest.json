@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 12,
+  "expected_count": 14,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -186,6 +186,36 @@
       "caption_intent": "Exact supplied enlarged lumbar plexus diagram. A is ilioinguinal (L1); B genitofemoral (L1-L2); C lateral femoral cutaneous (L2-L3 posterior divisions); D femoral (L2-L4 posterior divisions); E obturator (L2-L4 anterior divisions). Green depicts posterior divisions of ventral rami, not dorsal primary rami. Anterior THA with isolated anterolateral thigh sensory loss implicates C; femoral neuropathy adds quadriceps weakness and may reduce the patellar reflex. The upper unlettered branch is iliohypogastric. Preserve the enlarged exact image rather than duplicate the same diagram in the question screenshot.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "f3084369a742fde31666d63db4443ea57f0c3de1"
+    },
+    {
+      "original_filename": "codex-clipboard-6c480a36-38cd-47b8-8600-d4eaa00b2e70.png",
+      "mime_type": "image/png",
+      "byte_count": 1048558,
+      "sha256": "e1bfbed5415c25a6a106c774442f46f9d1ad6041d54a2db32bf4d926ba461bb9",
+      "asset_id": "fig-01-codex-clipboard-6c480a36-38cd-47b8-8600-d4eaa00b2e70",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-6c480a36-38cd-47b8-8600-d4eaa00b2e70.png",
+      "state": "STAGED",
+      "topic": "Direct anterior hip approach: TFL fascial incision protects the lateral femoral cutaneous nerve",
+      "destination_intent": "2026 Joints OITE canonical anterior THA approach anatomy and LFCN protection section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside the distinction between the lateral fascial entry over TFL and subsequent subfascial entry into the sartorius-TFL interval",
+      "caption_intent": "Exact supplied Fig. 1 screenshot with original caption. Axial section: black asterisk TFL, white asterisk sartorius, yellow oval lateral femoral cutaneous nerve. The dotted approach enters the superficial thigh fascia laterally over the TFL belly, then follows the subfascial plane to the Hueter interval, preserving the nerve in its fascial tunnel. Open fascia over TFL, work beneath the medial flap, then enter the muscle interval. Rudert et al., BMC Musculoskeletal Disorders 17:57 (2016), https://doi.org/10.1186/s12891-016-0908-z; CC BY 4.0; supplied image unchanged.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6d958d04c7109ecdc4ddb9f607191d2f40b1201e"
+    },
+    {
+      "original_filename": "codex-clipboard-94015a47-3aed-4675-989f-5bbde30b0d5b.png",
+      "mime_type": "image/png",
+      "byte_count": 1434009,
+      "sha256": "33c73a8d21fa432168405ea37a9b10b10ce580b2ee1170875a20b117efaa2592",
+      "asset_id": "fig-02-codex-clipboard-94015a47-3aed-4675-989f-5bbde30b0d5b",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-94015a47-3aed-4675-989f-5bbde30b0d5b.png",
+      "state": "STAGED",
+      "topic": "Direct anterior hip approach: TFL perforator and lateral circumflex femoral vascular anatomy",
+      "destination_intent": "2026 Joints OITE canonical anterior THA approach anatomy section, adjacent to the TFL fascial-entry figure; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside TFL recognition and the ascending lateral circumflex femoral artery/perforator landmarks, complementary to LFCN-protection axial section",
+      "caption_intent": "Exact supplied Fig. 2 screenshot with original caption. Anterolateral thigh dissection: TFL M is tensor fasciae latae, RF M rectus femoris, IP M iliopsoas. The white arrow marks the TFL musculocutaneous perforator at the lateral TFL border, arising from the ascending lateral circumflex femoral artery; it does not mark the LFCN. The labeled femoral neurovascular structures and reflected muscles orient the deeper exposure; the femoral nerve and branches are retracted medially. Rudert et al., BMC Musculoskeletal Disorders 17:57 (2016), https://doi.org/10.1186/s12891-016-0908-z; CC BY 4.0; supplied image unchanged.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "0a869d56e293c83349512447494907e7d17e3267"
     }
   ]
 }
