@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 16,
+  "expected_count": 17,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -246,6 +246,21 @@
       "caption_intent": "Exact supplied Figure 12 screenshot, explicitly identified by Lefko as a good figure for the preceding ankle arthroscopy question. Panel A overlays anterior portals, superficial peroneal nerve branches, anterior tibial neurovascular bundle, tendons, and great saphenous vein; panel B shows posterior portals, sural nerve, posterior tibial neurovascular bundle, and Achilles tendon. Main pearl: anterolateral portal risks superficial peroneal dorsal cutaneous branches and dorsal-foot sensation. Anterocentral portal places the deep peroneal nerve and anterior tibial/dorsalis pedis vessels at risk. The trans-Achilles portal is historical and should not be inferred to be routinely recommended. Figure presented in Jami Ilyas, Ankle Arthroscopy, IntechOpen (2013), https://www.intechopen.com/chapters/43187; supplied image unchanged.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "90e53707c3ed6f46d512cccaabaab3c6a79910c6"
+    },
+    {
+      "original_filename": "codex-clipboard-29cd8f5b-d973-4422-b1e3-06e147fd3ffc.png",
+      "mime_type": "image/png",
+      "byte_count": 335830,
+      "sha256": "fcbf4dc960db4ae30ef17f89e9029b9a682750d545d346f33afa1b7758b653dd",
+      "asset_id": "fig-01-codex-clipboard-29cd8f5b-d973-4422-b1e3-06e147fd3ffc",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-29cd8f5b-d973-4422-b1e3-06e147fd3ffc.png",
+      "state": "STAGED",
+      "topic": "Rickets versus Blount disease, with achondroplasia recognition features",
+      "destination_intent": "2026 Pediatrics OITE canonical pathologic genu varum and rickets section, cross-reference achondroplasia recognition; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside the focal medial proximal tibial growth disturbance versus generalized metaphyseal mineralization failure comparison",
+      "caption_intent": "Exact supplied discussion screenshot with a knee radiograph and rickets/Blount/achondroplasia discussion. The bank identifies widened physes and metaphyseal cupping at multiple sites as rickets. Contrast with focal medial proximal tibial beaking/depression in Blount disease; both conditions can be bilateral. Achondroplasia features include FGFR3 gain of function, rhizomelia, metaphyseal flaring/chevron distal femora, champagne-glass pelvis and caudally narrowing lumbar interpedicular distances. Do not reproduce the screenshot error attributing type-II collagen Stickler syndrome to COL1A1: COL2A1 is the relevant type-II collagen gene, and other Stickler genes exist. Vitamin D levels are not universally low in all forms of rickets. User asks for repeat comparison; no answer selection or question identifier visible, so do not infer MISS.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "1bf24575e11444d894cb1b05bdf8758666428f5c"
     }
   ]
 }
