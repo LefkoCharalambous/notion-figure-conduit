@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 7,
+  "expected_count": 8,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -111,6 +111,21 @@
       "caption_intent": "Exact supplied question screenshot with initial and postoperative foot radiographs: hindfoot varus is the classic keyed risk association for fifth-metatarsal refracture. Avoid treating this as a universally established greatest independent predictor. Consider screw adequacy, recovery/loading and bone health. Young male athletes can have vitamin D deficiency; radiographic union does not guarantee zero refracture risk.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "bd21cea52427784ada14b989b61c28998109deeb"
+    },
+    {
+      "original_filename": "codex-clipboard-7d3796aa-b3ed-434e-b448-6aa273709097.png",
+      "mime_type": "image/png",
+      "byte_count": 325603,
+      "sha256": "f10e883412b59b145896a31801ecb808827d194ae5289e96f7c3cc998cc8825b",
+      "asset_id": "fig-01-codex-clipboard-7d3796aa-b3ed-434e-b448-6aa273709097",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-7d3796aa-b3ed-434e-b448-6aa273709097.png",
+      "state": "STAGED",
+      "topic": "Pediatric femoral shaft fracture: spica varus drift and cast wedging",
+      "destination_intent": "2026 Pediatrics OITE canonical femoral shaft fracture and spica casting section; resolve by Topic Index at logging",
+      "teaching_point_placement": "Beside femoral fracture imaging and mechanism of varus drift, valgus molding and medial opening cast-wedge correction",
+      "caption_intent": "Exact supplied question screenshot with femoral shaft fracture radiographs: single-leg spica follow-up adjustment keyed as cast wedging rather than cast replacement. Explain proximal abductor pull, level-dependent distal adductor pull, varus relative alignment and medial opening wedge. Preserve the caveat that comparative evidence does not uniformly establish more wedging with single-leg casts.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "c44eaa8ac2b4c256f737523ed7fd2ccaba54fa9a"
     }
   ]
 }
