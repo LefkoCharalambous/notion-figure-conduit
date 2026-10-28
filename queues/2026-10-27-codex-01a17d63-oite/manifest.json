@@ -5,7 +5,7 @@
   "origin": "codex-01a17d63-ada9-74b2-9170-f3e9797b8883",
   "sid": null,
   "state": "READY",
-  "expected_count": 10,
+  "expected_count": 11,
   "items": [
     {
       "original_filename": "codex-clipboard-b8ec0e31-b7bd-4cc7-a390-5875c25e73f5.png",
@@ -156,6 +156,21 @@
       "caption_intent": "Exact supplied question screenshot with intraoperative photo: valgus arthritic knee with posterior lateral femoral condylar hypoplasia. Posterior condylar referencing can underestimate needed external rotation and leave the femoral component internally rotated, predisposing to lateral patellar maltracking or instability. Cross-check transepicondylar axis, Whiteside AP line and gap balance; do not claim fine photo details independently visible.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "6574ec8eed47e08c108b10d5b082d7393b46e9ff"
+    },
+    {
+      "original_filename": "codex-clipboard-bc381b43-991b-43f9-87f2-92bfd1139fdd.png",
+      "mime_type": "image/png",
+      "byte_count": 267086,
+      "sha256": "87bfbc51be6dbc79b4f206352045575b42fe8f230f153ddd8383a10aab44429d",
+      "asset_id": "fig-01-codex-clipboard-bc381b43-991b-43f9-87f2-92bfd1139fdd",
+      "conduit_path": "queues/2026-10-27-codex-01a17d63-oite/assets/codex-clipboard-bc381b43-991b-43f9-87f2-92bfd1139fdd.png",
+      "state": "STAGED",
+      "topic": "Periprosthetic patellar fracture after TKA: preserved active extension and treatment selection",
+      "destination_intent": "2026 Joints OITE canonical periprosthetic patellar fracture section; resolve by Topic Index during logging",
+      "teaching_point_placement": "Beside the distinction between radiographic displacement and functional extensor mechanism failure in a chronic low-demand patient",
+      "caption_intent": "Exact supplied question screenshot with AP and lateral TKA radiographs. The bank describes displaced patellar fracture fragments four months after injury, with 4/5 active extension and only a five-degree extensor lag in a low-demand patient. Observation is the keyed answer. Minimal functional deficit does not justify mesh reconstruction solely for displacement. Confirm patellar component fixation and extensor mechanism competence clinically; acute fractures may require extension immobilization. Fine component fixation details cannot be established from these small panels.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "d6c68ece3d78345e71a5af3a9c408a5115c5e929"
     }
   ]
 }
