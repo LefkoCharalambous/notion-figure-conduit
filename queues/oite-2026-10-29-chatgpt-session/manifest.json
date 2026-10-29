@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "oite-2026-10-29-chatgpt-session",
+  "encounter_date": "2026-10-29",
+  "origin": "ChatGPT OITE Prep 10/29 session",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
+      "mime_type": "image/png",
+      "byte_count": 209608,
+      "sha256": "342d8778ffa8dd95904ff1cecd4b957d6b6a711c41b882aca4cf3626a3f64483",
+      "asset_id": "fig-01-secondary-fracture-healing-radiographs",
+      "conduit_path": "queues/oite-2026-10-29-chatgpt-session/assets/codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
+      "state": "STAGED",
+      "topic": "Secondary fracture healing: radiographic stages",
+      "destination_intent": "2026 OITE Basic Science teaching page, canonical Fracture Healing section; resolve destination during explicit session logging",
+      "teaching_point_placement": "Beside the comparison of inflammation, soft callus, hard callus, and remodeling",
+      "caption_intent": "Exact user-uploaded serial humeral shaft fracture radiographs from day of injury through two years. Inflammation, soft callus, hard callus, and remodeling overlap. Cartilaginous soft callus is radiolucent; visible opacity represents mineralizing tissue. Dates are case-specific. Original figure: Ghiasi et al., Bone Reports 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5365304/",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "4c8a5de485814e57c92451e0db3461aeebc0cd38"
+    }
+  ]
+}
