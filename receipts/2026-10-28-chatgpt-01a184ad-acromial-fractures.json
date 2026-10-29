@@ -1,0 +1,39 @@
+{
+  "schema": "durable-figure-terminal-v2",
+  "queue_id": "2026-10-28-chatgpt-01a184ad-acromial-fractures",
+  "sid": "2026-10-28|chatgpt-01a184ad|acromial-fracture-figures",
+  "state": "COMPLETE",
+  "expected_count": 2,
+  "verified_count": 2,
+  "verified_at": "2026-10-29T02:06:34.147410+00:00",
+  "cleanup_commit": {
+    "type": "SELF",
+    "meaning": "The Git commit introducing this terminal receipt; binary and manifest deletion are in that same commit."
+  },
+  "items": [
+    {
+      "asset_id": "acromial-ct-3d",
+      "filename": "codex-clipboard-d49e05f9-b2e1-4541-864f-f6aa182254e5.png",
+      "notion_source": "notion-file-block://899e3622-5194-476c-befd-625dce09462c/16fe60d2-a001-44e2-9f3c-82dc9c0ff446?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-d49e05f9-b2e1-4541-864f-f6aa182254e5.png",
+      "caption": "Exact user-uploaded 3D CT: scapular-spine fracture near the acromial base after reverse TSA. The fracture gap lies in the bony bridge above the glenosphere. Crosby et al., 2011, Fig. 4; retained without modification.",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "byte_count": 251269,
+      "sha256": "62d9c6b833758107ac97767133c903ac220349cc3ce5fabd40d57d4c07db33c3",
+      "clearance": "USER-CLEARED",
+      "state": "COMPLETE"
+    },
+    {
+      "asset_id": "acromial-ct-axial",
+      "filename": "codex-clipboard-9d313dec-53a4-4640-b3cd-3b88da684eae.png",
+      "notion_source": "notion-file-block://914c960a-0852-4bc8-b01d-c076b11d80a1/ed76dac3-21fc-4037-b188-4e99657c0b84?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-9d313dec-53a4-4640-b3cd-3b88da684eae.png",
+      "caption": "Exact user-uploaded axial CT: acromial stress fracture posterior to the AC joint after reverse TSA (Crosby type II). Crosby et al., 2011, Fig. 2; retained without modification.",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "byte_count": 92448,
+      "sha256": "e4ad5469c6d8828857cc6c46144021ab06821bcdcc36eaafff11dc0c64fe6e49",
+      "clearance": "USER-CLEARED",
+      "state": "COMPLETE"
+    }
+  ]
+}
