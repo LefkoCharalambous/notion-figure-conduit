@@ -5,7 +5,7 @@
   "origin": "ChatGPT OITE Prep 10/29 session",
   "sid": null,
   "state": "READY",
-  "expected_count": 3,
+  "expected_count": 5,
   "items": [
     {
       "original_filename": "codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
@@ -51,6 +51,36 @@
       "caption_intent": "Exact user-uploaded comparison diagram. A/B: single-row repair in two perspectives. C/D: double-row repair in two perspectives, with medial and lateral anchor fixation. Rows refer to medial-to-lateral fixation positions, so two anterior-to-posterior anchors may still constitute a single row. Source discussed in session: Tashjian et al. 2018, Figure 5, https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/. Retain this uploaded binary without modification.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "6ab7a1e9e08d69697757653b4f1629abe1841080"
+    },
+    {
+      "original_filename": "codex-clipboard-7825b939-f628-4023-9eaf-9e3d8a6ce78f.png",
+      "mime_type": "image/png",
+      "byte_count": 1606852,
+      "sha256": "245672be08567dbead0e02f275f0ca1c6005c3a3e542f6c4be433fbfab8be583",
+      "asset_id": "fig-04-plri-combined-injury-mechanism",
+      "conduit_path": "queues/oite-2026-10-29-chatgpt-session/assets/codex-clipboard-7825b939-f628-4023-9eaf-9e3d8a6ce78f.png",
+      "state": "STAGED",
+      "topic": "Elbow posterolateral rotatory instability: LUCL function versus combined injury mechanism",
+      "destination_intent": "2026 OITE elbow/sports teaching page, canonical Posterolateral Rotatory Instability section; resolve destination during explicit session logging",
+      "teaching_point_placement": "Beside the distinction between normal LCL/LUCL restraints and the axial compression, valgus, external-rotation mechanism/pivot-shift maneuver",
+      "caption_intent": "Exact user-uploaded figure and caption depicting classic elbow PLRI mechanism: axial compression, valgus bending, and external rotation of the forearm relative to the humerus, including internal rotation of the humerus over the fixed forearm. The radius and ulna rotate together as a unit. Distinguish this combined injury/test load from normal LCL/LUCL resistance to varus and external rotation. Source: Camp and ODriscoll, 2017, Figure 1, https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "52525a925e241f06ed0d47fc40691c7cc00d56ac"
+    },
+    {
+      "original_filename": "codex-clipboard-896e2bcf-7514-4900-801b-04e2ed65c718.png",
+      "mime_type": "image/png",
+      "byte_count": 1714692,
+      "sha256": "f38fe91a1baf78e608ebd0f7a71ec8106de5503226b1d72ff919340ffe7d9497",
+      "asset_id": "fig-05-plri-stages-of-instability",
+      "conduit_path": "queues/oite-2026-10-29-chatgpt-session/assets/codex-clipboard-896e2bcf-7514-4900-801b-04e2ed65c718.png",
+      "state": "STAGED",
+      "topic": "Elbow posterolateral rotatory instability: LUCL function versus combined injury mechanism",
+      "destination_intent": "2026 OITE elbow/sports teaching page, canonical Posterolateral Rotatory Instability section; resolve destination during explicit session logging",
+      "teaching_point_placement": "Beside the distinction between normal LCL/LUCL restraints and the axial compression, valgus, external-rotation mechanism/pivot-shift maneuver",
+      "caption_intent": "Exact user-uploaded figure and caption showing reduced elbow, stage 1 PLRI, stage 2 perched dislocation, and stage 3 dislocation with progressive lateral-to-medial soft-tissue disruption. Axial compression, supination/external rotation, and valgus labels describe combined provocation forces. Source: Camp and ODriscoll, 2017, Figure 2, https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "8ca454b0cdd917a67e6abe87865c6b6f70772daa"
     }
   ]
 }
