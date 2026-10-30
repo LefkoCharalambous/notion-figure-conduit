@@ -48,7 +48,7 @@
       "topic": "Rotator cuff repair: single-row versus double-row anchor constructs",
       "destination_intent": "2026 OITE shoulder/sports teaching page, canonical Rotator Cuff Repair section; resolve destination during explicit session logging",
       "teaching_point_placement": "Beside explanation of anchor rows across the medial-to-lateral greater-tuberosity footprint",
-      "caption_intent": "Exact user-uploaded comparison diagram. A/B: single-row repair, frontal and side views. C/D: double-row repair, frontal and side views, with medial and lateral anchor fixation. Rows refer to medial-to-lateral fixation positions, so two anterior-to-posterior anchors may still constitute a single row. Source discussed in session: Tashjian et al. 2018, Figure 5, https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/. Retain this uploaded binary without modification.",
+      "caption_intent": "Exact user-uploaded comparison diagram. A/B: single-row repair in two perspectives. C/D: double-row repair in two perspectives, with medial and lateral anchor fixation. Rows refer to medial-to-lateral fixation positions, so two anterior-to-posterior anchors may still constitute a single row. Source discussed in session: Tashjian et al. 2018, Figure 5, https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/. Retain this uploaded binary without modification.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "6ab7a1e9e08d69697757653b4f1629abe1841080"
     }
