@@ -5,7 +5,7 @@
   "origin": "ChatGPT OITE Prep 10/29 session",
   "sid": null,
   "state": "READY",
-  "expected_count": 1,
+  "expected_count": 2,
   "items": [
     {
       "original_filename": "codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
@@ -21,6 +21,21 @@
       "caption_intent": "Exact user-uploaded serial humeral shaft fracture radiographs from day of injury through two years. Inflammation, soft callus, hard callus, and remodeling overlap. Cartilaginous soft callus is radiolucent; visible opacity represents mineralizing tissue. Dates are case-specific. Original figure: Ghiasi et al., Bone Reports 2017, https://pmc.ncbi.nlm.nih.gov/articles/PMC5365304/",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "4c8a5de485814e57c92451e0db3461aeebc0cd38"
+    },
+    {
+      "original_filename": "codex-clipboard-4f1ddb42-80ef-402b-9e63-f0278e1ea82e.png",
+      "mime_type": "image/png",
+      "byte_count": 2790308,
+      "sha256": "c303d207974b52062e103e3e243b045a50a5d08b9a82eee9d5788e6612349933",
+      "asset_id": "fig-02-medial-scapular-winging",
+      "conduit_path": "queues/oite-2026-10-29-chatgpt-session/assets/codex-clipboard-4f1ddb42-80ef-402b-9e63-f0278e1ea82e.png",
+      "state": "STAGED",
+      "topic": "Scapular winging: long thoracic and spinal accessory nerve function",
+      "destination_intent": "2026 OITE shoulder/peripheral nerve teaching page, canonical Scapular Winging section; resolve destination during explicit session logging",
+      "teaching_point_placement": "Beside serratus anterior/long thoracic nerve medial winging and the protraction-versus-retraction comparison",
+      "caption_intent": "Exact user-uploaded clinical photograph showing prominent right medial scapular border/inferior angle lifting off the thorax. In the supplied OITE stem, rib trauma and push-up difficulty support serratus anterior dysfunction from long thoracic nerve palsy. Compare with trapezius/spinal accessory nerve palsy causing classic lateral winging and shoulder droop. Photograph retained without cropping or alteration. Source encounter: OITE 24SPORTS-097, 2026-10-29.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "566163262c4eff3dbba2161050a8d63603c24d10"
     }
   ]
 }
