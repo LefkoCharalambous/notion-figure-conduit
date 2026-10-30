@@ -5,7 +5,7 @@
   "origin": "ChatGPT OITE Prep 10/29 session",
   "sid": null,
   "state": "READY",
-  "expected_count": 2,
+  "expected_count": 3,
   "items": [
     {
       "original_filename": "codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
@@ -36,6 +36,21 @@
       "caption_intent": "Exact user-uploaded clinical photograph showing prominent right medial scapular border/inferior angle lifting off the thorax. In the supplied OITE stem, rib trauma and push-up difficulty support serratus anterior dysfunction from long thoracic nerve palsy. Compare with trapezius/spinal accessory nerve palsy causing classic lateral winging and shoulder droop. Photograph retained without cropping or alteration. Source encounter: OITE 24SPORTS-097, 2026-10-29.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "566163262c4eff3dbba2161050a8d63603c24d10"
+    },
+    {
+      "original_filename": "codex-clipboard-5eb35a1c-3d9a-472e-8e12-ee3249cd9ee2.png",
+      "mime_type": "image/png",
+      "byte_count": 417615,
+      "sha256": "d9b9bed0ad56509154eac9d0d34da55f8f4190b91ca9f273d6f75fe3099b5f99",
+      "asset_id": "fig-03-single-versus-double-row-cuff-repair",
+      "conduit_path": "queues/oite-2026-10-29-chatgpt-session/assets/codex-clipboard-5eb35a1c-3d9a-472e-8e12-ee3249cd9ee2.png",
+      "state": "STAGED",
+      "topic": "Rotator cuff repair: single-row versus double-row anchor constructs",
+      "destination_intent": "2026 OITE shoulder/sports teaching page, canonical Rotator Cuff Repair section; resolve destination during explicit session logging",
+      "teaching_point_placement": "Beside explanation of anchor rows across the medial-to-lateral greater-tuberosity footprint",
+      "caption_intent": "Exact user-uploaded comparison diagram. A/B: single-row repair, frontal and side views. C/D: double-row repair, frontal and side views, with medial and lateral anchor fixation. Rows refer to medial-to-lateral fixation positions, so two anterior-to-posterior anchors may still constitute a single row. Source discussed in session: Tashjian et al. 2018, Figure 5, https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/. Retain this uploaded binary without modification.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6ab7a1e9e08d69697757653b4f1629abe1841080"
     }
   ]
 }
