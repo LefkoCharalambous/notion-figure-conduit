@@ -1,0 +1,89 @@
+{
+  "schema": "durable-figure-terminal-receipt-v2",
+  "queue_id": "oite-2026-10-29-chatgpt-session",
+  "encounter_date": "2026-10-29",
+  "origin": "ChatGPT OITE Prep 10/29 session",
+  "sid": "2026-10-29|chatgpt-01a18951|OITE-Q1-43",
+  "state": "COMPLETE",
+  "verified_count": 5,
+  "expected_count": 5,
+  "verification_time": "2026-10-31T01:22:00Z",
+  "cleanup_commit": {
+    "reference": "the unique commit adding this terminal receipt and removing this queue",
+    "receipt_path": "receipts/oite-2026-10-29-chatgpt-session.json",
+    "lookup_url": "https://api.github.com/repos/LefkoCharalambous/notion-figure-conduit/commits?path=receipts/oite-2026-10-29-chatgpt-session.json&per_page=1",
+    "note": "A commit cannot embed its own hash. The resolved cleanup SHA is recorded in the Notion SID receipt."
+  },
+  "items": [
+    {
+      "asset_id": "fig-01-secondary-fracture-healing-radiographs",
+      "original_filename": "codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
+      "byte_count": 209608,
+      "sha256": "342d8778ffa8dd95904ff1cecd4b957d6b6a711c41b882aca4cf3626a3f64483",
+      "state": "COMPLETE",
+      "destination_id": "3b4097df-8115-81cc-831c-d696fb249ce0",
+      "destination_url": "https://app.notion.com/p/3b4097df811581cc831cd696fb249ce0",
+      "notion_image_source": "notion-file-block://b7278568-afa2-4250-8070-c08c41bc4d34/100a239b-4da4-4c00-8af0-33925fde930e?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-46df0aa9-2e3b-4227-99b1-05b8cb62fa2f.png",
+      "caption": "Exact user-uploaded serial humeral shaft fracture radiographs from day of injury through two years. Inflammation, soft callus, hard callus, and remodeling overlap. Cartilaginous soft callus is radiolucent; visible opacity represents mineralizing tissue. Dates are case-specific. Original figure: Ghiasi et al., Bone Reports 2017, [https://pmc.ncbi.nlm.nih.gov/articles/PMC5365304/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5365304/)",
+      "verified_placement": "Beside the comparison of inflammation, soft callus, hard callus, and remodeling",
+      "upload_byte_count": 209608,
+      "verification_time": "2026-10-31T01:22:00Z"
+    },
+    {
+      "asset_id": "fig-02-medial-scapular-winging",
+      "original_filename": "codex-clipboard-4f1ddb42-80ef-402b-9e63-f0278e1ea82e.png",
+      "byte_count": 2790308,
+      "sha256": "c303d207974b52062e103e3e243b045a50a5d08b9a82eee9d5788e6612349933",
+      "state": "COMPLETE",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "notion_image_source": "notion-file-block://cb836e1c-2938-46f6-9e38-ea6f8ef90da4/e6d93597-faaf-4b82-ade2-5f622ff623b0?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-4f1ddb42-80ef-402b-9e63-f0278e1ea82e.png",
+      "caption": "Exact user-uploaded clinical photograph showing prominent right medial scapular border/inferior angle lifting off the thorax. In the supplied OITE stem, rib trauma and push-up difficulty support serratus anterior dysfunction from long thoracic nerve palsy. Compare with trapezius/spinal accessory nerve palsy causing classic lateral winging and shoulder droop. Photograph retained without cropping or alteration. Source encounter: OITE 24SPORTS-097, 2026-10-29.",
+      "verified_placement": "Beside serratus anterior/long thoracic nerve medial winging and the protraction-versus-retraction comparison",
+      "upload_byte_count": 2790308,
+      "verification_time": "2026-10-31T01:22:00Z"
+    },
+    {
+      "asset_id": "fig-03-single-versus-double-row-cuff-repair",
+      "original_filename": "codex-clipboard-5eb35a1c-3d9a-472e-8e12-ee3249cd9ee2.png",
+      "byte_count": 417615,
+      "sha256": "d9b9bed0ad56509154eac9d0d34da55f8f4190b91ca9f273d6f75fe3099b5f99",
+      "state": "COMPLETE",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "notion_image_source": "notion-file-block://dd6b04bb-4cad-43ec-945d-a598c3a7155e/645e0960-53e3-4faa-bc08-ad475c574909?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-5eb35a1c-3d9a-472e-8e12-ee3249cd9ee2.png",
+      "caption": "Exact user-uploaded comparison diagram. A/B: single-row repair in two perspectives. C/D: double-row repair in two perspectives, with medial and lateral anchor fixation. Rows refer to medial-to-lateral fixation positions, so two anterior-to-posterior anchors may still constitute a single row. Source discussed in session: Tashjian et al. 2018, Figure 5, [https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/](https://pmc.ncbi.nlm.nih.gov/articles/PMC6236493/). Retain this uploaded binary without modification.",
+      "verified_placement": "Beside explanation of anchor rows across the medial-to-lateral greater-tuberosity footprint",
+      "upload_byte_count": 417615,
+      "verification_time": "2026-10-31T01:22:00Z"
+    },
+    {
+      "asset_id": "fig-04-plri-combined-injury-mechanism",
+      "original_filename": "codex-clipboard-7825b939-f628-4023-9eaf-9e3d8a6ce78f.png",
+      "byte_count": 1606852,
+      "sha256": "245672be08567dbead0e02f275f0ca1c6005c3a3e542f6c4be433fbfab8be583",
+      "state": "COMPLETE",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "notion_image_source": "notion-file-block://d709f56d-6453-4f04-9f03-128599992828/31f8a58d-3efd-4d5e-91ec-61cddba49cf9?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-7825b939-f628-4023-9eaf-9e3d8a6ce78f.png",
+      "caption": "Exact user-uploaded figure and caption depicting classic elbow PLRI mechanism: axial compression, valgus bending, and external rotation of the forearm relative to the humerus, including internal rotation of the humerus over the fixed forearm. The radius and ulna rotate together as a unit. Distinguish this combined injury/test load from normal LCL/LUCL resistance to varus and external rotation. Source: Camp and ODriscoll, 2017, Figure 1, [https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/).",
+      "verified_placement": "Beside the distinction between normal LCL/LUCL restraints and the axial compression, valgus, external-rotation mechanism/pivot-shift maneuver",
+      "upload_byte_count": 1606852,
+      "verification_time": "2026-10-31T01:22:00Z"
+    },
+    {
+      "asset_id": "fig-05-plri-stages-of-instability",
+      "original_filename": "codex-clipboard-896e2bcf-7514-4900-801b-04e2ed65c718.png",
+      "byte_count": 1714692,
+      "sha256": "f38fe91a1baf78e608ebd0f7a71ec8106de5503226b1d72ff919340ffe7d9497",
+      "state": "COMPLETE",
+      "destination_id": "3b4097df-8115-81dd-81b9-d62beefdd1f7",
+      "destination_url": "https://app.notion.com/p/3b4097df811581dd81b9d62beefdd1f7",
+      "notion_image_source": "notion-file-block://90b5501b-b4ac-47fe-9d73-dd3fd6d38763/551f1f71-f48d-462b-90e7-6605440f723d?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-896e2bcf-7514-4900-801b-04e2ed65c718.png",
+      "caption": "Exact user-uploaded figure and caption showing reduced elbow, stage 1 PLRI, stage 2 perched dislocation, and stage 3 dislocation with progressive lateral-to-medial soft-tissue disruption. Axial compression, supination/external rotation, and valgus labels describe combined provocation forces. Source: Camp and ODriscoll, 2017, Figure 2, [https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/](https://pmc.ncbi.nlm.nih.gov/articles/PMC5443138/).",
+      "verified_placement": "Beside the distinction between normal LCL/LUCL restraints and the axial compression, valgus, external-rotation mechanism/pivot-shift maneuver",
+      "upload_byte_count": 1714692,
+      "verification_time": "2026-10-31T01:22:00Z"
+    }
+  ]
+}
