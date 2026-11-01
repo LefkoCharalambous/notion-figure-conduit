@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-c1-lateral-mass",
+  "encounter_date": "2026-11-01",
+  "origin": "chatgpt-01a18f85",
+  "sid": "2026-11-01|chatgpt-01a18f85|c1-lateral-mass-figure",
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-481c4d78-7e4b-47bc-829c-81a8312d70d5.png",
+      "mime_type": "image/png",
+      "byte_count": 239984,
+      "sha256": "8633cc6f4f5d35ca53264fcb5a32363c583041297c596df8533e439964d70d9a",
+      "asset_id": "c1-lateral-mass-ica-axial-ct",
+      "conduit_path": "queues/2026-11-01-chatgpt-01a18f85-c1-lateral-mass/assets/codex-clipboard-481c4d78-7e4b-47bc-829c-81a8312d70d5.png",
+      "state": "STAGED",
+      "topic": "C1 lateral mass screw \u2014 internal carotid artery avoidance",
+      "destination_intent": "Spine OITE \u2014 2026 (3b4097df-8115-8108-8fcb-cd7c7e15b379), C1\u2013C2 screw neurovascular anatomy",
+      "teaching_point_placement": "Immediately below the C1 lateral mass screw carotid-avoidance explanation, adjacent to the existing C1\u2013C2 transarticular neurovascular comparison",
+      "caption_intent": "Exact user-supplied enlarged axial CT from Q13 #871073. White arrows identify the internal carotid arteries anterior/anterolateral to the C1 lateral masses. A modest medial trajectory (10\u00b0 in this OITE question) directs an anteriorly exiting bicortical screw tip away from the carotids. Individualize trajectory and length to CT anatomy; excessive medial angulation endangers the canal.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "b420df27fc811848e28c2579b6d780843e0c5dbc"
+    }
+  ]
+}
