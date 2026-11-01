@@ -1,0 +1,40 @@
+{
+  "schema": "durable-figure-terminal-receipt-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-c1-lateral-mass",
+  "sid": "2026-11-01|chatgpt-01a18f85|c1-lateral-mass-figure",
+  "encounter_date": "2026-11-01",
+  "origin": "chatgpt-01a18f85",
+  "state": "COMPLETE",
+  "expected_count": 1,
+  "completed_count": 1,
+  "cleanup_commit": "SELF \u2014 the Git commit containing this receipt",
+  "items": [
+    {
+      "asset_id": "c1-lateral-mass-ica-axial-ct",
+      "original_filename": "codex-clipboard-481c4d78-7e4b-47bc-829c-81a8312d70d5.png",
+      "mime_type": "image/png",
+      "byte_count": 239984,
+      "sha256": "8633cc6f4f5d35ca53264fcb5a32363c583041297c596df8533e439964d70d9a",
+      "destination_page_id": "3b4097df-8115-8108-8fcb-cd7c7e15b379",
+      "destination_url": "https://app.notion.com/p/3b4097df811581088fcbcd7c7e15b379",
+      "placement": "C1 lateral mass screw \u2014 internal carotid artery avoidance",
+      "notion_image_source": "notion-file-block://8cdbef69-8cf8-49f3-a3d2-7439b26f0bed/29f19050-3160-4655-8916-9abdb46bc380?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-481c4d78-7e4b-47bc-829c-81a8312d70d5.png",
+      "caption": "Q13 #871073 \u2014 Axial CT at C1, anterior at top. White arrows identify the internal carotid arteries anterior/anterolateral to the C1 lateral masses. Modest medial angulation (10\u00b0 in this question) shifts a bicortical screw\u2019s anterior exit away from the carotids; plan the actual angle and length on the individual CT.",
+      "verification": {
+        "source_byte_hash": true,
+        "notion_hosted_image": true,
+        "unique_filename_occurrence": true,
+        "placement": true,
+        "caption": true
+      },
+      "state": "COMPLETE"
+    }
+  ],
+  "secondary_spine_page_id": "c921af0c-defc-4243-8a5a-ac3c6f197560",
+  "cleared_paths": [
+    "queues/2026-11-01-chatgpt-01a18f85-c1-lateral-mass/manifest.json",
+    "queues/2026-11-01-chatgpt-01a18f85-c1-lateral-mass/assets/codex-clipboard-481c4d78-7e4b-47bc-829c-81a8312d70d5.png"
+  ],
+  "verified_at_utc": "2026-11-01T20:08:43.021012+00:00",
+  "cleanup_parent_commit": "d5f372542fe84e3320f365602a492e8183b3745e"
+}
