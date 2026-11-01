@@ -1,0 +1,224 @@
+{
+  "schema": "durable-figure-terminal-receipt-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-obturator-nysora",
+  "sid": "2026-11-01|chatgpt-01a18f85|obturator-anatomy-figures",
+  "encounter_date": "2026-11-01",
+  "origin": "chatgpt-01a18f85",
+  "state": "COMPLETE",
+  "expected_count": 10,
+  "completed_count": 10,
+  "cleanup_commit": "SELF \u2014 the Git commit containing this receipt",
+  "source_pages": [
+    "https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/",
+    "https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-obturator-nerve-block/"
+  ],
+  "source_figure_views": 11,
+  "visual_deduplication": "Landmark-article Fig. 4 and ultrasound-article Fig. 4 show the same sagittal illustration; the larger landmark-source file is retained once. All 11 retrieved source files remain in the local source-manifest directory.",
+  "items": [
+    {
+      "asset_id": "nysora-obturator-landmark-01",
+      "original_filename": "regional-anesthesia-anatomy-of-the-obturator-nerve-490x1024-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 126509,
+      "sha256": "5250815a721a7e686768a56087668f1d3846608e325929b75a337555b9ee9618",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://06bba02b-5e5e-4741-82df-a44d366cfdee/9db971e5-1ebe-4b4c-a83a-793c51074f34?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-anatomy-of-the-obturator-nerve-490x1024-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 1](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Lumbar plexus to medial thigh.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-02",
+      "original_filename": "regional-anesthesia-intrapelvic-trajectory-of-the-obturator-nerve-1024x745-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 271806,
+      "sha256": "cfab10fe92b9388b031c1898a38627d78c4fcfc4ef3ac7cee8b01709e64e697c",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://604f2d7f-d8fd-4bf7-9215-3f2fc5c0eee5/1724c159-8fa1-49a1-9d7f-5f014855906a?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-intrapelvic-trajectory-of-the-obturator-nerve-1024x745-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 2](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Pelvic course and adjacent obturator vessels.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-03",
+      "original_filename": "regional-anesthesia-distribution-of-anterior-and-posterior-divisions-of-obturator-nerve-after-exiting-the-obturator-foramen-768x1024-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 303652,
+      "sha256": "bda6cd49425fb79fcf35305e85be37bde8f808ab19fa199ce0050a53690ec05c",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://140d2e1e-817e-45b3-a3b3-355704d48f1b/0dd48ca1-7743-4b59-ad60-61228a933633?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-distribution-of-anterior-and-posterior-divisions-of-obturator-nerve-after-exiting-the-obturator-foramen-768x1024-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 3](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Cadaveric divisions beneath reflected adductor longus.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-04",
+      "original_filename": "regional-anesthesia-sagittal-section-demonstrating-the-relationship-of-the-obturator-nerve-to-the-adductor-muscles-1024x838-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 318367,
+      "sha256": "f4e1e957bb3be624db9a9235451e3d1e829afafde99c324ba4eb65e34cb5d08d",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://74f19c3f-d4bf-4efb-b881-bab45a8b586a/d409e37e-4d49-474c-b18c-6070313fe0a0?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-sagittal-section-demonstrating-the-relationship-of-the-obturator-nerve-to-the-adductor-muscles-1024x838-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 4](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Adductor brevis separates the divisions. Also ultrasound-article Fig. 4; larger version retained here.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-05",
+      "original_filename": "regional-anesthesia-role-of-the-obturator-nerve-in-the-sensory-innervation-of-the-hip-1024x834-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 166666,
+      "sha256": "ade0bcbb5241d4f1e7e608edd16d70ebbae8f325dcc1c04f8860a76343e34a6e",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://72e72186-5526-4d72-8ecc-d706c3ea1e93/c3a6cf38-c988-4cfc-b13a-b67757652a1d?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-role-of-the-obturator-nerve-in-the-sensory-innervation-of-the-hip-1024x834-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 5](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Obturator articular supply at the hip.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-06",
+      "original_filename": "regional-anesthesia-skin-innervation-by-obturator-nerve-according-to-different-investigators-1024x620-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 162541,
+      "sha256": "420cda64c38dda83f7b25d693a45268103bdfa36eaf42ffc943be004a6a85531",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://18baffeb-5d3e-487e-b3b3-1a79a15ddc33/7ea4785d-6885-466e-a439-407337433ad8?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-skin-innervation-by-obturator-nerve-according-to-different-investigators-1024x620-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 6](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Variable cutaneous distribution.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-landmark-07",
+      "original_filename": "regional-anesthesia-anatomic-landmarks-for-blockade-of-the-obturator-nerve-1-1024x677-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 161948,
+      "sha256": "beeabd6c8238a94b313fc74697459d98e713b18c5c524bc5d1ceffb5a849804a",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://388f12e5-b0ff-4c74-8629-ae815ec3cc5b/73afd359-b933-48e8-9ef4-ae8b88800f16?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-anatomic-landmarks-for-blockade-of-the-obturator-nerve-1-1024x677-1.jpg",
+      "caption": "[NYSORA landmark article, Fig. 7](https://nysora.com/regional-anesthesia/techniques/obturator-nerve-block/) \u2014 Pubic tubercle, inguinal region and longus tendon.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-ultrasound-01",
+      "original_filename": "regional-anesthesia-expected-distribution-of-obturator-nerve-sensory-and-motor-blockade-1-768x830-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 90854,
+      "sha256": "9bf787f1d475e71cdeec44199d80e94c18b6e394464de253b5f2fcb4bd8843e2",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://d487de93-f578-4faf-aa96-40ea87ea799b/7db8db23-a157-45ed-88a8-cb3a3e44a84a?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-expected-distribution-of-obturator-nerve-sensory-and-motor-blockade-1-768x830-1.jpg",
+      "caption": "[NYSORA ultrasound article, Fig. 1](https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-obturator-nerve-block/) \u2014 Motor and sensory distribution.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-ultrasound-02",
+      "original_filename": "regional-anesthesia-cross-sectional-anatomy-of-relevance-to-the-obturator-nerve-block-768x679-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 171616,
+      "sha256": "c3acf1973cb4bdbbda4cf278efdc6991dbca65cbf1b93e2141c6c7129e8d3dd3",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://a940d174-fe86-408e-9d22-9da281012488/aab25352-0218-4801-84c8-d76b6d10c657?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-cross-sectional-anatomy-of-relevance-to-the-obturator-nerve-block-768x679-1.jpg",
+      "caption": "[NYSORA ultrasound article, Fig. 2](https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-obturator-nerve-block/) \u2014 Cross-sectional view of both nerve planes.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    },
+    {
+      "asset_id": "nysora-obturator-ultrasound-03",
+      "original_filename": "regional-anesthesia-obturator-nerve-transverse-view-768x637-1.jpg",
+      "mime_type": "image/jpeg",
+      "byte_count": 158264,
+      "sha256": "2df8dd324b0e4f2cc2624d1069c26b8015a9a88825bed9e80e4e61a265227a6a",
+      "destination_page_id": "3b4097df-8115-8193-b5e5-f12fb4d5222a",
+      "destination_url": "https://app.notion.com/p/3b4097df81158193b5e5f12fb4d5222a",
+      "placement": "Obturator nerve \u2014 medial-thigh layers and adductor release / Original NYSORA anatomy figures",
+      "notion_image_source": "notion-file-block://8530f774-dc2a-42ae-a43c-fabc10c5660e/89fbfdf6-0a79-4506-9e12-e9398d74d71d?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=regional-anesthesia-obturator-nerve-transverse-view-768x637-1.jpg",
+      "caption": "[NYSORA ultrasound article, Fig. 3](https://nysora.com/regional-anesthesia/techniques/ultrasound-guided-obturator-nerve-block/) \u2014 Ultrasound correlation of the same two nerve planes.",
+      "state": "COMPLETE",
+      "verification": {
+        "source_bytes": true,
+        "notion_hosted_image": true,
+        "unique_placement": true,
+        "caption": true
+      }
+    }
+  ],
+  "cleared_paths": [
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/manifest.json",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-anatomy-of-the-obturator-nerve-490x1024-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-intrapelvic-trajectory-of-the-obturator-nerve-1024x745-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-distribution-of-anterior-and-posterior-divisions-of-obturator-nerve-after-exiting-the-obturator-foramen-768x1024-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-sagittal-section-demonstrating-the-relationship-of-the-obturator-nerve-to-the-adductor-muscles-1024x838-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-role-of-the-obturator-nerve-in-the-sensory-innervation-of-the-hip-1024x834-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-skin-innervation-by-obturator-nerve-according-to-different-investigators-1024x620-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-anatomic-landmarks-for-blockade-of-the-obturator-nerve-1-1024x677-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-expected-distribution-of-obturator-nerve-sensory-and-motor-blockade-1-768x830-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-cross-sectional-anatomy-of-relevance-to-the-obturator-nerve-block-768x679-1.jpg",
+    "queues/2026-11-01-chatgpt-01a18f85-obturator-nysora/assets/regional-anesthesia-obturator-nerve-transverse-view-768x637-1.jpg"
+  ],
+  "verified_at_utc": "2026-11-01T20:59:37.760872+00:00",
+  "cleanup_parent_commit": "0ffd91aacc7bcabb526d54acf01469d93c5b5379"
+}
