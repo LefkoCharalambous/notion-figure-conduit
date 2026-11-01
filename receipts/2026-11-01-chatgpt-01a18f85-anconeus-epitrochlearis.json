@@ -1,0 +1,46 @@
+{
+  "schema": "durable-figure-terminal-receipt-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-anconeus-epitrochlearis",
+  "sid": "2026-11-01|chatgpt-01a18f85|anconeus-epitrochlearis-figure",
+  "state": "COMPLETE",
+  "encounter_date": "2026-11-01",
+  "origin": "chatgpt-01a18f85",
+  "count": 1,
+  "verified_at": "2026-11-01T19:53:28.820070+00:00",
+  "staging_commit": "5a47fe5f560804e30fa4f58235799a75640bb4de",
+  "cleanup_commit": "THIS_COMMIT (the commit that creates this terminal receipt and deletes the listed queue files)",
+  "cleanup_parent_commit": "5a47fe5f560804e30fa4f58235799a75640bb4de",
+  "cleanup_deleted_paths": [
+    "queues/2026-11-01-chatgpt-01a18f85-anconeus-epitrochlearis/assets/codex-clipboard-d8774906-456b-4725-929c-4fcb45aae509.png",
+    "queues/2026-11-01-chatgpt-01a18f85-anconeus-epitrochlearis/manifest.json"
+  ],
+  "items": [
+    {
+      "asset_id": "anconeus-epitrochlearis-operative-photo",
+      "original_filename": "codex-clipboard-d8774906-456b-4725-929c-4fcb45aae509.png",
+      "mime_type": "image/png",
+      "byte_count": 1800251,
+      "sha256": "b5529e6a86709b3de496c1c0e4b2fe7980097ee1624a64c8209ed7de591b7305",
+      "state": "COMPLETE",
+      "topic": "Anconeus epitrochlearis / cubital tunnel anatomy",
+      "destination_page_id": "3b4097df-8115-81f8-8afd-e8d1d94d7229",
+      "destination_url": "https://app.notion.com/p/3b4097df811581f88afde8d1d94d7229",
+      "destination_heading": "Anconeus epitrochlearis — cubital tunnel operative anatomy",
+      "image_block_id": "1d923404-87c7-4a08-be41-62e7688b9b23",
+      "notion_file_id": "1b8cbfad-361b-449a-a715-9594b4bcbc81",
+      "notion_source": "notion-file-block://1d923404-87c7-4a08-be41-62e7688b9b23/1b8cbfad-361b-449a-a715-9594b4bcbc81?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-d8774906-456b-4725-929c-4fcb45aae509.png",
+      "caption": "Anconeus epitrochlearis (arrow): accessory muscle spanning the medial epicondyle and medial olecranon, superficial to the ulnar nerve. Left elbow flexed 90°; proximal is superior and distal is to the right. Exact user-supplied operative photograph; OITE Q4 #OKU14SAE_094.",
+      "verification": {
+        "canonical_local_bytes_hashed": true,
+        "staged_raw_bytes_and_sha256_match": true,
+        "committed_manifest_verified": true,
+        "notion_upload_byte_count_match": true,
+        "notion_hosted_image_verified": true,
+        "placement_verified": true,
+        "caption_verified": true,
+        "exact_filename_occurrences": 1
+      },
+      "topic_index_page_id": "40b097df-8115-81e7-b2d5-c9b38a464201"
+    }
+  ]
+}
