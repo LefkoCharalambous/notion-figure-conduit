@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-02-chatgpt-01a18f85-disi-visi",
+  "encounter_date": "2026-11-02",
+  "origin": "chatgpt-01a18f85",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-b95e81d2-a788-485b-96fd-da2e37fac426.png",
+      "mime_type": "image/png",
+      "byte_count": 287565,
+      "sha256": "e5271056470984e5f90768c98e8809b1404941743f4e27e4f62aeb3303a5bb8a",
+      "asset_id": "fig-01-codex-clipboard-b95e81d2-a788-485b-96fd-da2e37fac426",
+      "conduit_path": "queues/2026-11-02-chatgpt-01a18f85-disi-visi/assets/codex-clipboard-b95e81d2-a788-485b-96fd-da2e37fac426.png",
+      "state": "STAGED",
+      "topic": "DISI and VISI: lunate balance and compensatory midcarpal posture",
+      "destination_intent": "Hand OITE \u2014 2026, canonical carpal instability teaching section when session logging is requested",
+      "teaching_point_placement": "Beside explanation of lunate extension versus flexion and opposite capitolunate compensation",
+      "caption_intent": "Exact uploaded educational figure comparing DISI (upper) with VISI (lower). Left-to-right chain is radius, lunate, capitate, metacarpal. DISI describes lunate extension with compensatory capitolunate flexion; VISI describes lunate flexion with opposite compensation. Original screenshot credits Bednar JM and Osterman AL, Carpal Instability: Evaluation and Treatment, JAAOS 1993. Retain all original pixels and text.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "3b95a9cecfd21a402ba32df71a65c1d1c27d8e1e"
+    }
+  ]
+}
