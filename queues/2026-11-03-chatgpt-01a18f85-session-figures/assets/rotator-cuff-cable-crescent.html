@@ -1,0 +1,422 @@
+<div id="cuff-sheet-map">
+  <style>
+    #cuff-sheet-map { color: var(--foreground); max-width: 736px; container: cuff-anatomy / inline-size; }
+    #cuff-sheet-map .selected-detail { margin: 12px 0; min-height: 2.5em; }
+    #cuff-sheet-map .cuff-svg { display: block; width: 100%; height: auto; }
+    #cuff-sheet-map .cuff-svg text { fill: var(--foreground); font-family: inherit; }
+    #cuff-sheet-map .outline { fill: var(--muted); stroke: var(--muted-foreground); stroke-width: 1.3; }
+    #cuff-sheet-map .fiber { stroke: var(--muted-foreground); stroke-width: 1; opacity: .38; fill: none; }
+    #cuff-sheet-map .bone { fill: var(--muted); stroke: var(--muted-foreground); stroke-width: 1.5; }
+    #cuff-sheet-map .biceps { fill: color-mix(in srgb, var(--viz-series-3) 18%, var(--background)); stroke: var(--viz-series-3); stroke-width: 2; }
+    #cuff-sheet-map .cable { fill: none; stroke: var(--viz-series-1); stroke-width: 10; stroke-linecap: round; }
+    #cuff-sheet-map .cable-cut { fill: color-mix(in srgb, var(--viz-series-1) 30%, var(--background)); stroke: var(--viz-series-1); stroke-width: 2; }
+    #cuff-sheet-map .crescent { fill: color-mix(in srgb, var(--viz-series-1) 12%, var(--background)); stroke: none; }
+    #cuff-sheet-map .site { fill: var(--viz-series-2); stroke: var(--background); stroke-width: 2; }
+    #cuff-sheet-map .site-ring { fill: none; stroke: var(--viz-series-2); stroke-width: 2; }
+    #cuff-sheet-map .measurement { fill: none; stroke: var(--foreground); stroke-width: 1.5; }
+    #cuff-sheet-map .guide { fill: none; stroke: var(--muted-foreground); stroke-width: 1; stroke-dasharray: 4 5; }
+    #cuff-sheet-map .arrow { fill: var(--foreground); }
+    #cuff-sheet-map .caption { margin-top: 8px; }
+  
+    #cuff-sheet-map .anatomy-stage { display: none; }
+    #cuff-sheet-map:has(#cuff-layer-0:checked) .anatomy-stage[data-layer="0"],
+    #cuff-sheet-map:has(#cuff-layer-1:checked) .anatomy-stage[data-layer="1"],
+    #cuff-sheet-map:has(#cuff-layer-2:checked) .anatomy-stage[data-layer="2"] { display: block; }
+    #cuff-sheet-map .diagram-frame { position: relative; }
+    #cuff-sheet-map .diagram-label { position: absolute; white-space: nowrap; pointer-events: none; color: var(--foreground); transform: translateY(-.85em); }
+    #cuff-sheet-map .anchor-middle { transform: translate(-50%, -.85em); }
+    #cuff-sheet-map .anchor-end { transform: translate(-100%, -.85em); }
+    #cuff-sheet-map .mobile-layout { display: none; max-width: 400px; }
+    @container cuff-anatomy (max-width: 599px) {
+      #cuff-sheet-map .desktop-layout { display: none; }
+      #cuff-sheet-map .mobile-layout { display: block; }
+    }
+    @supports not selector(:has(*)) {
+      #cuff-sheet-map .anatomy-stage[data-layer="2"] { display: block; }
+    }
+  </style>
+  <h3>One cuff sheet, two viewing directions</h3>
+  <div class="viz-controls" role="group" aria-label="Anatomy layers">
+    <label class="form-check"><input class="form-check-input" type="radio" id="cuff-layer-0" name="cuff-anatomy-layer" value="0" checked><span class="form-check-label">1. Tendons</span></label>
+    <label class="form-check"><input class="form-check-input" type="radio" id="cuff-layer-1" name="cuff-anatomy-layer" value="1"><span class="form-check-label">2. Cable + crescent</span></label>
+    <label class="form-check"><input class="form-check-input" type="radio" id="cuff-layer-2" name="cuff-anatomy-layer" value="2"><span class="form-check-label">3. The 15 mm site</span></label>
+  </div>
+<section class="anatomy-stage" data-layer="0" aria-label="Tendon anatomy">
+<div class="selected-detail" aria-live="polite">Tendons blend into a continuous sheet; fibers run from muscle toward bone.</div>
+<div class="diagram-layout desktop-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M170,45 L566,45"/>
+        <path class="arrow" d="M566,45 l-6,-4 v8 Z"/>
+        
+        <path class="outline" d="M91,128 Q391,113 691,128 L691,310 L91,310 Z"/>
+        
+        <path class="fiber" d="M99,134 L99,306"/><path class="fiber" d="M129.73684210526315,134 L129.73684210526315,306"/><path class="fiber" d="M160.4736842105263,134 L160.4736842105263,306"/><path class="fiber" d="M191.21052631578948,134 L191.21052631578948,306"/><path class="fiber" d="M221.94736842105263,134 L221.94736842105263,306"/><path class="fiber" d="M252.68421052631578,134 L252.68421052631578,306"/><path class="fiber" d="M283.42105263157896,134 L283.42105263157896,306"/><path class="fiber" d="M314.1578947368421,134 L314.1578947368421,306"/><path class="fiber" d="M344.89473684210526,134 L344.89473684210526,306"/><path class="fiber" d="M375.63157894736844,134 L375.63157894736844,306"/><path class="fiber" d="M406.36842105263156,134 L406.36842105263156,306"/><path class="fiber" d="M437.10526315789474,134 L437.10526315789474,306"/><path class="fiber" d="M467.8421052631579,134 L467.8421052631579,306"/><path class="fiber" d="M498.57894736842104,134 L498.57894736842104,306"/><path class="fiber" d="M529.3157894736842,134 L529.3157894736842,306"/><path class="fiber" d="M560.0526315789473,134 L560.0526315789473,306"/><path class="fiber" d="M590.7894736842105,134 L590.7894736842105,306"/><path class="fiber" d="M621.5263157894736,134 L621.5263157894736,306"/><path class="fiber" d="M652.2631578947369,134 L652.2631578947369,306"/><path class="fiber" d="M683,134 L683,306"/>
+        <line class="guide" x1="378.5" y1="136" x2="378.5" y2="305"/>
+        
+        
+        <path class="bone" d="M88,313 L694,313 L694,367 Q391,383 88,367 Z"/>
+        
+        
+        <rect class="biceps" x="60" y="104" width="12" height="275" rx="6"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:0.5435%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:99.4565%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:31.8954%;top:24.7768%">Supraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:72.6563%;top:24.7768%">Infraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:53.1250%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:8.9674%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:91.9643%">Muscle → tendon fibers → footprint</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M636,115 Q722,110 722,153 L722,240 L636,240 Z"/>
+        <path class="outline" d="M26,100 L646,100 L646,127 L26,127 Z"/>
+        
+        <path class="fiber" d="M26,108 L644,108 M26,118 L644,118"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.0978%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:92.2554%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+<div class="diagram-layout mobile-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M116,45 L204,45"/>
+        
+        
+        <path class="outline" d="M63,128 Q181,113 299,128 L299,310 L63,310 Z"/>
+        
+        <path class="fiber" d="M71,134 L71,306"/><path class="fiber" d="M82.57894736842105,134 L82.57894736842105,306"/><path class="fiber" d="M94.15789473684211,134 L94.15789473684211,306"/><path class="fiber" d="M105.73684210526315,134 L105.73684210526315,306"/><path class="fiber" d="M117.31578947368422,134 L117.31578947368422,306"/><path class="fiber" d="M128.89473684210526,134 L128.89473684210526,306"/><path class="fiber" d="M140.4736842105263,134 L140.4736842105263,306"/><path class="fiber" d="M152.05263157894737,134 L152.05263157894737,306"/><path class="fiber" d="M163.63157894736844,134 L163.63157894736844,306"/><path class="fiber" d="M175.21052631578948,134 L175.21052631578948,306"/><path class="fiber" d="M186.78947368421052,134 L186.78947368421052,306"/><path class="fiber" d="M198.36842105263156,134 L198.36842105263156,306"/><path class="fiber" d="M209.94736842105263,134 L209.94736842105263,306"/><path class="fiber" d="M221.52631578947367,134 L221.52631578947367,306"/><path class="fiber" d="M233.10526315789474,134 L233.10526315789474,306"/><path class="fiber" d="M244.68421052631578,134 L244.68421052631578,306"/><path class="fiber" d="M256.2631578947369,134 L256.2631578947369,306"/><path class="fiber" d="M267.8421052631579,134 L267.8421052631579,306"/><path class="fiber" d="M279.42105263157896,134 L279.42105263157896,306"/><path class="fiber" d="M291,134 L291,306"/>
+        <line class="guide" x1="168.5" y1="136" x2="168.5" y2="305"/>
+        
+        
+        <path class="bone" d="M60,313 L302,313 L302,367 Q181,383 60,367 Z"/>
+        
+        
+        <rect class="biceps" x="32" y="104" width="12" height="275" rx="6"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:1.2500%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.7500%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:36.1719%;top:24.7768%">Supraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:73.0469%;top:24.7768%">Infraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:56.5625%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:11.8750%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:91.9643%">Muscle → tendon fibers → footprint</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M259,115 Q306,110 306,153 L306,240 L259,240 Z"/>
+        <path class="outline" d="M26,100 L269,100 L269,127 L26,127 Z"/>
+        
+        <path class="fiber" d="M26,108 L267,108 M26,118 L267,118"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:95.6250%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:88.2813%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+</section>
+<section class="anatomy-stage" data-layer="1" aria-label="Cable and crescent">
+<div class="selected-detail" aria-live="polite">Cable: thick cross-band. Crescent: thin sheet between that band and the bone.</div>
+<div class="diagram-layout desktop-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M170,45 L566,45"/>
+        <path class="arrow" d="M566,45 l-6,-4 v8 Z"/>
+        
+        <path class="outline" d="M91,128 Q391,113 691,128 L691,310 L91,310 Z"/>
+        <path class="crescent" d="M91,310 C91,198 198.5,188 378.5,188 C558.5,188 691,198 691,310 L91,310 Z"/>
+        <path class="fiber" d="M99,134 L99,306"/><path class="fiber" d="M129.73684210526315,134 L129.73684210526315,306"/><path class="fiber" d="M160.4736842105263,134 L160.4736842105263,306"/><path class="fiber" d="M191.21052631578948,134 L191.21052631578948,306"/><path class="fiber" d="M221.94736842105263,134 L221.94736842105263,306"/><path class="fiber" d="M252.68421052631578,134 L252.68421052631578,306"/><path class="fiber" d="M283.42105263157896,134 L283.42105263157896,306"/><path class="fiber" d="M314.1578947368421,134 L314.1578947368421,306"/><path class="fiber" d="M344.89473684210526,134 L344.89473684210526,306"/><path class="fiber" d="M375.63157894736844,134 L375.63157894736844,306"/><path class="fiber" d="M406.36842105263156,134 L406.36842105263156,306"/><path class="fiber" d="M437.10526315789474,134 L437.10526315789474,306"/><path class="fiber" d="M467.8421052631579,134 L467.8421052631579,306"/><path class="fiber" d="M498.57894736842104,134 L498.57894736842104,306"/><path class="fiber" d="M529.3157894736842,134 L529.3157894736842,306"/><path class="fiber" d="M560.0526315789473,134 L560.0526315789473,306"/><path class="fiber" d="M590.7894736842105,134 L590.7894736842105,306"/><path class="fiber" d="M621.5263157894736,134 L621.5263157894736,306"/><path class="fiber" d="M652.2631578947369,134 L652.2631578947369,306"/><path class="fiber" d="M683,134 L683,306"/>
+        <line class="guide" x1="378.5" y1="136" x2="378.5" y2="305"/>
+        
+        
+        <path class="bone" d="M88,313 L694,313 L694,367 Q391,383 88,367 Z"/>
+        
+        
+        <rect class="biceps" x="60" y="104" width="12" height="275" rx="6"/>
+        
+        <path class="cable" d="M91,310 C91,198 198.5,188 378.5,188 C558.5,188 691,198 691,310"/>
+        <circle class="cable-cut" cx="91" cy="310" r="6"/>
+        <circle class="cable-cut" cx="691" cy="310" r="6"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:0.5435%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:99.4565%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:31.8954%;top:24.7768%">Supraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:72.6563%;top:24.7768%">Infraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:53.1250%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:8.9674%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:51.4266%;top:38.1696%">Cable</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:51.4266%;top:54.4643%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:91.9643%">Muscle → tendon fibers → footprint</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M636,115 Q722,110 722,153 L722,240 L636,240 Z"/>
+        <path class="outline" d="M26,100 L646,100 L646,127 L26,127 Z"/>
+        <path class="crescent" d="M331.7,101 L644,101 L644,126 L331.7,126 Z"/>
+        <path class="fiber" d="M26,108 L644,108 M26,118 L644,118"/>
+        <ellipse class="cable-cut" cx="312.7" cy="130" rx="20" ry="11"/>
+        
+        <path class="measurement" d="M312.7,158 L312.7,143"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.0978%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:42.4864%;top:64.4444%">Cable</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:65.8084%;top:31.4815%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:92.2554%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+<div class="diagram-layout mobile-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M116,45 L204,45"/>
+        
+        
+        <path class="outline" d="M63,128 Q181,113 299,128 L299,310 L63,310 Z"/>
+        <path class="crescent" d="M63,310 C63,198 97.7,188 168.5,188 C239.3,188 299,198 299,310 L63,310 Z"/>
+        <path class="fiber" d="M71,134 L71,306"/><path class="fiber" d="M82.57894736842105,134 L82.57894736842105,306"/><path class="fiber" d="M94.15789473684211,134 L94.15789473684211,306"/><path class="fiber" d="M105.73684210526315,134 L105.73684210526315,306"/><path class="fiber" d="M117.31578947368422,134 L117.31578947368422,306"/><path class="fiber" d="M128.89473684210526,134 L128.89473684210526,306"/><path class="fiber" d="M140.4736842105263,134 L140.4736842105263,306"/><path class="fiber" d="M152.05263157894737,134 L152.05263157894737,306"/><path class="fiber" d="M163.63157894736844,134 L163.63157894736844,306"/><path class="fiber" d="M175.21052631578948,134 L175.21052631578948,306"/><path class="fiber" d="M186.78947368421052,134 L186.78947368421052,306"/><path class="fiber" d="M198.36842105263156,134 L198.36842105263156,306"/><path class="fiber" d="M209.94736842105263,134 L209.94736842105263,306"/><path class="fiber" d="M221.52631578947367,134 L221.52631578947367,306"/><path class="fiber" d="M233.10526315789474,134 L233.10526315789474,306"/><path class="fiber" d="M244.68421052631578,134 L244.68421052631578,306"/><path class="fiber" d="M256.2631578947369,134 L256.2631578947369,306"/><path class="fiber" d="M267.8421052631579,134 L267.8421052631579,306"/><path class="fiber" d="M279.42105263157896,134 L279.42105263157896,306"/><path class="fiber" d="M291,134 L291,306"/>
+        <line class="guide" x1="168.5" y1="136" x2="168.5" y2="305"/>
+        
+        
+        <path class="bone" d="M60,313 L302,313 L302,367 Q181,383 60,367 Z"/>
+        
+        
+        <rect class="biceps" x="32" y="104" width="12" height="275" rx="6"/>
+        
+        <path class="cable" d="M63,310 C63,198 97.7,188 168.5,188 C239.3,188 299,198 299,310"/>
+        <circle class="cable-cut" cx="63" cy="310" r="6"/>
+        <circle class="cable-cut" cx="299" cy="310" r="6"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:1.2500%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.7500%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:36.1719%;top:24.7768%">Supraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:73.0469%;top:24.7768%">Infraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:56.5625%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:11.8750%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:52.6563%;top:38.1696%">Cable</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:52.6563%;top:54.4643%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:91.9643%">Muscle → tendon fibers → footprint</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M259,115 Q306,110 306,153 L306,240 L259,240 Z"/>
+        <path class="outline" d="M26,100 L269,100 L269,127 L26,127 Z"/>
+        <path class="crescent" d="M154.51,101 L267,101 L267,126 L154.51,126 Z"/>
+        <path class="fiber" d="M26,108 L267,108 M26,118 L267,118"/>
+        <ellipse class="cable-cut" cx="135.51" cy="130" rx="20" ry="11"/>
+        
+        <path class="measurement" d="M135.51,158 L135.51,143"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:95.6250%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:42.3469%;top:64.4444%">Cable</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:64.7672%;top:31.4815%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:88.2813%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+</section>
+<section class="anatomy-stage" data-layer="2" aria-label="Common tear site">
+<div class="selected-detail" aria-live="polite">The common site lies about 15 mm posterior to the biceps, within the crescent.</div>
+<div class="diagram-layout desktop-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M170,45 L566,45"/>
+        <path class="arrow" d="M566,45 l-6,-4 v8 Z"/>
+        
+        <path class="outline" d="M91,128 Q391,113 691,128 L691,310 L91,310 Z"/>
+        <path class="crescent" d="M91,310 C91,198 198.5,188 378.5,188 C558.5,188 691,198 691,310 L91,310 Z"/>
+        <path class="fiber" d="M99,134 L99,306"/><path class="fiber" d="M129.73684210526315,134 L129.73684210526315,306"/><path class="fiber" d="M160.4736842105263,134 L160.4736842105263,306"/><path class="fiber" d="M191.21052631578948,134 L191.21052631578948,306"/><path class="fiber" d="M221.94736842105263,134 L221.94736842105263,306"/><path class="fiber" d="M252.68421052631578,134 L252.68421052631578,306"/><path class="fiber" d="M283.42105263157896,134 L283.42105263157896,306"/><path class="fiber" d="M314.1578947368421,134 L314.1578947368421,306"/><path class="fiber" d="M344.89473684210526,134 L344.89473684210526,306"/><path class="fiber" d="M375.63157894736844,134 L375.63157894736844,306"/><path class="fiber" d="M406.36842105263156,134 L406.36842105263156,306"/><path class="fiber" d="M437.10526315789474,134 L437.10526315789474,306"/><path class="fiber" d="M467.8421052631579,134 L467.8421052631579,306"/><path class="fiber" d="M498.57894736842104,134 L498.57894736842104,306"/><path class="fiber" d="M529.3157894736842,134 L529.3157894736842,306"/><path class="fiber" d="M560.0526315789473,134 L560.0526315789473,306"/><path class="fiber" d="M590.7894736842105,134 L590.7894736842105,306"/><path class="fiber" d="M621.5263157894736,134 L621.5263157894736,306"/><path class="fiber" d="M652.2631578947369,134 L652.2631578947369,306"/><path class="fiber" d="M683,134 L683,306"/>
+        <line class="guide" x1="378.5" y1="136" x2="378.5" y2="416"/>
+        
+        
+        <path class="bone" d="M88,313 L694,313 L694,367 Q391,383 88,367 Z"/>
+        
+        
+        <rect class="biceps" x="60" y="104" width="12" height="275" rx="6"/>
+        
+        <path class="cable" d="M91,310 C91,198 198.5,188 378.5,188 C558.5,188 691,198 691,310"/>
+        <circle class="cable-cut" cx="91" cy="310" r="6"/>
+        <circle class="cable-cut" cx="691" cy="310" r="6"/>
+        
+        
+        <circle class="site-ring" cx="378.5" cy="286" r="13"/><circle class="site" cx="378.5" cy="286" r="7"/>
+        <line class="measurement" x1="66" y1="405" x2="378.5" y2="405"/>
+        <line class="measurement" x1="66" y1="398" x2="66" y2="412"/>
+        <line class="measurement" x1="378.5" y1="398" x2="378.5" y2="412"/>
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:0.5435%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:99.4565%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:31.8954%;top:24.7768%">Supraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:72.6563%;top:24.7768%">Infraspinatus tendon</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:53.1250%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:53.1250%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:8.9674%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:51.4266%;top:38.1696%">Cable</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:51.4266%;top:54.4643%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:30.1970%;top:87.9464%">≈15 mm posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:51.4266%;top:97.7679%">Common site near the SS–IS junction</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 736 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M636,115 Q722,110 722,153 L722,240 L636,240 Z"/>
+        <path class="outline" d="M26,100 L646,100 L646,127 L26,127 Z"/>
+        <path class="crescent" d="M331.7,101 L644,101 L644,126 L331.7,126 Z"/>
+        <path class="fiber" d="M26,108 L644,108 M26,118 L644,118"/>
+        <ellipse class="cable-cut" cx="312.7" cy="130" rx="20" ry="11"/>
+        
+        <path class="measurement" d="M312.7,158 L312.7,143"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        <circle class="site" cx="614" cy="123" r="5"/>
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.0978%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:42.4864%;top:64.4444%">Cable</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:65.8084%;top:31.4815%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:3.5326%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:92.2554%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+<div class="diagram-layout mobile-layout">
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 448" role="img" aria-label="Flattened cuff map"><title>Anterior to posterior across the cuff</title><desc>Biceps is the anterior reference at left. Supraspinatus and infraspinatus form a continuous sheet above a humeral footprint. Cable arches across that sheet. Crescent lies between the arch and the footprint. A common degenerative tear site is approximately fifteen millimeters posterior to the biceps, near the supraspinatus-infraspinatus junction.</desc>
+        
+        
+        
+        <path class="measurement" d="M116,45 L204,45"/>
+        
+        
+        <path class="outline" d="M63,128 Q181,113 299,128 L299,310 L63,310 Z"/>
+        <path class="crescent" d="M63,310 C63,198 97.7,188 168.5,188 C239.3,188 299,198 299,310 L63,310 Z"/>
+        <path class="fiber" d="M71,134 L71,306"/><path class="fiber" d="M82.57894736842105,134 L82.57894736842105,306"/><path class="fiber" d="M94.15789473684211,134 L94.15789473684211,306"/><path class="fiber" d="M105.73684210526315,134 L105.73684210526315,306"/><path class="fiber" d="M117.31578947368422,134 L117.31578947368422,306"/><path class="fiber" d="M128.89473684210526,134 L128.89473684210526,306"/><path class="fiber" d="M140.4736842105263,134 L140.4736842105263,306"/><path class="fiber" d="M152.05263157894737,134 L152.05263157894737,306"/><path class="fiber" d="M163.63157894736844,134 L163.63157894736844,306"/><path class="fiber" d="M175.21052631578948,134 L175.21052631578948,306"/><path class="fiber" d="M186.78947368421052,134 L186.78947368421052,306"/><path class="fiber" d="M198.36842105263156,134 L198.36842105263156,306"/><path class="fiber" d="M209.94736842105263,134 L209.94736842105263,306"/><path class="fiber" d="M221.52631578947367,134 L221.52631578947367,306"/><path class="fiber" d="M233.10526315789474,134 L233.10526315789474,306"/><path class="fiber" d="M244.68421052631578,134 L244.68421052631578,306"/><path class="fiber" d="M256.2631578947369,134 L256.2631578947369,306"/><path class="fiber" d="M267.8421052631579,134 L267.8421052631579,306"/><path class="fiber" d="M279.42105263157896,134 L279.42105263157896,306"/><path class="fiber" d="M291,134 L291,306"/>
+        <line class="guide" x1="168.5" y1="136" x2="168.5" y2="416"/>
+        
+        
+        <path class="bone" d="M60,313 L302,313 L302,367 Q181,383 60,367 Z"/>
+        
+        
+        <rect class="biceps" x="32" y="104" width="12" height="275" rx="6"/>
+        
+        <path class="cable" d="M63,310 C63,198 97.7,188 168.5,188 C239.3,188 299,198 299,310"/>
+        <circle class="cable-cut" cx="63" cy="310" r="6"/>
+        <circle class="cable-cut" cx="299" cy="310" r="6"/>
+        
+        
+        <circle class="site-ring" cx="168.5" cy="286" r="13"/><circle class="site" cx="168.5" cy="286" r="7"/>
+        <line class="measurement" x1="38" y1="405" x2="168.5" y2="405"/>
+        <line class="measurement" x1="38" y1="398" x2="38" y2="412"/>
+        <line class="measurement" x1="168.5" y1="398" x2="168.5" y2="412"/>
+        
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:4.0179%">A. Cuff unrolled flat</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:1.2500%;top:10.9375%">FRONT / anterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:98.7500%;top:10.9375%">BACK / posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:18.5268%">Muscle side (medial)</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:36.1719%;top:24.7768%">Supraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:73.0469%;top:24.7768%">Infraspinatus</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:56.5625%;top:76.1161%">Humeral bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:56.5625%;top:80.8036%">Footprint = tendon attachment</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:11.8750%;top:20.5357%">Biceps</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:52.6563%;top:38.1696%">Cable</span>
+<span aria-hidden="true" class="diagram-label  anchor-middle" style="left:52.6563%;top:54.4643%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:32.2656%;top:87.9464%">≈15 mm posterior</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:52.6563%;top:97.7679%">Common site near the SS–IS junction</span></div>
+<div class="diagram-frame"><svg class="cuff-svg" viewBox="0 0 320 270" role="img" aria-label="Side slice from muscle to bone"><title>Medial to lateral through the tendon</title><desc>A side slice at the highlighted anterior-posterior region. Tendon fibers go from medial muscle side on the left to the bone footprint on the right. The cable is a deep thickening. The thinner crescent lies lateral to the cable and medial to the footprint. This side direction is not the fifteen-millimeter anterior-posterior measurement.</desc>
+        
+        
+        
+        <path class="bone" d="M259,115 Q306,110 306,153 L306,240 L259,240 Z"/>
+        <path class="outline" d="M26,100 L269,100 L269,127 L26,127 Z"/>
+        <path class="crescent" d="M154.51,101 L267,101 L267,126 L154.51,126 Z"/>
+        <path class="fiber" d="M26,108 L267,108 M26,118 L267,118"/>
+        <ellipse class="cable-cut" cx="135.51" cy="130" rx="20" ry="11"/>
+        
+        <path class="measurement" d="M135.51,158 L135.51,143"/>
+        
+        
+        
+        <path class="measurement" d="M62,193 L62,136"/>
+        
+        <circle class="site" cx="237" cy="123" r="5"/>
+        </svg><span aria-hidden="true" class="diagram-label  anchor-start" style="left:0.0000%;top:7.7778%">B. Side slice: muscle → bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:19.6296%">Muscle / medial</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-end" style="left:95.6250%;top:19.6296%">Bone / lateral</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:42.3469%;top:64.4444%">Cable</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:64.7672%;top:31.4815%">Crescent</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:32.2222%">Bursal surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-start" style="left:8.1250%;top:79.6296%">Joint-facing surface</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:88.2813%;top:74.0741%">Bone</span>
+<span aria-hidden="true" class="diagram-label text-small anchor-middle" style="left:50.0000%;top:97.4074%">Different axis from “posterior to the biceps”</span></div>
+</div>
+</section>
+  <div class="text-small text-muted caption">Illustrative anatomy: cuff unrolled flat; boundaries approximate; thickness exaggerated. The 15 mm marker represents the study’s approximate anterior-to-posterior location.</div>
+</div>
