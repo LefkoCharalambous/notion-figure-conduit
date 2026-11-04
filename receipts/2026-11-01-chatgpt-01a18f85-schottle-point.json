@@ -1,0 +1,28 @@
+{
+  "schema": "durable-figure-receipt-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-schottle-point",
+  "sid": "2026-11-03|chatgpt-01a18f85|oct30-nov3-mixed-session",
+  "state": "COMPLETE",
+  "expected_count": 1,
+  "verified_count": 1,
+  "verified_at": "2026-11-04T02:48:36.402Z",
+  "cleanup_commit": "The Git commit containing this terminal receipt and deleting its queue assets; resolve this receipt path in commit history.",
+  "cleanup_parent": "d984ef4dab6be0f9d11a9e3c7034765f879d20ff",
+  "assets": [
+    {
+      "asset_id": "pediatric-mpfl-schottle-point-ap-lateral",
+      "queue_id": "2026-11-01-chatgpt-01a18f85-schottle-point",
+      "original_filename": "codex-clipboard-cc8886b6-bb8e-4042-8b53-473b09f2b8a0.png",
+      "mime_type": "image/png",
+      "byte_count": 501617,
+      "sha256": "344a071f0a59333a62dbb0594780b8f35a0b7a0a3cbe1ca7ae43a51579651df0",
+      "conduit_path": "queues/2026-11-01-chatgpt-01a18f85-schottle-point/assets/codex-clipboard-cc8886b6-bb8e-4042-8b53-473b09f2b8a0.png",
+      "destination_id": "https://app.notion.com/3b4097df81158143b306c78f7ae052d8",
+      "destination_url": "https://app.notion.com/p/3b4097df81158143b306c78f7ae052d8?pvs=204",
+      "teaching_point_placement": "MPFL femoral attachment \u2014 Sch\u00f6ttle point and pediatric physis",
+      "caption": "Exact user-uploaded pediatric MPFL femoral fixation illustration: lateral (top) and AP (bottom) fluoroscopic views, with original explanatory text retained. The MPFL attachment is distal to the medial distal femoral physis; check both planes. Preserve original bytes without modification.",
+      "notion_hosted_source": "notion-file-block://50ffe1ed-3fbe-4638-97ab-5c043c00bb17/13b59a30-c9e4-48a4-99bf-3b797a07da4a?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-cc8886b6-bb8e-4042-8b53-473b09f2b8a0.png",
+      "verification": "Native Notion-hosted block, original filename, exact caption and within-topic placement verified; source-to-conduit SHA-256 and upload byte count verified."
+    }
+  ]
+}

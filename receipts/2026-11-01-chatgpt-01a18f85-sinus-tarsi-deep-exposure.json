@@ -1,0 +1,28 @@
+{
+  "schema": "durable-figure-receipt-v2",
+  "queue_id": "2026-11-01-chatgpt-01a18f85-sinus-tarsi-deep-exposure",
+  "sid": "2026-11-03|chatgpt-01a18f85|oct30-nov3-mixed-session",
+  "state": "COMPLETE",
+  "expected_count": 1,
+  "verified_count": 1,
+  "verified_at": "2026-11-04T02:48:36.402Z",
+  "cleanup_commit": "The Git commit containing this terminal receipt and deleting its queue assets; resolve this receipt path in commit history.",
+  "cleanup_parent": "d984ef4dab6be0f9d11a9e3c7034765f879d20ff",
+  "assets": [
+    {
+      "asset_id": "sinus-tarsi-deep-subtalar-exposure-ao",
+      "queue_id": "2026-11-01-chatgpt-01a18f85-sinus-tarsi-deep-exposure",
+      "original_filename": "codex-clipboard-8b7c7ca0-90c5-4a59-9270-5f69ac25ffc0.png",
+      "mime_type": "image/png",
+      "byte_count": 339332,
+      "sha256": "37cc6536dd7527252b160c9adedfbb2ac034e8a6145abca83750437537f7d72d",
+      "conduit_path": "queues/2026-11-01-chatgpt-01a18f85-sinus-tarsi-deep-exposure/assets/codex-clipboard-8b7c7ca0-90c5-4a59-9270-5f69ac25ffc0.png",
+      "destination_id": "https://app.notion.com/3b4097df8115810686a1d36c25aba788",
+      "destination_url": "https://app.notion.com/p/3b4097df8115810686a1d36c25aba788?pvs=204",
+      "teaching_point_placement": "Sinus tarsi approach \u2014 peroneal tendons and nerve dangers",
+      "caption": "Exact user-uploaded AO illustration of the deep sinus tarsi exposure of the subtalar joint. Lateral hindfoot view with heel to the left and forefoot to the right; the small lateral window permits direct visualization of the posterior subtalar articular surface. Source: AO Surgery Reference, Sinus tarsi approach to the calcaneus, section 5, figure 82_A022_i070 (https://surgeryreference.aofoundation.org/orthopedic-trauma/adult-trauma/calcaneous/approach/sinus-tarsi-approach).",
+      "notion_hosted_source": "notion-file-block://2e92aa39-2b87-47b7-a038-aadf42cbd1bb/33b2ea89-cd75-4f6f-b8cd-a88d0a13fd40?space_id=ded212ba-0297-4030-bedf-84d7a003ca5f&name=codex-clipboard-8b7c7ca0-90c5-4a59-9270-5f69ac25ffc0.png",
+      "verification": "Native Notion-hosted block, original filename, exact caption and within-topic placement verified; source-to-conduit SHA-256 and upload byte count verified."
+    }
+  ]
+}
