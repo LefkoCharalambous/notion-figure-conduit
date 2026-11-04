@@ -5,7 +5,7 @@
   "origin": "chatgpt-01a18f85",
   "sid": "2026-11-03|chatgpt-01a18f85|oct30-nov3-mixed-session",
   "state": "READY",
-  "expected_count": 45,
+  "expected_count": 46,
   "items": [
     {
       "original_filename": "T04-F1.jpg",
@@ -681,6 +681,21 @@
       "caption_intent": "Interactive teaching diagram: Pelvic incidence and pelvic tilt geometry. Exact saved HTML; static figures are retained alongside where available.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "893dd07b0a40875693eecfbb38a03857b8d348f3"
+    },
+    {
+      "original_filename": "T80-F1.png",
+      "mime_type": "image/png",
+      "byte_count": 7178073,
+      "sha256": "a6b58c94728d71cf48ea87c01c112d548cd744ef8c6970846c6f9b13fc590603",
+      "asset_id": "T80-F1",
+      "conduit_path": "queues/2026-11-03-chatgpt-01a18f85-session-figures/assets/T80-F1.png",
+      "state": "STAGED",
+      "topic": "Hip hemiarthroplasty \u2014 unipolar versus bipolar",
+      "destination_intent": "Joints OITE \u2014 2026",
+      "teaching_point_placement": "Hip hemiarthroplasty \u2014 unipolar versus bipolar",
+      "caption_intent": "Cross-sectional comparison of unipolar and bipolar hemiarthroplasty. Source: https://www.mdpi.com/jcm/jcm-12-06218/article_deploy/html/images/jcm-12-06218-g005.png",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6d248cd28f5b543e06d728260b0c0b9d507c44a5"
     }
   ]
 }
