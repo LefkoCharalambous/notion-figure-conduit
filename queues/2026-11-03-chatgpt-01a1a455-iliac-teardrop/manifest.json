@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-03-chatgpt-01a1a455-iliac-teardrop",
+  "encounter_date": "2026-11-03",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-a40fea78-05e4-4786-a952-8af316ad46ca.png",
+      "mime_type": "image/png",
+      "byte_count": 59548,
+      "sha256": "5176196bc8483279c48c9eb9f8bbd85fcc25aa81ae11769406fb8459fc6f81bf",
+      "asset_id": "iliac-teardrop-q18-2025",
+      "conduit_path": "queues/2026-11-03-chatgpt-01a1a455-iliac-teardrop/assets/codex-clipboard-a40fea78-05e4-4786-a952-8af316ad46ca.png",
+      "state": "STAGED",
+      "topic": "Iliac teardrop fluoroscopic view and S2AI screw corridor",
+      "destination_intent": "Spine OITE \u2014 2026; https://www.notion.so/3b4097df811581088fcbcd7c7e15b379; reconcile only upon durable logging request",
+      "teaching_point_placement": "Alongside iliac teardrop boundary anatomy and comparison with acetabular sourcil",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE review question 18, encounter 2026-11-03. Right iliac teardrop projections during S2AI fixation; keyed inferior boundary is greater sciatic notch. Tiny fluoroscopic panels are retained without claiming additional visible detail.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "d8dc824f1c660a5792c2ad90400b889e307215f2"
+    }
+  ]
+}
