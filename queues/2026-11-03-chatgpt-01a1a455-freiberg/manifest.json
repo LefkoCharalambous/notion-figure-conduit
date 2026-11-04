@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-03-chatgpt-01a1a455-freiberg",
+  "encounter_date": "2026-11-03",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-2a6c657e-fe03-4437-941e-63594dd5aaa6.png",
+      "mime_type": "image/png",
+      "byte_count": 39986,
+      "sha256": "62a68a144c2159756c8f50919736eda2e8a014944d797356378d28e2697b9d14",
+      "asset_id": "freiberg-radiographs-recognition",
+      "conduit_path": "queues/2026-11-03-chatgpt-01a1a455-freiberg/assets/codex-clipboard-2a6c657e-fe03-4437-941e-63594dd5aaa6.png",
+      "state": "STAGED",
+      "topic": "Freiberg disease / metatarsal head osteonecrosis",
+      "destination_intent": "Foot & Ankle OITE \u2014 2026, https://www.notion.so/3b4097df8115810686a1d36c25aba788, canonical Freiberg section; stage only until explicit logging authorization",
+      "teaching_point_placement": "Recognition and imaging: adolescent forefoot pain with lesser metatarsal-head osteonecrosis; current MISS versus digital nerve compression. Do not infer a Smillie stage from the tiny panels.",
+      "caption_intent": "2025 OITE review, encountered 2026-11-03: 16-year-old girl with six months of foot pain. Supplied radiographs prompt Freiberg infraction (metatarsal-head osteonecrosis). Original full question screenshot retained unchanged; discussion screenshot repeats the same radiographs and is omitted.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6cc3d1f165af4ca17e80f922cc4ece714cc13958"
+    }
+  ]
+}
