@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-05-chatgpt-01a1a455-cora-q97",
+  "encounter_date": "2026-11-05",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-94de63ee-3049-4d6b-81cc-bd6fe84b7c26.png",
+      "mime_type": "image/png",
+      "byte_count": 595420,
+      "sha256": "9e2333a38659b39dc8bcab94b18b13d87c6b58cb2d40c28b8d0d933d47cb7dae",
+      "asset_id": "cora-two-level-tibial-deformity-q97-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-cora-q97/assets/codex-clipboard-94de63ee-3049-4d6b-81cc-bd6fe84b7c26.png",
+      "state": "STAGED",
+      "topic": "CORA planning and multilevel tibial deformity in hypophosphatemic rickets",
+      "destination_intent": "Peds 2026 deformity-analysis teaching note when OITE logging is requested",
+      "teaching_point_placement": "Adjacent to the Q97 explanation of adding a middle-segment axis when the end-segment axes yield an implausible CORA",
+      "caption_intent": "Exact uploaded full-length AP lower-limb radiograph with the bank's solid and dashed reference lines. Q97 describes proximal tibial varus and shaft valgus, requiring a third middle-segment axis to identify two deformity apices. An implausible intersection prompts further analysis; translation can also displace the apparent CORA and should not be excluded by the line pattern alone.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "7fe894e7fe12929841a9bfcfdce73105452f5adf"
+    }
+  ]
+}
