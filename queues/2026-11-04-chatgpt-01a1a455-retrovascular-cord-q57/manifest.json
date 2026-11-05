@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-retrovascular-cord-q57",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-5e425758-4013-4c94-be4c-ee1b63026758.png",
+      "mime_type": "image/png",
+      "byte_count": 81607,
+      "sha256": "308d554b791da587b894d94409f56e6c8415ab81b92aa17ed5882f21283d48ec",
+      "asset_id": "dupuytren-retrovascular-cord-q57-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-retrovascular-cord-q57/assets/codex-clipboard-5e425758-4013-4c94-be4c-ee1b63026758.png",
+      "state": "STAGED",
+      "topic": "Dupuytren isolated DIP contracture: retrovascular versus spiral cord",
+      "destination_intent": "Hand OITE \u2014 2026; https://www.notion.so/3b4097df811581f88afde8d1d94d7229; reconcile upon durable logging request",
+      "teaching_point_placement": "Alongside the DIP retrovascular versus PIP spiral cord discriminator and digital neurovascular anatomy",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE question 57, encounter 2026-11-04. Clinical and operative photographs accompany a painless isolated little-finger DIP flexion contracture with fibromatosis on pathology and correction after fibrous cord excision. The keyed answer is retrovascular cord; selected spiral cord was incorrect. Fine operative structures are not independently identifiable in the small panels.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "29a969d0688a19b31b1e885fa5a33cd7a9e5b405"
+    }
+  ]
+}
