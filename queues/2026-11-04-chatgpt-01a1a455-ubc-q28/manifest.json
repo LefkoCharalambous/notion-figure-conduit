@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-ubc-q28",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-ef2251d8-b064-4f38-9b9d-b743bcbb3b05.png",
+      "mime_type": "image/png",
+      "byte_count": 185581,
+      "sha256": "02a323168efac8087e50dcf196fa66d73903059330a93cf701fb1a6fedc291af",
+      "asset_id": "ubc-adult-humerus-q28-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-ubc-q28/assets/codex-clipboard-ef2251d8-b064-4f38-9b9d-b743bcbb3b05.png",
+      "state": "STAGED",
+      "topic": "Unicameral bone cyst persisting in adulthood: imaging recognition",
+      "destination_intent": "Tumor OITE \u2014 2026; https://www.notion.so/3b4097df811581aa9357d1e517c3108a; reconcile upon durable logging request",
+      "teaching_point_placement": "Alongside the adult humeral cyst stem walkthrough and fluid/rim enhancement discriminator",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE question 28, encounter 2026-11-04. A 38-year-old woman with shoulder/arm pain after starting exercise; supplied MRI and radiograph accompany the keyed unicameral bone cyst diagnosis. The discussion describes fluid signal, a fluid-fluid level, and thin peripheral enhancement without enhancing solid tissue. Fine details are attributed to the bank discussion rather than inferred from small panels.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "eddb518795b10d717cecf1b82587d0950190ff9d"
+    }
+  ]
+}
