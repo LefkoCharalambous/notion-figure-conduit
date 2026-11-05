@@ -1,0 +1,41 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-05-chatgpt-01a1a455-radial-tunnel-q94",
+  "encounter_date": "2026-11-05",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 2,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-605de9f6-d3be-4b51-a958-9b416120ffd7.png",
+      "mime_type": "image/png",
+      "byte_count": 1329167,
+      "sha256": "c2ca6ed713d97f985d1318330bafbfd6e8fb50a9ef85e38d079e81b3ec09a642",
+      "asset_id": "radial-tunnel-distal-supinator-operative-q94-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-radial-tunnel-q94/assets/codex-clipboard-605de9f6-d3be-4b51-a958-9b416120ffd7.png",
+      "state": "STAGED",
+      "topic": "Radial tunnel and deep radial nerve/PIN compression anatomy",
+      "destination_intent": "Hand 2026 teaching note when OITE logging is requested",
+      "teaching_point_placement": "Beside the distinction between the arcade of Frohse at the proximal supinator entrance and the distal supinator exit",
+      "caption_intent": "Exact uploaded operative figure labeled posterior interosseous nerve and distal edge of supinator. This illustrates a potential distal compression site, distinct from the proximal arcade of Frohse, which is the keyed most common site in Q94.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "b18cf8d7619323b404e8ffc6b5b5f1786789129b"
+    },
+    {
+      "original_filename": "codex-clipboard-05f25048-3f63-4e3a-8b0d-9685c0a94575.png",
+      "mime_type": "image/png",
+      "byte_count": 1589092,
+      "sha256": "bc0d7f0196fb5e0c17f13298c7a6fbd2bef61c0d6c7a3f12edd35a1336a05078",
+      "asset_id": "radial-tunnel-frohse-versus-distal-exit-diagram-q94-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-radial-tunnel-q94/assets/codex-clipboard-05f25048-3f63-4e3a-8b0d-9685c0a94575.png",
+      "state": "STAGED",
+      "topic": "Radial tunnel and deep radial nerve/PIN compression anatomy",
+      "destination_intent": "Hand 2026 teaching note when OITE logging is requested",
+      "teaching_point_placement": "Immediately beside the operative distal supinator figure and the radial nerve branching explanation",
+      "caption_intent": "Exact user-uploaded labeled radial tunnel diagram. The radial nerve splits into superficial and deep branches; the deep branch enters supinator at the arcade of Frohse, travels through supinator and exits distally as the PIN. The ECRB fibrous edge and distal supinator edge are other potential compression sites.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "36191aa66c1a0f860da5c3bdc32ca28d6955c7f3"
+    }
+  ]
+}
