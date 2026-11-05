@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-charcot-q48",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-1a476541-7d32-43b0-89e5-34a9ffc4a2f9.png",
+      "mime_type": "image/png",
+      "byte_count": 69697,
+      "sha256": "6495447e33e0c6590e305f03976a1364f2aa1646c7439cff34b3dc0eefcf2785",
+      "asset_id": "charcot-orthotic-selection-q48-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-charcot-q48/assets/codex-clipboard-1a476541-7d32-43b0-89e5-34a9ffc4a2f9.png",
+      "state": "STAGED",
+      "topic": "Charcot midfoot collapse: accommodative orthoses versus corrective braces",
+      "destination_intent": "Foot & Ankle OITE \u2014 2026; https://www.notion.so/3b4097df8115810686a1d36c25aba788; reconcile upon durable logging request",
+      "teaching_point_placement": "Beside UCBL versus Arizona comparison and accommodative total-contact insert selection after Charcot ulcer healing",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE question 48, encounter 2026-11-04. Supplied foot radiographs and discussion identify Charcot tarsometatarsal fragmentation/collapse with plantar medial prominence and ulcer history, without current warmth/redness/swelling. The bank favors a custom accommodative shoe insert after ulcer resolution. Fine radiographic details are attributed to the supplied discussion because panels are small.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6df57b51147dea58cf3ecb6fbc3dfdd5e443dfb4"
+    }
+  ]
+}
