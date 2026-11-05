@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-05-chatgpt-01a1a455-san-anatomy-q89",
+  "encounter_date": "2026-11-05",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-be7b596e-78d6-4998-a7f8-c2eb13f7b98b.png",
+      "mime_type": "image/png",
+      "byte_count": 3766984,
+      "sha256": "739aa1a0f420cc71a28688935b0608ae7bb2320368754d5366a4d05057d5c179",
+      "asset_id": "posterior-cervical-triangle-san-ltn-q89-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-san-anatomy-q89/assets/codex-clipboard-be7b596e-78d6-4998-a7f8-c2eb13f7b98b.png",
+      "state": "STAGED",
+      "topic": "Posterior cervical triangle anatomy: spinal accessory nerve injury",
+      "destination_intent": "Shoulder 2026 teaching note when OITE logging is requested",
+      "teaching_point_placement": "Beside Q89 spinal accessory nerve versus long thoracic nerve anatomy and clinical localization",
+      "caption_intent": "Exact user-uploaded labeled cadaveric posterior cervical triangle figure. SAN crosses from the posterior SCM border toward trapezius superficial to levator scapulae. The brachial plexus, long thoracic nerve, dorsal scapular nerve and phrenic nerve are separately labeled. Key discriminator: posterior triangle lymph-node biopsy with weak shrug favors spinal accessory injury and trapezius palsy.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "7b4ca1fa2e5ee157fd8f6ceb36e4e79bfcc67dfa"
+    }
+  ]
+}
