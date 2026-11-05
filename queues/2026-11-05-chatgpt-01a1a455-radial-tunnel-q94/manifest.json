@@ -5,7 +5,7 @@
   "origin": "chatgpt-01a1a455",
   "sid": null,
   "state": "READY",
-  "expected_count": 2,
+  "expected_count": 3,
   "items": [
     {
       "original_filename": "codex-clipboard-605de9f6-d3be-4b51-a958-9b416120ffd7.png",
@@ -36,6 +36,21 @@
       "caption_intent": "Exact user-uploaded labeled radial tunnel diagram. The radial nerve splits into superficial and deep branches; the deep branch enters supinator at the arcade of Frohse, travels through supinator and exits distally as the PIN. The ECRB fibrous edge and distal supinator edge are other potential compression sites.",
       "clearance": "USER-CLEARED",
       "github_blob_sha": "36191aa66c1a0f860da5c3bdc32ca28d6955c7f3"
+    },
+    {
+      "original_filename": "codex-clipboard-0fbccfb9-ce58-496c-b4c8-5b69d3c3ffe5.png",
+      "mime_type": "image/png",
+      "byte_count": 1565373,
+      "sha256": "d802c866a29f472253b1d829f92fd7ea22f26ec2e1789bf3a40c5111e70f9304",
+      "asset_id": "median-nerve-struthers-ligament-pronator-diagram-q94-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-radial-tunnel-q94/assets/codex-clipboard-0fbccfb9-ce58-496c-b4c8-5b69d3c3ffe5.png",
+      "state": "STAGED",
+      "topic": "Ligament of Struthers versus arcade of Struthers and arcade of Frohse",
+      "destination_intent": "Hand 2026 teaching note when OITE logging is requested",
+      "teaching_point_placement": "Within Q94 named nerve compression sites, next to the median nerve versus ulnar nerve distinction for the two Struthers structures",
+      "caption_intent": "Exact user-uploaded diagram of the median nerve passing beneath the ligament of Struthers, which connects a supracondylar process to the medial epicondyle in the classic configuration. Distally, the median nerve passes between the humeral and ulnar heads of pronator teres. This ligament is distinct from the arcade of Struthers on the ulnar nerve course.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "5a6bb7e78970af01267239caa11528db41e2b0ab"
     }
   ]
 }
