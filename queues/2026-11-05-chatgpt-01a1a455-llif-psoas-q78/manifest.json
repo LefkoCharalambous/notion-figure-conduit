@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-05-chatgpt-01a1a455-llif-psoas-q78",
+  "encounter_date": "2026-11-05",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-64449e15-0fc6-4088-b4c8-d0b0677cff24.png",
+      "mime_type": "image/png",
+      "byte_count": 194378,
+      "sha256": "2308746f1090d3ddf31be17549dbdc6c228899e3dc26e77fb807d4dce6a165d0",
+      "asset_id": "llif-psoas-versus-femoral-nerve-q78-2025",
+      "conduit_path": "queues/2026-11-05-chatgpt-01a1a455-llif-psoas-q78/assets/codex-clipboard-64449e15-0fc6-4088-b4c8-d0b0677cff24.png",
+      "state": "STAGED",
+      "topic": "Lateral lumbar interbody fusion: psoas weakness versus femoral neuropathy",
+      "destination_intent": "Spine 2026 teaching note when OITE logging is requested",
+      "teaching_point_placement": "Adjacent to the Q78 discriminator between isolated hip-flexion weakness and a broader femoral nerve deficit",
+      "caption_intent": "Exact uploaded 2025 OITE Q78 screenshot with postoperative L4-L5 AP and lateral radiographs. The bank interprets the cage as lateral placement; isolated 4/5 hip-flexion weakness favors approach-related psoas dysfunction, while femoral injury remains possible and is better supported by quadriceps, reflex, and sensory findings.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "564b20f7848b54bad0eac50a740f3ee72204e8bb"
+    }
+  ]
+}
