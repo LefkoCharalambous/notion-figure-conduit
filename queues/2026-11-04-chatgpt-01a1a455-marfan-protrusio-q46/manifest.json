@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-marfan-protrusio-q46",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-6c5128a8-d0be-480e-aaea-328edd7ce2c1.png",
+      "mime_type": "image/png",
+      "byte_count": 40644,
+      "sha256": "5a4645cec62c93d6575f4ee8a9f465d0cbad7a09b250b4e9a81c7ebd25a664d1",
+      "asset_id": "marfan-protrusio-q46-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-marfan-protrusio-q46/assets/codex-clipboard-6c5128a8-d0be-480e-aaea-328edd7ce2c1.png",
+      "state": "STAGED",
+      "topic": "Protrusio acetabuli and Marfan syndrome",
+      "destination_intent": "Joints OITE \u2014 2026; https://www.notion.so/3b4097df811581bdaaf0d400f5af6dcb; reconcile upon durable logging request",
+      "teaching_point_placement": "Beside the protrusio acetabuli recognition and Marfan association teaching",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE question 46, encounter 2026-11-04. AP pelvic radiograph accompanying the keyed Marfan syndrome answer. The supplied discussion identifies protrusio acetabuli (Otto pelvis) with medial migration relative to the ilioischial (Kohler) line. Fine imaging details are attributed to the discussion rather than independently inferred from this small panel.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "2ab7ca2e679de62b15c1ba6ff753f9bd957ca866"
+    }
+  ]
+}
