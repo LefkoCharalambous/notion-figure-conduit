@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-proximal-tibial-physis",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-f6622154-ed0e-43c3-87f3-56eec957a4a5.png",
+      "mime_type": "image/png",
+      "byte_count": 225759,
+      "sha256": "ed58af82f6a005d27a8e61fa564d5a65a3bdf873542e31e6b752f24bfc2e295d",
+      "asset_id": "proximal-tibial-sh1-radiographs-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-proximal-tibial-physis/assets/codex-clipboard-f6622154-ed0e-43c3-87f3-56eec957a4a5.png",
+      "state": "STAGED",
+      "topic": "Proximal tibial physeal fracture: reduction, stability, and indications for fixation",
+      "destination_intent": "Peds OITE \u2014 2026; https://www.notion.so/3b4097df81158193b5e5f12fb4d5222a; reconcile upon a durable logging request",
+      "teaching_point_placement": "Beside radiographic recognition and the closed reduction/casting versus fixation discriminator",
+      "caption_intent": "Exact uploaded 2025 OITE screenshot, encounter 2026-11-04: 10-year-old after knee trauma. The bank identifies a displaced proximal tibial Salter-Harris I injury. Supplied radiographs retained without inferring additional fine details from the small panels. Bank discussion supports closed reduction and casting if stable, fixation for instability, and open reduction for irreducibility.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "cc18a7c4794b21957b86c2710246635cf13412a6"
+    }
+  ]
+}
