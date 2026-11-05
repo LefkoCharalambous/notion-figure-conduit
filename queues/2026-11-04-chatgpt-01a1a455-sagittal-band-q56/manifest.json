@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-04-chatgpt-01a1a455-sagittal-band-q56",
+  "encounter_date": "2026-11-04",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-d8ce5e84-652e-47e9-93b9-6a39472de698.png",
+      "mime_type": "image/png",
+      "byte_count": 47763,
+      "sha256": "01ba717089e42d90c33dbf5085814196ad7533717047911a223facfc677a0ea6",
+      "asset_id": "ra-sagittal-band-extensor-instability-q56-2025",
+      "conduit_path": "queues/2026-11-04-chatgpt-01a1a455-sagittal-band-q56/assets/codex-clipboard-d8ce5e84-652e-47e9-93b9-6a39472de698.png",
+      "state": "STAGED",
+      "topic": "Rheumatoid sagittal band attenuation and extensor tendon instability",
+      "destination_intent": "Hand OITE \u2014 2026; https://www.notion.so/3b4097df811581f88afde8d1d94d7229; reconcile upon durable logging request",
+      "teaching_point_placement": "Beside MCP extensor centralization anatomy and cannot-initiate-but-can-maintain extension discriminator",
+      "caption_intent": "Exact uploaded screenshot, 2025 OITE question 56, encounter 2026-11-04. Clinical photograph accompanies an RA patient unable to initiate MCP extension of the long, ring, and little fingers after fist formation, but able to maintain extension once passively positioned. Supplied discussion attributes this to radial sagittal band attenuation with ulnar extensor tendon displacement; keyed management is extensor tendon stabilization. The small photograph alone does not establish all details.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "9ddee2562f042319b63be37d88352d4316bc2460"
+    }
+  ]
+}
