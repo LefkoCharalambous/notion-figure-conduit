@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-06-chatgpt-01a1a455-thumb-cmc-ligaments",
+  "encounter_date": "2026-11-06",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-950bce77-f49b-46ec-874e-abb8a2af1a72.png",
+      "mime_type": "image/png",
+      "byte_count": 808869,
+      "sha256": "46e8d47cad4562ea740583a513529be8343cee0650d0ce7848d8981a933d8a1a",
+      "asset_id": "thumb-cmc-volar-beak-versus-dorsoradial-ligament-anatomy",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-thumb-cmc-ligaments/assets/codex-clipboard-950bce77-f49b-46ec-874e-abb8a2af1a72.png",
+      "state": "STAGED",
+      "topic": "Thumb CMC arthritis: volar beak/anterior oblique ligament, dorsoradial ligament, and saddle geometry",
+      "destination_intent": "Hand 2026 \u2014 3b4097df-8115-81f8-8afd-e8d1d94d7229; canonical thumb CMC arthritis anatomy section upon explicit logging",
+      "teaching_point_placement": "Beside ligament comparison and arthritis mechanism; preserve both views from exact supplied slide",
+      "caption_intent": "Exact user-supplied anatomy slide. Left palmar view shows anterior oblique/volar beak ligament bridging trapezium to volar-ulnar first metacarpal base; right dorsoradial view shows the stout dorsoradial ligament at the same joint. Classic beak-ligament attenuation model differs from the strongest/primary dorsal restraint distinction. Saddle surfaces are reciprocally concave-convex.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "6c3ac91675a26a6378e49c35a2747a723ecfa14e"
+    }
+  ]
+}
