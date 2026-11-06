@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-06-chatgpt-01a1a455-jaffe-syndrome-comparison",
+  "encounter_date": "2026-11-06",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-9dab03f4-ec3a-4df2-aa02-de789a7865a4.png",
+      "mime_type": "image/png",
+      "byte_count": 551355,
+      "sha256": "12e7db44f918209df9023775aa591c30609a16f6ffd3b40647dc9d91adee919e",
+      "asset_id": "jaffe-campanacci-nof-radiograph-and-syndrome-comparison-stem",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-jaffe-syndrome-comparison/assets/codex-clipboard-9dab03f4-ec3a-4df2-aa02-de789a7865a4.png",
+      "state": "STAGED",
+      "topic": "Jaffe-Campanacci versus fibrous dysplasia syndromes and Maffucci syndrome",
+      "destination_intent": "Tumor 2026 \u2014 3b4097df-8115-81aa-9357-d1e517c3108a; canonical syndrome comparison section upon explicit logging",
+      "teaching_point_placement": "Beside the stem discriminator of NOF plus cafe-au-lait macules and mandibular giant cell lesion; compare classic Jaffe-Lichtenstein, McCune-Albright, Mazabraud, and Maffucci definitions",
+      "caption_intent": "Exact supplied question slide with distal tibial metaphyseal lobulated lytic lesion identified in the supplied explanation as NOF. NOF plus cafe-au-lait macules and mandibular lesion favors classic Jaffe-Campanacci. Distinguish the NOF from fibrous dysplasia and enchondromas; preserve complete source image and explanation. Glasses alone are nonspecific. Modern NF1 overlap and FD/MAS spectrum should be distinguished from traditional exam eponyms.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "06a9582d731709b35b7c5edf4d206ebf8b7b06ac"
+    }
+  ]
+}
