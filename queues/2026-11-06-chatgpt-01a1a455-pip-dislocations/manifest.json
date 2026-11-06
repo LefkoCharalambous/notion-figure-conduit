@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-06-chatgpt-01a1a455-pip-dislocations",
+  "encounter_date": "2026-11-06",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-3ca26134-c5dc-4bf0-969b-5eb634c6825b.png",
+      "mime_type": "image/png",
+      "byte_count": 625894,
+      "sha256": "af9372ff4812c721ade56005c3d55c8863ada814e67c78e129cdff3d3d81b819",
+      "asset_id": "pip-dislocation-dorsal-radiograph-and-directional-injury-highlights",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-pip-dislocations/assets/codex-clipboard-3ca26134-c5dc-4bf0-969b-5eb634c6825b.png",
+      "state": "STAGED",
+      "topic": "PIP dislocations: dorsal volar and volar-rotatory patterns",
+      "destination_intent": "Hand 2026 \u2014 3b4097df-8115-81f8-8afd-e8d1d94d7229; canonical PIP dislocation section upon explicit logging",
+      "teaching_point_placement": "Beside comparison of dorsal volar and rotatory dislocations and tissue-specific protection",
+      "caption_intent": "Exact supplied slide including lateral radiograph demonstrating dorsal PIP displacement and original speaker notes. Teaching clarification: dorsal dislocation implicates volar plate; volar dislocation raises concern for central slip injury requiring PIP extension protection even after a stable reduction; volar-rotatory buttonholing may occur between an intact central slip and lateral band. MCP/PIP flexion relaxes entrapped extensor structures during gentle reduction.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "95c9ca8694abe28dfce6cbaea4867589f29a499b"
+    }
+  ]
+}
