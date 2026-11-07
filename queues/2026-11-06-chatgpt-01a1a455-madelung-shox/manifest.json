@@ -1,0 +1,26 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-06-chatgpt-01a1a455-madelung-shox",
+  "encounter_date": "2026-11-06",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 1,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-89eaf830-3e5d-41ef-9385-79e8c6862918.png",
+      "mime_type": "image/png",
+      "byte_count": 854743,
+      "sha256": "037e658bf54b375cb9a3a18640c6b9b136a36f003e45f6ab9e610746d2f96d4f",
+      "asset_id": "madelung-pa-lateral-wrist-radiographs-shox",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-madelung-shox/assets/codex-clipboard-89eaf830-3e5d-41ef-9385-79e8c6862918.png",
+      "state": "STAGED",
+      "topic": "Madelung deformity and SHOX deficiency: characteristic wrist radiographs",
+      "destination_intent": "Hand 2026 teaching page 3b4097df-8115-81f8-8afd-e8d1d94d7229; canonical Madelung deformity/SHOX section, cross-reference pediatric SHOX syndrome material if appropriate",
+      "teaching_point_placement": "Place beside the Madelung growth-arrest mechanism and SHOX/Leri-Weill discussion. Exact uploaded follow-up to the current teaching encounter; no new answer or performance evidence.",
+      "caption_intent": "Exact uploaded PA and lateral left wrist radiographs from the discussed Eplasty Madelung case (https://pmc.ncbi.nlm.nih.gov/articles/PMC4993032/figure/F1/). PA at right: increased distal radial inclination, proximal lunate migration/triangular carpal configuration, and relative radial shortening. Lateral at left: increased volar tilt and volar carpal displacement with dorsal prominence of the distal ulna. Mechanism: growth disturbance at the volar-ulnar distal radial physis; Vickers radiolunate tether is common. Imaging alone does not establish SHOX genotype.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "f76d2c6ce5a0b45fb3889eb267e2229acb7ab062"
+    }
+  ]
+}
