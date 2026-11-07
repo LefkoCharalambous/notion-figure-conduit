@@ -1,0 +1,41 @@
+{
+  "schema": "durable-figure-queue-v2",
+  "queue_id": "2026-11-06-chatgpt-01a1a455-alt-correlated-figure",
+  "encounter_date": "2026-11-06",
+  "origin": "chatgpt-01a1a455",
+  "sid": null,
+  "state": "READY",
+  "expected_count": 2,
+  "items": [
+    {
+      "original_filename": "codex-clipboard-45e11bc8-ce65-45bb-a274-9650fead8b89.png",
+      "mime_type": "image/png",
+      "byte_count": 2871658,
+      "sha256": "399ebcc09e85138d0f34c332c5f66deb13017190ba99ee4aeebc18136be4a7d3",
+      "asset_id": "alt-thigh-mri-gross-histology-correlated-figure",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-alt-correlated-figure/assets/codex-clipboard-45e11bc8-ce65-45bb-a274-9650fead8b89.png",
+      "state": "STAGED",
+      "topic": "Atypical lipomatous tumor / well-differentiated liposarcoma: MRI, gross appearance, and septal stromal atypia",
+      "destination_intent": "Tumor 2026 teaching page 3b4097df-8115-81aa-9357-d1e517c3108a; canonical ALT/WDL section",
+      "teaching_point_placement": "Place with the ALT recognition material, adjacent to the companion exact caption. Figure follow-up to the brainstorm ALT gross-image topic; no new selected-answer evidence.",
+      "caption_intent": "Exact uploaded Fig. 11 from Fat-containing soft-tissue tumors: Imaging findings and pathologic correlation. Thigh ALT in a 61-year-old man. A/E: predominantly fatty T1-bright mass with thick septa. B: fat suppression. C/F: enhancing septa; supplied caption reports no nodular nonadipose component. G: yellow lobulated fatty gross specimen with fibrous septa. H: caption identifies mature adipocytes and atypical stromal cells in collagenous septa. Molecular confirmation uses MDM2 amplification; this marker is shared with dedifferentiated liposarcoma.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "2fa7ad9ba1c2c34515586ad3c152ae8ed6ce05a5"
+    },
+    {
+      "original_filename": "codex-clipboard-b48576df-f225-4427-b354-e411889301c6.png",
+      "mime_type": "image/png",
+      "byte_count": 292381,
+      "sha256": "b40d622566911a80edcf2009d45732954c189b1c63d56342785024dff3070166",
+      "asset_id": "alt-thigh-correlated-figure-exact-companion-caption",
+      "conduit_path": "queues/2026-11-06-chatgpt-01a1a455-alt-correlated-figure/assets/codex-clipboard-b48576df-f225-4427-b354-e411889301c6.png",
+      "state": "STAGED",
+      "topic": "Atypical lipomatous tumor / well-differentiated liposarcoma: exact companion figure caption",
+      "destination_intent": "Tumor 2026 teaching page 3b4097df-8115-81aa-9357-d1e517c3108a; canonical ALT/WDL section",
+      "teaching_point_placement": "Keep directly adjacent to the exact uploaded multipanel ALT MRI/gross/histology figure; caption context for that diagnostic figure rather than a separate question encounter.",
+      "caption_intent": "Exact uploaded source caption accompanying Fig. 11. Preserve panel identities, sequence descriptions, enhancing septa without nodular nonadipose components, and caption-based histologic identification of atypical stromal cells. The caption supports correlation; imaging alone cannot definitively distinguish ALT from lipoma or exclude unsampled dedifferentiation.",
+      "clearance": "USER-CLEARED",
+      "github_blob_sha": "7f55e0958a4bac8b27b4b1ee04d175a08976260a"
+    }
+  ]
+}
